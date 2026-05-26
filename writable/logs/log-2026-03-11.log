@@ -1,0 +1,643 @@
+CRITICAL - 2026-03-11 09:23:52 --> CodeIgniter\Exceptions\InvalidArgumentException: "um_database" is not a valid database connection group.
+[Method: POST, Route: user/save]
+in SYSTEMPATH\Database\Config.php on line 70.
+ 1 SYSTEMPATH\Model.php(151): CodeIgniter\Database\Config::connect('um_database')
+ 2 APPPATH\Controllers\User.php(18): CodeIgniter\Model->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\User->save()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 09:24:15 --> CodeIgniter\Exceptions\InvalidArgumentException: "um_database" is not a valid database connection group.
+[Method: POST, Route: user/save]
+in SYSTEMPATH\Database\Config.php on line 70.
+ 1 SYSTEMPATH\Model.php(151): CodeIgniter\Database\Config::connect('um_database')
+ 2 APPPATH\Controllers\User.php(18): CodeIgniter\Model->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\User->save()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-11 09:26:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-03-11 09:26:57 --> CodeIgniter\Exceptions\InvalidArgumentException: "um_database" is not a valid database connection group.
+[Method: POST, Route: user/save]
+in SYSTEMPATH\Database\Config.php on line 70.
+ 1 SYSTEMPATH\Model.php(151): CodeIgniter\Database\Config::connect('um_database')
+ 2 APPPATH\Controllers\User.php(18): CodeIgniter\Model->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\User->save()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 09:27:29 --> CodeIgniter\Exceptions\InvalidArgumentException: "um_database" is not a valid database connection group.
+[Method: POST, Route: user/save]
+in SYSTEMPATH\Database\Config.php on line 70.
+ 1 SYSTEMPATH\Model.php(151): CodeIgniter\Database\Config::connect('um_database')
+ 2 APPPATH\Controllers\User.php(18): CodeIgniter\Model->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\User->save()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-11 09:35:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-03-11 09:35:22 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\codei\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\xampp\htdocs\codei\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'um_database', 3306, '', 0)
+#1 C:\xampp\htdocs\codei\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\codei\system\Database\BaseConnection.php(654): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\codei\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\codei\system\Model.php(356): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\codei\system\BaseModel.php(898): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\codei\system\Model.php(665): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\codei\app\Controllers\User.php(34): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\codei\system\CodeIgniter.php(951): App\Controllers\User->save()
+#9 C:\xampp\htdocs\codei\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#10 C:\xampp\htdocs\codei\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\codei\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\codei\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\codei\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\codei\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp\htdocs\codei\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\codei\system\Database\BaseConnection.php(654): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\codei\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#3 C:\xampp\htdocs\codei\system\Model.php(356): CodeIgniter\Database\BaseBuilder->insert()
+#4 C:\xampp\htdocs\codei\system\BaseModel.php(898): CodeIgniter\Model->doInsert(Array)
+#5 C:\xampp\htdocs\codei\system\Model.php(665): CodeIgniter\BaseModel->insert(Array, true)
+#6 C:\xampp\htdocs\codei\app\Controllers\User.php(34): CodeIgniter\Model->insert(Array)
+#7 C:\xampp\htdocs\codei\system\CodeIgniter.php(951): App\Controllers\User->save()
+#8 C:\xampp\htdocs\codei\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#9 C:\xampp\htdocs\codei\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\codei\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\codei\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\codei\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2026-03-11 09:35:22 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: POST, Route: user/save]
+in SYSTEMPATH\Database\BaseConnection.php on line 465.
+ 1 SYSTEMPATH\Database\BaseConnection.php(654): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`) VALUES (:first_name:, :last_name:, :email:, :phone:, :status:, :address:, :city:, :state:, :zip:, :password:, :role:)', [...], false)
+ 3 SYSTEMPATH\Model.php(356): CodeIgniter\Database\BaseBuilder->insert()
+ 4 SYSTEMPATH\BaseModel.php(898): CodeIgniter\Model->doInsert([...])
+ 5 SYSTEMPATH\Model.php(665): CodeIgniter\BaseModel->insert([...], true)
+ 6 APPPATH\Controllers\User.php(34): CodeIgniter\Model->insert([...])
+ 7 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\User->save()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-03-11 09:39:05 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\codei\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\xampp\htdocs\codei\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('127.0.0.1', 'root', Object(SensitiveParameterValue), 'um_database', 3306, '', 0)
+#1 C:\xampp\htdocs\codei\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\codei\system\Database\BaseConnection.php(654): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\codei\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\codei\system\Model.php(356): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\codei\system\BaseModel.php(898): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\codei\system\Model.php(665): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\codei\app\Controllers\User.php(34): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\codei\system\CodeIgniter.php(951): App\Controllers\User->save()
+#9 C:\xampp\htdocs\codei\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#10 C:\xampp\htdocs\codei\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\codei\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\codei\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\codei\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\codei\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp\htdocs\codei\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\codei\system\Database\BaseConnection.php(654): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\codei\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#3 C:\xampp\htdocs\codei\system\Model.php(356): CodeIgniter\Database\BaseBuilder->insert()
+#4 C:\xampp\htdocs\codei\system\BaseModel.php(898): CodeIgniter\Model->doInsert(Array)
+#5 C:\xampp\htdocs\codei\system\Model.php(665): CodeIgniter\BaseModel->insert(Array, true)
+#6 C:\xampp\htdocs\codei\app\Controllers\User.php(34): CodeIgniter\Model->insert(Array)
+#7 C:\xampp\htdocs\codei\system\CodeIgniter.php(951): App\Controllers\User->save()
+#8 C:\xampp\htdocs\codei\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#9 C:\xampp\htdocs\codei\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\codei\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\codei\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\codei\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2026-03-11 09:39:05 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: POST, Route: user/save]
+in SYSTEMPATH\Database\BaseConnection.php on line 465.
+ 1 SYSTEMPATH\Database\BaseConnection.php(654): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`) VALUES (:first_name:, :last_name:, :email:, :phone:, :status:, :address:, :city:, :state:, :zip:, :password:, :role:)', [...], false)
+ 3 SYSTEMPATH\Model.php(356): CodeIgniter\Database\BaseBuilder->insert()
+ 4 SYSTEMPATH\BaseModel.php(898): CodeIgniter\Model->doInsert([...])
+ 5 SYSTEMPATH\Model.php(665): CodeIgniter\BaseModel->insert([...], true)
+ 6 APPPATH\Controllers\User.php(34): CodeIgniter\Model->insert([...])
+ 7 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\User->save()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-11 09:39:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-03-11 09:39:54 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\codei\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\xampp\htdocs\codei\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('127.0.0.1', 'root', Object(SensitiveParameterValue), 'um_database', 3306, '', 0)
+#1 C:\xampp\htdocs\codei\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\codei\system\Database\BaseConnection.php(654): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\codei\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\codei\system\Model.php(356): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\codei\system\BaseModel.php(898): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\codei\system\Model.php(665): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\codei\app\Controllers\User.php(34): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\codei\system\CodeIgniter.php(951): App\Controllers\User->save()
+#9 C:\xampp\htdocs\codei\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#10 C:\xampp\htdocs\codei\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\codei\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\codei\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\codei\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\codei\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp\htdocs\codei\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\codei\system\Database\BaseConnection.php(654): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\codei\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#3 C:\xampp\htdocs\codei\system\Model.php(356): CodeIgniter\Database\BaseBuilder->insert()
+#4 C:\xampp\htdocs\codei\system\BaseModel.php(898): CodeIgniter\Model->doInsert(Array)
+#5 C:\xampp\htdocs\codei\system\Model.php(665): CodeIgniter\BaseModel->insert(Array, true)
+#6 C:\xampp\htdocs\codei\app\Controllers\User.php(34): CodeIgniter\Model->insert(Array)
+#7 C:\xampp\htdocs\codei\system\CodeIgniter.php(951): App\Controllers\User->save()
+#8 C:\xampp\htdocs\codei\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#9 C:\xampp\htdocs\codei\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\codei\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\codei\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\codei\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2026-03-11 09:39:54 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: POST, Route: user/save]
+in SYSTEMPATH\Database\BaseConnection.php on line 465.
+ 1 SYSTEMPATH\Database\BaseConnection.php(654): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`) VALUES (:first_name:, :last_name:, :email:, :phone:, :status:, :address:, :city:, :state:, :zip:, :password:, :role:)', [...], false)
+ 3 SYSTEMPATH\Model.php(356): CodeIgniter\Database\BaseBuilder->insert()
+ 4 SYSTEMPATH\BaseModel.php(898): CodeIgniter\Model->doInsert([...])
+ 5 SYSTEMPATH\Model.php(665): CodeIgniter\BaseModel->insert([...], true)
+ 6 APPPATH\Controllers\User.php(34): CodeIgniter\Model->insert([...])
+ 7 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\User->save()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-11 09:48:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-03-11 09:48:58 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\codei\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\xampp\htdocs\codei\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('127.0.0.1', 'root', Object(SensitiveParameterValue), 'um_database', 3306, '', 0)
+#1 C:\xampp\htdocs\codei\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\codei\system\Database\BaseConnection.php(654): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\codei\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\codei\system\Model.php(356): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\codei\system\BaseModel.php(898): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\codei\system\Model.php(665): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\codei\app\Controllers\User.php(34): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\codei\system\CodeIgniter.php(951): App\Controllers\User->save()
+#9 C:\xampp\htdocs\codei\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#10 C:\xampp\htdocs\codei\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\codei\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\codei\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\codei\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\codei\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp\htdocs\codei\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\codei\system\Database\BaseConnection.php(654): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\codei\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#3 C:\xampp\htdocs\codei\system\Model.php(356): CodeIgniter\Database\BaseBuilder->insert()
+#4 C:\xampp\htdocs\codei\system\BaseModel.php(898): CodeIgniter\Model->doInsert(Array)
+#5 C:\xampp\htdocs\codei\system\Model.php(665): CodeIgniter\BaseModel->insert(Array, true)
+#6 C:\xampp\htdocs\codei\app\Controllers\User.php(34): CodeIgniter\Model->insert(Array)
+#7 C:\xampp\htdocs\codei\system\CodeIgniter.php(951): App\Controllers\User->save()
+#8 C:\xampp\htdocs\codei\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#9 C:\xampp\htdocs\codei\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\codei\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\codei\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\codei\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2026-03-11 09:48:58 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: POST, Route: user/save]
+in SYSTEMPATH\Database\BaseConnection.php on line 465.
+ 1 SYSTEMPATH\Database\BaseConnection.php(654): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`) VALUES (:first_name:, :last_name:, :email:, :phone:, :status:, :address:, :city:, :state:, :zip:, :password:, :role:)', [...], false)
+ 3 SYSTEMPATH\Model.php(356): CodeIgniter\Database\BaseBuilder->insert()
+ 4 SYSTEMPATH\BaseModel.php(898): CodeIgniter\Model->doInsert([...])
+ 5 SYSTEMPATH\Model.php(665): CodeIgniter\BaseModel->insert([...], true)
+ 6 APPPATH\Controllers\User.php(34): CodeIgniter\Model->insert([...])
+ 7 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\User->save()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-03-11 09:52:18 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\codei\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\xampp\htdocs\codei\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'um_database', 3306, '', 0)
+#1 C:\xampp\htdocs\codei\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\codei\system\Database\BaseConnection.php(654): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\codei\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\codei\system\Model.php(356): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\codei\system\BaseModel.php(898): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\codei\system\Model.php(665): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\codei\app\Controllers\User.php(34): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\codei\system\CodeIgniter.php(951): App\Controllers\User->save()
+#9 C:\xampp\htdocs\codei\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#10 C:\xampp\htdocs\codei\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\codei\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\codei\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\codei\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\codei\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp\htdocs\codei\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\codei\system\Database\BaseConnection.php(654): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\codei\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#3 C:\xampp\htdocs\codei\system\Model.php(356): CodeIgniter\Database\BaseBuilder->insert()
+#4 C:\xampp\htdocs\codei\system\BaseModel.php(898): CodeIgniter\Model->doInsert(Array)
+#5 C:\xampp\htdocs\codei\system\Model.php(665): CodeIgniter\BaseModel->insert(Array, true)
+#6 C:\xampp\htdocs\codei\app\Controllers\User.php(34): CodeIgniter\Model->insert(Array)
+#7 C:\xampp\htdocs\codei\system\CodeIgniter.php(951): App\Controllers\User->save()
+#8 C:\xampp\htdocs\codei\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#9 C:\xampp\htdocs\codei\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\codei\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\codei\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\codei\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2026-03-11 09:52:18 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: POST, Route: user/save]
+in SYSTEMPATH\Database\BaseConnection.php on line 465.
+ 1 SYSTEMPATH\Database\BaseConnection.php(654): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`) VALUES (:first_name:, :last_name:, :email:, :phone:, :status:, :address:, :city:, :state:, :zip:, :password:, :role:)', [...], false)
+ 3 SYSTEMPATH\Model.php(356): CodeIgniter\Database\BaseBuilder->insert()
+ 4 SYSTEMPATH\BaseModel.php(898): CodeIgniter\Model->doInsert([...])
+ 5 SYSTEMPATH\Model.php(665): CodeIgniter\BaseModel->insert([...], true)
+ 6 APPPATH\Controllers\User.php(34): CodeIgniter\Model->insert([...])
+ 7 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\User->save()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-11 09:54:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-11 09:54:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-11 09:55:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-11 09:55:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-03-11 10:03:04 --> Duplicate entry '' for key 'email'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`) VALUES (\'\', \'\', \'\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'\', \'Sales\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`) VALUES (\'\', \'\', \'\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'\', \'Sales\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`) VALUES (\'\', \'\', \'\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'\', \'Sales\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`) VALUES (:first_name:, :last_name:, :email:, :phone:, :status:, :address:, :city:, :state:, :zip:, :password:, :role:)', [...], false)
+ 5 SYSTEMPATH\Model.php(356): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(898): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(665): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\User.php(34): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\User->save()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 10:03:04 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '' for key 'email'
+[Method: POST, Route: user/save]
+in SYSTEMPATH\Database\BaseConnection.php on line 724.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`) VALUES (:first_name:, :last_name:, :email:, :phone:, :status:, :address:, :city:, :state:, :zip:, :password:, :role:)', [...], false)
+ 2 SYSTEMPATH\Model.php(356): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(898): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(665): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\User.php(34): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\User->save()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 10:03:04 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '' for key 'email'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`) VALUES (\'\', \'\', \'\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'\', \'Sales\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`) VALUES (\'\', \'\', \'\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'\', \'Sales\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`) VALUES (:first_name:, :last_name:, :email:, :phone:, :status:, :address:, :city:, :state:, :zip:, :password:, :role:)', [...], false)
+ 4 SYSTEMPATH\Model.php(356): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(898): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(665): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\User.php(34): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\User->save()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 10:03:04 --> [Caused by] mysqli_sql_exception: Duplicate entry '' for key 'email'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`) VALUES (\'\', \'\', \'\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'\', \'Sales\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`) VALUES (\'\', \'\', \'\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'\', \'Sales\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`) VALUES (\'\', \'\', \'\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'\', \'Sales\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`) VALUES (:first_name:, :last_name:, :email:, :phone:, :status:, :address:, :city:, :state:, :zip:, :password:, :role:)', [...], false)
+ 5 SYSTEMPATH\Model.php(356): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(898): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(665): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\User.php(34): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\User->save()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-11 10:03:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-03-11 10:03:34 --> Duplicate entry '' for key 'email'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`) VALUES (\'\', \'\', \'\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'\', \'Sales\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`) VALUES (\'\', \'\', \'\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'\', \'Sales\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`) VALUES (\'\', \'\', \'\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'\', \'Sales\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`) VALUES (:first_name:, :last_name:, :email:, :phone:, :status:, :address:, :city:, :state:, :zip:, :password:, :role:)', [...], false)
+ 5 SYSTEMPATH\Model.php(356): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(898): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(665): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\User.php(34): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\User->save()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 10:03:34 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '' for key 'email'
+[Method: POST, Route: user/save]
+in SYSTEMPATH\Database\BaseConnection.php on line 724.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`) VALUES (:first_name:, :last_name:, :email:, :phone:, :status:, :address:, :city:, :state:, :zip:, :password:, :role:)', [...], false)
+ 2 SYSTEMPATH\Model.php(356): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(898): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(665): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\User.php(34): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\User->save()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 10:03:34 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '' for key 'email'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`) VALUES (\'\', \'\', \'\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'\', \'Sales\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`) VALUES (\'\', \'\', \'\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'\', \'Sales\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`) VALUES (:first_name:, :last_name:, :email:, :phone:, :status:, :address:, :city:, :state:, :zip:, :password:, :role:)', [...], false)
+ 4 SYSTEMPATH\Model.php(356): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(898): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(665): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\User.php(34): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\User->save()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 10:03:34 --> [Caused by] mysqli_sql_exception: Duplicate entry '' for key 'email'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`) VALUES (\'\', \'\', \'\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'\', \'Sales\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`) VALUES (\'\', \'\', \'\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'\', \'Sales\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`) VALUES (\'\', \'\', \'\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'\', \'Sales\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`) VALUES (:first_name:, :last_name:, :email:, :phone:, :status:, :address:, :city:, :state:, :zip:, :password:, :role:)', [...], false)
+ 5 SYSTEMPATH\Model.php(356): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(898): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(665): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\User.php(34): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\User->save()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-11 10:04:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-11 10:04:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-11 10:04:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-11 10:08:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-11 10:08:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-11 10:08:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-03-11 10:09:09 --> CodeIgniter\Exceptions\InvalidArgumentException: "default" is not a valid database connection group.
+[Method: POST, Route: user/save]
+in SYSTEMPATH\Database\Config.php on line 70.
+ 1 SYSTEMPATH\Validation\Rules.php(210): CodeIgniter\Database\Config::connect('default')
+ 2 SYSTEMPATH\Validation\Rules.php(165): CodeIgniter\Validation\Rules->prepareUniqueQuery('sffedfdefdefde@gmail.com', 'email', [...])
+ 3 SYSTEMPATH\Validation\StrictRules\Rules.php(187): CodeIgniter\Validation\Rules->is_unique('sffedfdefdefde@gmail.com', 'users.email', [...])
+ 4 SYSTEMPATH\Validation\Validation.php(336): CodeIgniter\Validation\StrictRules\Rules->is_unique('sffedfdefdefde@gmail.com', 'users.email', [...], null, 'email')
+ 5 SYSTEMPATH\Validation\Validation.php(201): CodeIgniter\Validation\Validation->processRules('email', 'email', 'sffedfdefdefde@gmail.com', [...], [...], 'email')
+ 6 SYSTEMPATH\Controller.php(136): CodeIgniter\Validation\Validation->run()
+ 7 APPPATH\Controllers\User.php(30): CodeIgniter\Controller->validate([...])
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\User->save()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-11 10:12:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-11 10:12:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-11 10:14:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-03-11 10:14:24 --> CodeIgniter\Exceptions\InvalidArgumentException: "user_management" is not a valid database connection group.
+[Method: POST, Route: user/save]
+in SYSTEMPATH\Database\Config.php on line 70.
+ 1 SYSTEMPATH\Model.php(151): CodeIgniter\Database\Config::connect('user_management')
+ 2 APPPATH\Controllers\User.php(18): CodeIgniter\Model->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\User->save()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-11 10:16:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-11 10:16:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-11 10:17:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-11 10:17:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-11 10:20:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-11 10:20:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-11 10:20:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-11 10:20:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-11 10:24:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-11 10:27:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-03-11 10:36:48 --> ParseError: syntax error, unexpected variable "$data", expecting "function" or "const"
+[Method: POST, Route: user/save]
+in APPPATH\Controllers\User.php on line 39.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\codei\\app\\Controllers\\User.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\User')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\User')
+ 4 SYSTEMPATH\Router\Router.php(792): class_exists('\\App\\Controllers\\User')
+ 5 SYSTEMPATH\Router\Router.php(230): CodeIgniter\Router\Router->processRouteAttributes()
+ 6 SYSTEMPATH\CodeIgniter.php(829): CodeIgniter\Router\Router->handle('user/save')
+ 7 SYSTEMPATH\CodeIgniter.php(441): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-11 10:37:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-11 10:37:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-11 10:39:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-11 10:39:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-11 10:42:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-11 10:43:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-11 10:43:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-03-11 10:45:47 --> Duplicate entry '' for key 'email'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`) VALUES (\'\', \'\', \'\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'\', \'Sales\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`) VALUES (\'\', \'\', \'\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'\', \'Sales\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`) VALUES (\'\', \'\', \'\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'\', \'Sales\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`) VALUES (:first_name:, :last_name:, :email:, :phone:, :status:, :address:, :city:, :state:, :zip:, :password:, :role:)', [...], false)
+ 5 SYSTEMPATH\Model.php(356): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(898): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(665): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\User.php(34): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\User->save()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 10:45:47 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '' for key 'email'
+[Method: POST, Route: user/save]
+in SYSTEMPATH\Database\BaseConnection.php on line 724.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`) VALUES (:first_name:, :last_name:, :email:, :phone:, :status:, :address:, :city:, :state:, :zip:, :password:, :role:)', [...], false)
+ 2 SYSTEMPATH\Model.php(356): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(898): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(665): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\User.php(34): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\User->save()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 10:45:47 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '' for key 'email'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`) VALUES (\'\', \'\', \'\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'\', \'Sales\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`) VALUES (\'\', \'\', \'\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'\', \'Sales\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`) VALUES (:first_name:, :last_name:, :email:, :phone:, :status:, :address:, :city:, :state:, :zip:, :password:, :role:)', [...], false)
+ 4 SYSTEMPATH\Model.php(356): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(898): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(665): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\User.php(34): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\User->save()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 10:45:47 --> [Caused by] mysqli_sql_exception: Duplicate entry '' for key 'email'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`) VALUES (\'\', \'\', \'\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'\', \'Sales\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`) VALUES (\'\', \'\', \'\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'\', \'Sales\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`) VALUES (\'\', \'\', \'\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'\', \'Sales\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`) VALUES (:first_name:, :last_name:, :email:, :phone:, :status:, :address:, :city:, :state:, :zip:, :password:, :role:)', [...], false)
+ 5 SYSTEMPATH\Model.php(356): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(898): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(665): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\User.php(34): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\User->save()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-11 10:47:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-11 10:48:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-11 10:48:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-03-11 10:50:37 --> Duplicate entry '' for key 'email'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`) VALUES (\'sfs\', \'deefe\', \'\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'\', \'Sales\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`) VALUES (\'sfs\', \'deefe\', \'\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'\', \'Sales\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`) VALUES (\'sfs\', \'deefe\', \'\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'\', \'Sales\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`) VALUES (:first_name:, :last_name:, :email:, :phone:, :status:, :address:, :city:, :state:, :zip:, :password:, :role:)', [...], false)
+ 5 SYSTEMPATH\Model.php(356): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(898): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(665): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\User.php(34): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\User->save()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 10:50:37 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '' for key 'email'
+[Method: POST, Route: user/save]
+in SYSTEMPATH\Database\BaseConnection.php on line 724.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`) VALUES (:first_name:, :last_name:, :email:, :phone:, :status:, :address:, :city:, :state:, :zip:, :password:, :role:)', [...], false)
+ 2 SYSTEMPATH\Model.php(356): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(898): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(665): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\User.php(34): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\User->save()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 10:50:37 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '' for key 'email'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`) VALUES (\'sfs\', \'deefe\', \'\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'\', \'Sales\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`) VALUES (\'sfs\', \'deefe\', \'\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'\', \'Sales\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`) VALUES (:first_name:, :last_name:, :email:, :phone:, :status:, :address:, :city:, :state:, :zip:, :password:, :role:)', [...], false)
+ 4 SYSTEMPATH\Model.php(356): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(898): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(665): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\User.php(34): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\User->save()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 10:50:37 --> [Caused by] mysqli_sql_exception: Duplicate entry '' for key 'email'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`) VALUES (\'sfs\', \'deefe\', \'\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'\', \'Sales\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`) VALUES (\'sfs\', \'deefe\', \'\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'\', \'Sales\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`) VALUES (\'sfs\', \'deefe\', \'\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'\', \'Sales\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`) VALUES (:first_name:, :last_name:, :email:, :phone:, :status:, :address:, :city:, :state:, :zip:, :password:, :role:)', [...], false)
+ 5 SYSTEMPATH\Model.php(356): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(898): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(665): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\User.php(34): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\User->save()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-11 10:50:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-11 10:50:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-11 11:13:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-11 11:13:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-11 11:57:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-11 11:58:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-11 11:59:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-11 11:59:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-11 12:00:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-11 12:04:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-11 12:04:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-11 12:04:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-11 12:06:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-11 12:13:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-11 12:14:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-11 12:14:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-11 12:14:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-11 12:14:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-11 12:14:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-11 12:35:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-11 12:35:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-11 12:38:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-11 12:39:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-11 12:51:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-11 12:51:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-11 12:52:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

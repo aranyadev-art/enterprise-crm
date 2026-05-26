@@ -1,0 +1,132 @@
+/* Global */
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background:#f4f6f9;
+}
+
+/* Card Style */
+.crm-card{
+    width: 700px;
+    margin:40px auto;
+    background:white;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.08);
+}
+
+.crm-card h2{
+    text-align:center;
+    margin-bottom:25px;
+    color:#2c3e50;
+}
+
+/* Form Layout */
+.form-group{
+    margin-bottom:18px;
+}
+
+label{
+    font-weight:600;
+    display:block;
+    margin-bottom:6px;
+}
+
+input[type="text"],
+input[type="datetime-local"],
+input[type="file"],
+textarea{
+    width:100%;
+    padding:10px;
+    border:1px solid #ddd;
+    border-radius:6px;
+    transition:0.3s;
+}
+
+input:focus, textarea:focus{
+    border-color:#28a745;
+    outline:none;
+}
+
+/* Checkbox */
+.checkbox-group{
+    display:flex;
+    align-items:center;
+    gap:8px;
+}
+
+/* Buttons */
+.btn-save{
+    background:#28a745;
+    color:white;
+    padding:10px 22px;
+    border:none;
+    border-radius:6px;
+    cursor:pointer;
+    font-weight:600;
+}
+
+.btn-save:hover{
+    background:#218838;
+}
+
+.btn-back{
+    background:#6c757d;
+    color:white;
+    padding:10px 20px;
+    border:none;
+    border-radius:6px;
+    text-decoration:none;
+    margin-left:10px;
+}
+
+.btn-back:hover{
+    background:#5a6268;
+}
+
+/* Table Style */
+.table-container{
+    width:95%;
+    margin:30px auto;
+    background:white;
+    padding:20px;
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.08);
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+table th{
+    background:#28a745;
+    color:white;
+    padding:12px;
+    text-align:left;
+}
+
+table td{
+    padding:10px;
+    border-bottom:1px solid #eee;
+}
+
+table tr:hover{
+    background:#f9f9f9;
+}
+
+/* Status Badge */
+.badge-yes{
+    background:#28a745;
+    color:white;
+    padding:5px 10px;
+    border-radius:20px;
+    font-size:12px;
+}
+
+.badge-no{
+    background:#dc3545;
+    color:white;
+    padding:5px 10px;
+    border-radius:20px;
+    font-size:12px;
+}

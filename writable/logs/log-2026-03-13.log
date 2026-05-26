@@ -1,0 +1,1111 @@
+DEBUG - 2026-03-13 04:44:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-03-13 06:12:14 --> ErrorException: include(db.php): Failed to open stream: No such file or directory
+[Method: GET, Route: sales/add]
+in APPPATH\Views\sales\add_sales.php on line 2.
+ 1 APPPATH\Views\sales\add_sales.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(db.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\codei\\app\\Views\\sales\\add_sales.php', 2)
+ 2 APPPATH\Views\sales\add_sales.php(2): include()
+ 3 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\sales\\add_sales.php')
+ 4 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('sales/add_sales', [], true)
+ 6 APPPATH\Controllers\Sales.php(17): view('sales/add_sales')
+ 7 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Sales->add()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sales))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-13 06:20:12 --> ErrorException: move_uploaded_file(uploads/Screenshot (10).png): Failed to open stream: No such file or directory
+[Method: POST, Route: sales/add]
+in APPPATH\Views\sales\add_sales.php on line 10.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_file(uploads/Screenshot (10).png): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\codei\\app\\Views\\sales\\add_sales.php', 10)
+ 2 APPPATH\Views\sales\add_sales.php(10): move_uploaded_file('C:\\xampp\\tmp\\php5BE1.tmp', 'uploads/Screenshot (10).png')
+ 3 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\sales\\add_sales.php')
+ 4 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('sales/add_sales', [], true)
+ 6 APPPATH\Controllers\Sales.php(17): view('sales/add_sales')
+ 7 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Sales->add()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sales))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-13 06:21:28 --> ErrorException: move_uploaded_file(public/uploads/Screenshot (10).png): Failed to open stream: No such file or directory
+[Method: POST, Route: sales/add]
+in APPPATH\Views\sales\add_sales.php on line 10.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_file(public/uploads/Screenshot (10).png): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\codei\\app\\Views\\sales\\add_sales.php', 10)
+ 2 APPPATH\Views\sales\add_sales.php(10): move_uploaded_file('C:\\xampp\\tmp\\php82DD.tmp', 'public/uploads/Screenshot (10).png')
+ 3 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\sales\\add_sales.php')
+ 4 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('sales/add_sales', [], true)
+ 6 APPPATH\Controllers\Sales.php(17): view('sales/add_sales')
+ 7 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Sales->add()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sales))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-13 06:31:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 06:32:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 06:32:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 06:35:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 06:41:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 06:48:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 06:48:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 06:51:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 07:04:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 07:04:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 07:17:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 07:17:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 07:48:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 07:49:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-03-13 07:49:20 --> Duplicate entry '' for key 'email'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (\'\', \'\', \'\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'$2y$10$DjRUkFeomvD3A7Vq0WfZDukP3HNMsm/C6mpC5mPXPhgJNr7.k9aJq\', \'Sales\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (\'\', \'\', \'\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'$2y$10$DjRUkFeomvD3A7Vq0WfZDukP3HNMsm/C6mpC5mPXPhgJNr7.k9aJq\', \'Sales\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (\'\', \'\', \'\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'$2y$10$DjRUkFeomvD3A7Vq0WfZDukP3HNMsm/C6mpC5mPXPhgJNr7.k9aJq\', \'Sales\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (:first_name:, :last_name:, :email:, :phone:, :status:, :address:, :city:, :state:, :zip:, :password:, :role:, :module_access:)', [...], false)
+ 5 SYSTEMPATH\Model.php(356): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(898): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(665): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\User.php(49): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\User->save()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-13 07:49:20 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '' for key 'email'
+[Method: POST, Route: user/save]
+in SYSTEMPATH\Database\BaseConnection.php on line 724.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (:first_name:, :last_name:, :email:, :phone:, :status:, :address:, :city:, :state:, :zip:, :password:, :role:, :module_access:)', [...], false)
+ 2 SYSTEMPATH\Model.php(356): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(898): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(665): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\User.php(49): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\User->save()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-13 07:49:20 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '' for key 'email'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (\'\', \'\', \'\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'$2y$10$DjRUkFeomvD3A7Vq0WfZDukP3HNMsm/C6mpC5mPXPhgJNr7.k9aJq\', \'Sales\', NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (\'\', \'\', \'\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'$2y$10$DjRUkFeomvD3A7Vq0WfZDukP3HNMsm/C6mpC5mPXPhgJNr7.k9aJq\', \'Sales\', NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (:first_name:, :last_name:, :email:, :phone:, :status:, :address:, :city:, :state:, :zip:, :password:, :role:, :module_access:)', [...], false)
+ 4 SYSTEMPATH\Model.php(356): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(898): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(665): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\User.php(49): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\User->save()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-13 07:49:20 --> [Caused by] mysqli_sql_exception: Duplicate entry '' for key 'email'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (\'\', \'\', \'\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'$2y$10$DjRUkFeomvD3A7Vq0WfZDukP3HNMsm/C6mpC5mPXPhgJNr7.k9aJq\', \'Sales\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (\'\', \'\', \'\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'$2y$10$DjRUkFeomvD3A7Vq0WfZDukP3HNMsm/C6mpC5mPXPhgJNr7.k9aJq\', \'Sales\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (\'\', \'\', \'\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'$2y$10$DjRUkFeomvD3A7Vq0WfZDukP3HNMsm/C6mpC5mPXPhgJNr7.k9aJq\', \'Sales\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (:first_name:, :last_name:, :email:, :phone:, :status:, :address:, :city:, :state:, :zip:, :password:, :role:, :module_access:)', [...], false)
+ 5 SYSTEMPATH\Model.php(356): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(898): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(665): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\User.php(49): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\User->save()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-13 07:49:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-03-13 07:49:34 --> Duplicate entry '' for key 'email'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (\'\', \'\', \'\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'$2y$10$V02MG/ozGIAcDwTV6TA3QO4pfHckM67IiV5q2MKpxkph.K1QJ2.wa\', \'Sales\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (\'\', \'\', \'\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'$2y$10$V02MG/ozGIAcDwTV6TA3QO4pfHckM67IiV5q2MKpxkph.K1QJ2.wa\', \'Sales\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (\'\', \'\', \'\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'$2y$10$V02MG/ozGIAcDwTV6TA3QO4pfHckM67IiV5q2MKpxkph.K1QJ2.wa\', \'Sales\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (:first_name:, :last_name:, :email:, :phone:, :status:, :address:, :city:, :state:, :zip:, :password:, :role:, :module_access:)', [...], false)
+ 5 SYSTEMPATH\Model.php(356): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(898): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(665): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\User.php(49): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\User->save()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-13 07:49:34 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '' for key 'email'
+[Method: POST, Route: user/save]
+in SYSTEMPATH\Database\BaseConnection.php on line 724.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (:first_name:, :last_name:, :email:, :phone:, :status:, :address:, :city:, :state:, :zip:, :password:, :role:, :module_access:)', [...], false)
+ 2 SYSTEMPATH\Model.php(356): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(898): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(665): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\User.php(49): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\User->save()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-13 07:49:34 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '' for key 'email'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (\'\', \'\', \'\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'$2y$10$V02MG/ozGIAcDwTV6TA3QO4pfHckM67IiV5q2MKpxkph.K1QJ2.wa\', \'Sales\', NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (\'\', \'\', \'\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'$2y$10$V02MG/ozGIAcDwTV6TA3QO4pfHckM67IiV5q2MKpxkph.K1QJ2.wa\', \'Sales\', NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (:first_name:, :last_name:, :email:, :phone:, :status:, :address:, :city:, :state:, :zip:, :password:, :role:, :module_access:)', [...], false)
+ 4 SYSTEMPATH\Model.php(356): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(898): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(665): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\User.php(49): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\User->save()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-13 07:49:34 --> [Caused by] mysqli_sql_exception: Duplicate entry '' for key 'email'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (\'\', \'\', \'\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'$2y$10$V02MG/ozGIAcDwTV6TA3QO4pfHckM67IiV5q2MKpxkph.K1QJ2.wa\', \'Sales\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (\'\', \'\', \'\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'$2y$10$V02MG/ozGIAcDwTV6TA3QO4pfHckM67IiV5q2MKpxkph.K1QJ2.wa\', \'Sales\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (\'\', \'\', \'\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'$2y$10$V02MG/ozGIAcDwTV6TA3QO4pfHckM67IiV5q2MKpxkph.K1QJ2.wa\', \'Sales\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (:first_name:, :last_name:, :email:, :phone:, :status:, :address:, :city:, :state:, :zip:, :password:, :role:, :module_access:)', [...], false)
+ 5 SYSTEMPATH\Model.php(356): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(898): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(665): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\User.php(49): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\User->save()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-13 07:50:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 07:50:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 07:50:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 08:56:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 08:56:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 08:56:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 08:56:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 08:59:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 09:00:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 09:00:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 09:00:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 09:00:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 09:00:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 09:02:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 09:02:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 09:02:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 09:04:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 09:04:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 09:04:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 09:04:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 09:04:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 09:04:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 09:04:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 09:05:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 09:05:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 09:05:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 09:05:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 09:05:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 09:05:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 09:05:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 09:05:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 09:05:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 09:05:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 09:05:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 09:05:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 09:05:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 09:05:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 09:05:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 09:05:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 09:05:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 09:06:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 09:06:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-03-13 09:15:48 --> ErrorException: Undefined variable $clients
+[Method: GET, Route: sales/add]
+in APPPATH\Views\sales\add_sales.php on line 29.
+ 1 APPPATH\Views\sales\add_sales.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $clients', 'C:\\xampp\\htdocs\\codei\\app\\Views\\sales\\add_sales.php', 29)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\sales\\add_sales.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('sales/add_sales', [], true)
+ 5 APPPATH\Controllers\Sales.php(19): view('sales/add_sales', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Sales->add()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sales))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-13 09:17:36 --> ErrorException: Undefined variable $clients
+[Method: GET, Route: sales/add]
+in APPPATH\Views\sales\add_sales.php on line 29.
+ 1 APPPATH\Views\sales\add_sales.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $clients', 'C:\\xampp\\htdocs\\codei\\app\\Views\\sales\\add_sales.php', 29)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\sales\\add_sales.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('sales/add_sales', [], true)
+ 5 APPPATH\Controllers\Sales.php(19): view('sales/add_sales', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Sales->add()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sales))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-13 09:17:38 --> ErrorException: Undefined variable $clients
+[Method: GET, Route: sales/add]
+in APPPATH\Views\sales\add_sales.php on line 29.
+ 1 APPPATH\Views\sales\add_sales.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $clients', 'C:\\xampp\\htdocs\\codei\\app\\Views\\sales\\add_sales.php', 29)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\sales\\add_sales.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('sales/add_sales', [], true)
+ 5 APPPATH\Controllers\Sales.php(19): view('sales/add_sales', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Sales->add()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sales))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-13 09:21:13 --> ParseError: syntax error, unexpected token "{", expecting "function" or "const"
+[Method: GET, Route: sales/add]
+in APPPATH\Controllers\Sales.php on line 16.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\codei\\app\\Controllers\\Sales.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Sales')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Sales')
+ 4 SYSTEMPATH\Router\Router.php(792): class_exists('\\App\\Controllers\\Sales')
+ 5 SYSTEMPATH\Router\Router.php(230): CodeIgniter\Router\Router->processRouteAttributes()
+ 6 SYSTEMPATH\CodeIgniter.php(829): CodeIgniter\Router\Router->handle('sales/add')
+ 7 SYSTEMPATH\CodeIgniter.php(441): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-13 09:27:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 10:00:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 10:10:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 10:12:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 10:13:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 10:14:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 10:15:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 10:15:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 10:35:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 10:47:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 10:58:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 10:58:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-03-13 10:59:44 --> Duplicate entry '' for key 'email'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (\'\', \'\', \'\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'$2y$10$mwcF9KnbusF8NOpRONF7fOkYTtyEkpZFb.8u27C./gKQ/cAntjMam\', \'CAD\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (\'\', \'\', \'\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'$2y$10$mwcF9KnbusF8NOpRONF7fOkYTtyEkpZFb.8u27C./gKQ/cAntjMam\', \'CAD\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (\'\', \'\', \'\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'$2y$10$mwcF9KnbusF8NOpRONF7fOkYTtyEkpZFb.8u27C./gKQ/cAntjMam\', \'CAD\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (:first_name:, :last_name:, :email:, :phone:, :status:, :address:, :city:, :state:, :zip:, :password:, :role:, :module_access:)', [...], false)
+ 5 SYSTEMPATH\Model.php(356): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(898): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(665): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\User.php(49): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\User->save()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-13 10:59:44 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '' for key 'email'
+[Method: POST, Route: user/save]
+in SYSTEMPATH\Database\BaseConnection.php on line 724.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (:first_name:, :last_name:, :email:, :phone:, :status:, :address:, :city:, :state:, :zip:, :password:, :role:, :module_access:)', [...], false)
+ 2 SYSTEMPATH\Model.php(356): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(898): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(665): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\User.php(49): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\User->save()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-13 10:59:44 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '' for key 'email'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (\'\', \'\', \'\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'$2y$10$mwcF9KnbusF8NOpRONF7fOkYTtyEkpZFb.8u27C./gKQ/cAntjMam\', \'CAD\', NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (\'\', \'\', \'\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'$2y$10$mwcF9KnbusF8NOpRONF7fOkYTtyEkpZFb.8u27C./gKQ/cAntjMam\', \'CAD\', NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (:first_name:, :last_name:, :email:, :phone:, :status:, :address:, :city:, :state:, :zip:, :password:, :role:, :module_access:)', [...], false)
+ 4 SYSTEMPATH\Model.php(356): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(898): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(665): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\User.php(49): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\User->save()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-13 10:59:44 --> [Caused by] mysqli_sql_exception: Duplicate entry '' for key 'email'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (\'\', \'\', \'\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'$2y$10$mwcF9KnbusF8NOpRONF7fOkYTtyEkpZFb.8u27C./gKQ/cAntjMam\', \'CAD\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (\'\', \'\', \'\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'$2y$10$mwcF9KnbusF8NOpRONF7fOkYTtyEkpZFb.8u27C./gKQ/cAntjMam\', \'CAD\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (\'\', \'\', \'\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'$2y$10$mwcF9KnbusF8NOpRONF7fOkYTtyEkpZFb.8u27C./gKQ/cAntjMam\', \'CAD\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (:first_name:, :last_name:, :email:, :phone:, :status:, :address:, :city:, :state:, :zip:, :password:, :role:, :module_access:)', [...], false)
+ 5 SYSTEMPATH\Model.php(356): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(898): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(665): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\User.php(49): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\User->save()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-13 11:24:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 11:28:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 11:29:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 11:29:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-03-13 11:29:50 --> Duplicate entry '' for key 'email'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (\'\', \'\', \'\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'$2y$10$SYLPHCT65LNtSCQny0QpE.RhA9F03BTWmNj1tkOot.vH.R4/O48C6\', \'Sales\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (\'\', \'\', \'\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'$2y$10$SYLPHCT65LNtSCQny0QpE.RhA9F03BTWmNj1tkOot.vH.R4/O48C6\', \'Sales\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (\'\', \'\', \'\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'$2y$10$SYLPHCT65LNtSCQny0QpE.RhA9F03BTWmNj1tkOot.vH.R4/O48C6\', \'Sales\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (:first_name:, :last_name:, :email:, :phone:, :status:, :address:, :city:, :state:, :zip:, :password:, :role:, :module_access:)', [...], false)
+ 5 SYSTEMPATH\Model.php(356): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(898): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(665): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\User.php(49): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\User->save()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-13 11:29:50 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '' for key 'email'
+[Method: POST, Route: user/save]
+in SYSTEMPATH\Database\BaseConnection.php on line 724.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (:first_name:, :last_name:, :email:, :phone:, :status:, :address:, :city:, :state:, :zip:, :password:, :role:, :module_access:)', [...], false)
+ 2 SYSTEMPATH\Model.php(356): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(898): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(665): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\User.php(49): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\User->save()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-13 11:29:50 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '' for key 'email'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (\'\', \'\', \'\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'$2y$10$SYLPHCT65LNtSCQny0QpE.RhA9F03BTWmNj1tkOot.vH.R4/O48C6\', \'Sales\', NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (\'\', \'\', \'\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'$2y$10$SYLPHCT65LNtSCQny0QpE.RhA9F03BTWmNj1tkOot.vH.R4/O48C6\', \'Sales\', NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (:first_name:, :last_name:, :email:, :phone:, :status:, :address:, :city:, :state:, :zip:, :password:, :role:, :module_access:)', [...], false)
+ 4 SYSTEMPATH\Model.php(356): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(898): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(665): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\User.php(49): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\User->save()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-13 11:29:50 --> [Caused by] mysqli_sql_exception: Duplicate entry '' for key 'email'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (\'\', \'\', \'\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'$2y$10$SYLPHCT65LNtSCQny0QpE.RhA9F03BTWmNj1tkOot.vH.R4/O48C6\', \'Sales\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (\'\', \'\', \'\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'$2y$10$SYLPHCT65LNtSCQny0QpE.RhA9F03BTWmNj1tkOot.vH.R4/O48C6\', \'Sales\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (\'\', \'\', \'\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'$2y$10$SYLPHCT65LNtSCQny0QpE.RhA9F03BTWmNj1tkOot.vH.R4/O48C6\', \'Sales\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (:first_name:, :last_name:, :email:, :phone:, :status:, :address:, :city:, :state:, :zip:, :password:, :role:, :module_access:)', [...], false)
+ 5 SYSTEMPATH\Model.php(356): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(898): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(665): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\User.php(49): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\User->save()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-13 11:29:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 11:40:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 11:40:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 11:40:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-03-13 11:40:48 --> Duplicate entry 'ara@gmail.com' for key 'email'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (\'\', \'\', \'ara@gmail.com\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'$2y$10$oDBC95dWcEJl7nBMlYcsg.14LXtE/H3qhpCwBD3deMzMck0WGG0xa\', \'Sales\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (\'\', \'\', \'ara@gmail.com\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'$2y$10$oDBC95dWcEJl7nBMlYcsg.14LXtE/H3qhpCwBD3deMzMck0WGG0xa\', \'Sales\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (\'\', \'\', \'ara@gmail.com\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'$2y$10$oDBC95dWcEJl7nBMlYcsg.14LXtE/H3qhpCwBD3deMzMck0WGG0xa\', \'Sales\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (:first_name:, :last_name:, :email:, :phone:, :status:, :address:, :city:, :state:, :zip:, :password:, :role:, :module_access:)', [...], false)
+ 5 SYSTEMPATH\Model.php(356): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(898): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(665): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\User.php(49): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\User->save()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-13 11:40:48 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry 'ara@gmail.com' for key 'email'
+[Method: POST, Route: user/save]
+in SYSTEMPATH\Database\BaseConnection.php on line 724.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (:first_name:, :last_name:, :email:, :phone:, :status:, :address:, :city:, :state:, :zip:, :password:, :role:, :module_access:)', [...], false)
+ 2 SYSTEMPATH\Model.php(356): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(898): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(665): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\User.php(49): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\User->save()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-13 11:40:48 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry 'ara@gmail.com' for key 'email'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (\'\', \'\', \'ara@gmail.com\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'$2y$10$oDBC95dWcEJl7nBMlYcsg.14LXtE/H3qhpCwBD3deMzMck0WGG0xa\', \'Sales\', NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (\'\', \'\', \'ara@gmail.com\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'$2y$10$oDBC95dWcEJl7nBMlYcsg.14LXtE/H3qhpCwBD3deMzMck0WGG0xa\', \'Sales\', NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (:first_name:, :last_name:, :email:, :phone:, :status:, :address:, :city:, :state:, :zip:, :password:, :role:, :module_access:)', [...], false)
+ 4 SYSTEMPATH\Model.php(356): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(898): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(665): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\User.php(49): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\User->save()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-13 11:40:48 --> [Caused by] mysqli_sql_exception: Duplicate entry 'ara@gmail.com' for key 'email'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (\'\', \'\', \'ara@gmail.com\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'$2y$10$oDBC95dWcEJl7nBMlYcsg.14LXtE/H3qhpCwBD3deMzMck0WGG0xa\', \'Sales\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (\'\', \'\', \'ara@gmail.com\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'$2y$10$oDBC95dWcEJl7nBMlYcsg.14LXtE/H3qhpCwBD3deMzMck0WGG0xa\', \'Sales\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (\'\', \'\', \'ara@gmail.com\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'$2y$10$oDBC95dWcEJl7nBMlYcsg.14LXtE/H3qhpCwBD3deMzMck0WGG0xa\', \'Sales\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (:first_name:, :last_name:, :email:, :phone:, :status:, :address:, :city:, :state:, :zip:, :password:, :role:, :module_access:)', [...], false)
+ 5 SYSTEMPATH\Model.php(356): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(898): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(665): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\User.php(49): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\User->save()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-13 11:40:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 11:40:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 11:41:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 11:42:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 11:46:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-13 11:46:43 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-13 11:48:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-13 11:48:22 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-13 11:49:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-13 11:49:38 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-13 11:50:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 11:50:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-13 11:50:48 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-13 11:50:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 11:50:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-13 11:50:52 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-13 11:50:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 11:50:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-13 11:50:56 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-13 11:51:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-13 11:51:26 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-13 11:51:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-13 11:51:53 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-13 11:52:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 11:52:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-13 11:52:22 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-13 11:56:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-13 11:56:01 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-13 11:56:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 11:56:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-03-13 11:56:20 --> ErrorException: Attempt to read property "password" on null
+[Method: POST, Route: update-password]
+in APPPATH\Controllers\User.php on line 114.
+ 1 APPPATH\Controllers\User.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "password" on null', 'C:\\xampp\\htdocs\\codei\\app\\Controllers\\User.php', 114)
+ 2 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\User->updatePassword()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-13 12:02:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 12:02:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 12:02:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-13 12:02:30 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-13 12:02:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 12:02:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 12:02:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 12:02:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-13 12:02:54 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-13 12:02:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 12:03:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 12:03:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 12:03:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 12:03:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-13 12:03:23 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-13 12:03:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 12:03:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-13 12:03:57 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-13 12:10:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-13 12:10:27 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-13 12:10:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 12:10:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 12:10:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 12:10:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 12:10:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-13 12:10:38 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-13 12:10:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 12:10:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-13 12:10:45 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-13 12:10:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 12:10:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-13 12:10:56 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-13 12:22:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 12:22:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 12:22:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 12:22:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 12:23:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 12:23:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 12:23:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 12:23:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 12:23:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 12:23:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-13 12:23:13 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-13 12:23:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 12:23:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 12:23:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 12:25:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 12:25:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 12:25:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 12:25:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 12:25:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-13 12:25:47 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-13 12:28:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 12:29:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 12:29:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 12:29:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 12:29:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 12:29:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 12:29:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 12:31:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 12:31:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 12:31:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 12:31:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 12:31:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-13 12:31:47 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-13 12:35:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 12:35:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 12:35:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 12:35:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-13 12:35:29 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-13 12:40:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-13 12:40:46 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-13 12:40:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-03-13 12:40:52 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+[Method: POST, Route: check-login]
+in SYSTEMPATH\BaseModel.php on line 1056.
+ 1 SYSTEMPATH\BaseModel.php(1056): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(706): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\Auth.php(48): CodeIgniter\Model->update('17', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Auth->checkLogin()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-13 12:40:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-03-13 12:40:59 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+[Method: POST, Route: check-login]
+in SYSTEMPATH\BaseModel.php on line 1056.
+ 1 SYSTEMPATH\BaseModel.php(1056): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(706): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\Auth.php(48): CodeIgniter\Model->update('17', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Auth->checkLogin()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-13 12:41:58 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+[Method: POST, Route: check-login]
+in SYSTEMPATH\BaseModel.php on line 1056.
+ 1 SYSTEMPATH\BaseModel.php(1056): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(706): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\Auth.php(48): CodeIgniter\Model->update('17', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Auth->checkLogin()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-13 12:44:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 12:44:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-03-13 12:44:16 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+[Method: POST, Route: check-login]
+in SYSTEMPATH\BaseModel.php on line 1056.
+ 1 SYSTEMPATH\BaseModel.php(1056): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(706): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\Auth.php(52): CodeIgniter\Model->update('17', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Auth->checkLogin()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-13 12:45:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 12:45:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 12:45:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 12:45:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-13 12:45:38 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-13 12:45:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 12:45:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 12:45:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 12:45:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-13 12:45:50 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-13 12:45:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 12:45:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-13 12:45:55 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-13 12:49:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-13 12:49:36 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-13 12:49:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-13 12:49:38 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-13 12:50:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-13 12:50:54 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-13 12:50:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-13 12:50:57 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-13 12:51:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 12:51:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 18:21:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 12:51:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-13 12:51:04 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-13 12:56:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 18:26:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 12:56:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-13 12:56:27 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-13 12:56:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-03-13 12:59:03 --> ErrorException: Undefined variable $row
+[Method: GET, Route: user/edit/7]
+in APPPATH\Views\users\edit_user.php on line 30.
+ 1 APPPATH\Views\users\edit_user.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'C:\\xampp\\htdocs\\codei\\app\\Views\\users\\edit_user.php', 30)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('users/edit_user', [], true)
+ 5 APPPATH\Controllers\User.php(65): view('users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\User->edit('7')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-13 12:59:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 12:59:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 13:00:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 13:00:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 13:00:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 13:03:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 13:03:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 13:03:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 13:03:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 13:03:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 13:03:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 13:03:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 13:03:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 13:03:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 13:06:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 13:07:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 13:07:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 13:10:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 13:11:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 13:11:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 13:43:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 19:13:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 13:43:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-13 13:43:29 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-13 13:43:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 13:43:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 19:13:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 13:43:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-13 13:43:53 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-13 13:44:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-13 13:44:55 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-13 13:44:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-13 13:45:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,1428 @@
+DEBUG - 2026-03-16 04:42:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 10:12:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 04:42:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-16 04:42:39 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-16 04:42:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 04:42:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 04:42:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 04:43:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 04:43:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 04:43:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 04:43:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-03-16 04:43:21 --> Duplicate entry '' for key 'email'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (\'\', \'\', \'\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'$2y$10$LzcRv.bLOP/sL4PkfSCHGe0t0r76ovolVgPmrHFUY.crhFa1QSIsO\', \'Sales\', \'cad\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (\'\', \'\', \'\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'$2y$10$LzcRv.bLOP/sL4PkfSCHGe0t0r76ovolVgPmrHFUY.crhFa1QSIsO\', \'Sales\', \'cad\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (\'\', \'\', \'\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'$2y$10$LzcRv.bLOP/sL4PkfSCHGe0t0r76ovolVgPmrHFUY.crhFa1QSIsO\', \'Sales\', \'cad\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (:first_name:, :last_name:, :email:, :phone:, :status:, :address:, :city:, :state:, :zip:, :password:, :role:, :module_access:)', [...], false)
+ 5 SYSTEMPATH\Model.php(356): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(898): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(665): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\User.php(49): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\User->save()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-16 04:43:21 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '' for key 'email'
+[Method: POST, Route: user/save]
+in SYSTEMPATH\Database\BaseConnection.php on line 724.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (:first_name:, :last_name:, :email:, :phone:, :status:, :address:, :city:, :state:, :zip:, :password:, :role:, :module_access:)', [...], false)
+ 2 SYSTEMPATH\Model.php(356): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(898): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(665): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\User.php(49): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\User->save()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-16 04:43:21 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '' for key 'email'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (\'\', \'\', \'\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'$2y$10$LzcRv.bLOP/sL4PkfSCHGe0t0r76ovolVgPmrHFUY.crhFa1QSIsO\', \'Sales\', \'cad\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (\'\', \'\', \'\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'$2y$10$LzcRv.bLOP/sL4PkfSCHGe0t0r76ovolVgPmrHFUY.crhFa1QSIsO\', \'Sales\', \'cad\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (:first_name:, :last_name:, :email:, :phone:, :status:, :address:, :city:, :state:, :zip:, :password:, :role:, :module_access:)', [...], false)
+ 4 SYSTEMPATH\Model.php(356): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(898): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(665): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\User.php(49): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\User->save()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-16 04:43:21 --> [Caused by] mysqli_sql_exception: Duplicate entry '' for key 'email'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (\'\', \'\', \'\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'$2y$10$LzcRv.bLOP/sL4PkfSCHGe0t0r76ovolVgPmrHFUY.crhFa1QSIsO\', \'Sales\', \'cad\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (\'\', \'\', \'\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'$2y$10$LzcRv.bLOP/sL4PkfSCHGe0t0r76ovolVgPmrHFUY.crhFa1QSIsO\', \'Sales\', \'cad\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (\'\', \'\', \'\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'$2y$10$LzcRv.bLOP/sL4PkfSCHGe0t0r76ovolVgPmrHFUY.crhFa1QSIsO\', \'Sales\', \'cad\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (:first_name:, :last_name:, :email:, :phone:, :status:, :address:, :city:, :state:, :zip:, :password:, :role:, :module_access:)', [...], false)
+ 5 SYSTEMPATH\Model.php(356): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(898): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(665): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\User.php(49): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\User->save()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-16 04:43:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-16 04:43:34 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-16 04:44:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 05:51:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-16 05:51:01 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-16 05:51:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 05:51:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 05:51:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-16 05:51:05 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-16 05:51:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-16 05:51:08 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-16 05:51:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-16 05:51:16 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-16 06:26:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 06:27:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 06:27:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 06:27:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-16 06:27:30 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-16 06:29:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 06:29:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-16 06:29:20 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-16 06:30:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-16 06:30:35 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-16 06:30:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 06:30:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-16 06:30:38 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-16 06:30:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 06:30:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-16 06:30:40 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-16 06:32:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-16 06:32:20 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-16 06:33:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-16 06:33:02 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-16 06:33:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-16 06:33:59 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-16 06:34:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-16 06:34:33 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-16 06:34:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-16 06:34:47 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-16 06:37:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-16 06:37:11 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-16 06:37:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-16 06:37:12 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-16 06:37:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 06:37:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-16 06:37:14 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-16 06:37:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 06:37:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-16 06:37:18 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-16 06:39:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 06:42:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-16 06:42:24 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-16 06:42:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-03-16 06:42:26 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "cad/create.php"
+[Method: GET, Route: cad/create]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(226): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('cad/create.php')
+ 2 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('cad/create', [], true)
+ 3 APPPATH\Controllers\Cad.php(29): view('cad/create', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Cad->create()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cad))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-16 06:44:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-16 06:44:28 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-16 06:44:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-16 06:44:29 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-16 06:47:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-16 06:47:17 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-16 06:47:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-16 06:47:17 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-16 06:56:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-16 06:56:28 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-16 06:56:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-16 06:56:29 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-16 06:58:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-16 06:58:22 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-16 06:58:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-16 06:58:23 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-16 06:58:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 06:59:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 06:59:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 07:00:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 07:00:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 07:00:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 07:00:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 07:00:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 07:00:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 07:04:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 07:04:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 07:04:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 07:04:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-16 07:04:03 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-16 07:04:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-16 07:04:03 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-16 07:04:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-16 07:04:04 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-16 07:04:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 07:04:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 07:04:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 07:04:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 07:04:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 07:12:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-16 07:12:27 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-16 07:12:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 07:20:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 07:20:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 07:21:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 12:52:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 07:22:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-16 07:22:08 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-16 07:33:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-16 07:33:56 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-16 07:33:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-16 07:33:59 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-16 07:34:00 --> ErrorException: Undefined variable $cads
+[Method: GET, Route: cod/list]
+in APPPATH\Views\cod\list.php on line 17.
+ 1 APPPATH\Views\cod\list.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cads', 'C:\\xampp\\htdocs\\codei\\app\\Views\\cod\\list.php', 17)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\cod\\list.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('cod/list', [], true)
+ 5 APPPATH\Controllers\Cod.php(38): view('cod/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Cod->list()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cod))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-16 07:34:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-16 07:34:48 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-16 07:34:50 --> ErrorException: Undefined variable $cod
+[Method: GET, Route: cod/list]
+in APPPATH\Views\cod\list.php on line 17.
+ 1 APPPATH\Views\cod\list.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cod', 'C:\\xampp\\htdocs\\codei\\app\\Views\\cod\\list.php', 17)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\cod\\list.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('cod/list', [], true)
+ 5 APPPATH\Controllers\Cod.php(38): view('cod/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Cod->list()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cod))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-16 07:38:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-16 07:38:22 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-16 07:38:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-16 07:38:23 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-16 07:38:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 07:39:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-16 07:39:16 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-16 07:39:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-16 07:39:17 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-16 07:40:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 07:40:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 07:40:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 07:41:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 07:42:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 07:45:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 07:46:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 13:16:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 07:46:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-16 07:46:57 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-16 07:47:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 07:47:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 07:47:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 07:47:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 07:47:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 07:47:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 07:47:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-16 07:47:26 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-16 07:47:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 07:47:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 07:48:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 07:48:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 07:48:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 13:18:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 07:48:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-16 07:48:36 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-16 08:55:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-16 08:55:45 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-16 08:55:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-16 08:55:48 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-16 09:01:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-16 09:01:12 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-16 09:01:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-16 09:01:24 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-16 09:03:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 09:03:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-16 09:03:38 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-16 09:03:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-16 09:03:39 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-16 09:04:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 09:05:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 09:05:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 09:06:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 14:37:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 09:07:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-16 09:07:07 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-16 09:07:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-16 09:07:46 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-16 09:07:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 09:09:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 14:40:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 09:10:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-16 09:10:01 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-16 09:10:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 09:10:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 09:10:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 09:11:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 09:12:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 09:12:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 09:12:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 09:12:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 09:13:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 14:43:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 09:13:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-16 09:13:30 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-16 09:13:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 09:13:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 09:16:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 09:16:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 09:17:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 09:18:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 09:18:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 09:18:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 09:19:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 09:19:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 09:19:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 09:19:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 09:19:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 09:44:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 09:44:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 15:14:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 09:44:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-16 09:44:58 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-16 09:45:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 09:45:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 09:58:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 10:00:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 10:00:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 10:00:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 10:02:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 10:02:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-16 10:02:06 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-16 10:05:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-16 10:05:07 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-16 10:07:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-16 10:07:04 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-16 10:07:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-16 10:07:08 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-16 10:07:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-16 10:07:54 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-16 10:07:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 10:08:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 10:09:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-16 10:09:55 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-16 10:09:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-16 10:09:56 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-16 10:09:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-16 10:09:56 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-16 10:11:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-16 10:11:01 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-16 10:11:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-16 10:11:02 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-16 10:11:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-16 10:11:03 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-16 10:13:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-16 10:13:10 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 22.
+ 1 APPPATH\Views\dashboard.php(22): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-16 10:13:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 10:17:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 10:18:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-16 10:18:04 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 22.
+ 1 APPPATH\Views\dashboard.php(22): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-16 10:18:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 10:18:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 10:18:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 10:18:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 10:20:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-16 10:20:35 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 22.
+ 1 APPPATH\Views\dashboard.php(22): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-16 10:31:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 16:01:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 10:31:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-16 10:31:14 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 22.
+ 1 APPPATH\Views\dashboard.php(22): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-16 10:33:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-16 10:33:26 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 22.
+ 1 APPPATH\Views\dashboard.php(22): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-16 10:35:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-16 10:35:57 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 22.
+ 1 APPPATH\Views\dashboard.php(22): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-16 10:39:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-16 10:39:32 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 22.
+ 1 APPPATH\Views\dashboard.php(22): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-16 10:39:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-16 10:39:55 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 22.
+ 1 APPPATH\Views\dashboard.php(22): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-16 10:41:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-16 10:41:17 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 22.
+ 1 APPPATH\Views\dashboard.php(22): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-16 10:43:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 10:52:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 10:54:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 10:55:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 10:59:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 16:29:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 10:59:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-16 10:59:56 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 22.
+ 1 APPPATH\Views\dashboard.php(22): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-16 11:01:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-16 11:01:28 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 22.
+ 1 APPPATH\Views\dashboard.php(22): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-16 11:01:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-16 11:01:59 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 22.
+ 1 APPPATH\Views\dashboard.php(22): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-16 11:02:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-16 11:02:42 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 22.
+ 1 APPPATH\Views\dashboard.php(22): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-16 11:03:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-16 11:03:27 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 22.
+ 1 APPPATH\Views\dashboard.php(22): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-16 11:03:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 11:03:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 11:36:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-03-16 12:06:08 --> TypeError: Unsupported operand types: string + string
+[Method: POST, Route: quotation/create]
+in APPPATH\Controllers\Quotation.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Quotation->create()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quotation))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-16 12:06:48 --> TypeError: Unsupported operand types: string + string
+[Method: POST, Route: quotation/create]
+in APPPATH\Controllers\Quotation.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Quotation->create()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quotation))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-16 12:06:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 12:21:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 12:27:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 12:31:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 12:33:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 12:35:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-03-16 12:36:20 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\codei\system\Email\Email.php:1776
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 1776)
+#1 C:\xampp\htdocs\codei\system\Email\Email.php(1776): mail('2906dev@gmail.c...', '=?UTF-8?Q?Quota...', 'This is a multi...', 'Date: Mon, 16 M...', '-f yourgmail@gm...')
+#2 C:\xampp\htdocs\codei\system\Email\Email.php(1708): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\xampp\htdocs\codei\system\Email\Email.php(1602): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\xampp\htdocs\codei\app\Controllers\Quotation.php(59): CodeIgniter\Email\Email->send(false)
+#5 C:\xampp\htdocs\codei\system\CodeIgniter.php(951): App\Controllers\Quotation->create()
+#6 C:\xampp\htdocs\codei\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quotation))
+#7 C:\xampp\htdocs\codei\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codei\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\codei\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\codei\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+ERROR - 2026-03-16 12:36:20 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2026-03-16 12:36:20 --> 
+ERROR - 2026-03-16 12:42:28 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2026-03-16 12:42:28 --> 220 smtp.gmail.com ESMTP 41be03b00d2f7-c73eb97b41dsm8860854a12.5 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [43.228.96.149]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [43.228.96.149]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 41be03b00d2f7-c73eb97b41dsm8860854a12.5 - gsmtp
+
+ERROR - 2026-03-16 12:46:48 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2026-03-16 12:46:48 --> 220 smtp.gmail.com ESMTP 98e67ed59e1d1-35a02ffdfb7sm19801902a91.14 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [43.228.96.149]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [43.228.96.149]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-35a02ffdfb7sm19801902a91.14 - gsmtp
+
+ERROR - 2026-03-16 12:47:16 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2026-03-16 12:47:16 --> 220 smtp.gmail.com ESMTP d2e1a72fcca58-82a0725facbsm13471833b3a.20 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [43.228.96.149]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [43.228.96.149]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-82a0725facbsm13471833b3a.20 - gsmtp
+
+ERROR - 2026-03-16 13:00:02 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2026-03-16 13:00:02 --> 220 smtp.gmail.com ESMTP 98e67ed59e1d1-35b9585cfe0sm5857813a91.11 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [43.228.96.149]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [43.228.96.149]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-35b9585cfe0sm5857813a91.11 - gsmtp
+
+DEBUG - 2026-03-16 13:02:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 13:02:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 13:02:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 18:32:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 13:02:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-16 13:02:31 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 22.
+ 1 APPPATH\Views\dashboard.php(22): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

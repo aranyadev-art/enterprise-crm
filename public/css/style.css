@@ -1,0 +1,3171 @@
+body{
+    font-family: Arial, Helvetica, 'Segoe UI', sans-serif;;
+    background: #f4f6fb;
+    margin:0;
+    padding:0;
+}
+* {
+    box-sizing: border-box;
+}
+.container{
+    width:90%;
+    margin:auto;
+    margin-top:40px;
+}
+
+h2{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+a{
+    text-decoration:none;
+}
+
+
+
+/* Buttons */
+
+a[href*="create"]{
+    background:#28a745;
+    color:white;
+    padding:8px 14px;
+    border-radius:5px;
+}
+
+a[href*="dashboard"]{
+    background:#007bff;
+    color:white;
+    padding:8px 14px;
+    border-radius:5px;
+}
+
+a[href*="edit"]{
+    background:#ffc107;
+    color:black;
+    padding:5px 10px;
+    border-radius:4px;
+}
+
+a[href*="delete"]{
+    background:#dc3545;
+    color:white;
+    padding:5px 10px;
+    border-radius:4px;
+}
+
+/* Table */
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    background:white;
+    box-shadow:0 3px 10px rgba(0,0,0,0.1);
+}
+
+th{
+    background:#007bff;
+    color:white;
+    padding:10px;
+}
+
+td{
+    padding:10px;
+    text-align:center;
+}
+
+tr:nth-child(even){
+    background:#f2f2f2;
+}
+
+tr:hover{
+    background:#e9ecef;
+}
+
+/* Table */
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:20px;
+}
+
+table th{
+    background:#007bff;
+    color:white;
+    padding:10px;
+}
+
+table td{
+    padding:10px;
+    border:1px solid #ddd;
+}
+
+table tr:nth-child(even){
+    background:#f2f2f2;
+}
+
+/* Form */
+form{
+    width:400px;
+    margin:auto;
+}
+
+input, select{
+    width:100%;
+    padding:8px;
+    margin-top:5px;
+    margin-bottom:15px;
+    border:1px solid #ccc;
+    border-radius:4px;
+}
+
+/* Dashboard links */
+.dashboard-links a{
+    display:block;
+    width:200px;
+    margin:10px auto;
+    text-align:center;
+}
+.dashboard{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+}
+
+.card{
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    text-align: center;
+    flex: 1;
+    min-width: 200px;
+
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    transition: all 0.3s ease;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.12);
+}
+
+.card h3{
+    margin-bottom:10px;
+    color:#555;
+}
+
+.card p{
+    font-size:28px;
+    font-weight:bold;
+}
+.btn{
+    display:inline-block;
+    background:#007bff;
+    color:white;
+    padding:8px 12px;
+    text-decoration:none;
+    border-radius:5px;
+}
+
+.btn:hover{
+    background:#0056b3;
+}
+
+.logout{
+    background:#dc3545;
+}
+/* Client Module Styling */
+
+.client-title{
+    color:#2c7be5;
+    font-size:28px;
+    margin-bottom:20px;
+}
+
+.client-btn{
+    background:#28a745;
+    color:white;
+    padding:8px 15px;
+    text-decoration:none;
+    border-radius:5px;
+}
+
+.client-btn:hover{
+    background:#1e7e34;
+}
+
+.client-table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:20px;
+}
+
+.client-table th{
+    background:#2c7be5;
+    color:white;
+    padding:10px;
+}
+
+.client-table td{
+    padding:10px;
+    border:1px solid #ddd;
+}
+
+.client-table tr:nth-child(even){
+    background:#f5f5f5;
+}
+
+.client-table tr:hover{
+    background:#e9f2ff;
+}
+/* Client Form Styling */
+
+.client-form{
+width:400px;
+margin:auto;
+background:#f9f9f9;
+padding:25px;
+border-radius:8px;
+box-shadow:0px 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Edit Client Container */
+.edit-client-box {
+    width: 450px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Title */
+.edit-client-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Form Group */
+.edit-group {
+    margin-bottom: 15px;
+}
+
+/* Labels */
+.edit-group label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+/* Inputs */
+.edit-form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+/* Focus Effect */
+.edit-form input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0,123,255,0.3);
+}
+
+/* Button Section */
+.edit-btn-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+/* Update Button */
+.edit-save-btn {
+    background: #28a745;
+    color: #fff;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.edit-save-btn:hover {
+    background: #218838;
+}
+
+/* Cancel Button */
+.edit-cancel-btn {
+    text-decoration: none;
+    background: #dc3545;
+    color: #fff;
+    padding: 10px 18px;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.edit-cancel-btn:hover {
+    background: #c82333;
+}
+
+.client-form input{
+width:100%;
+padding:8px;
+margin-bottom:15px;
+border:1px solid #ccc;
+border-radius:5px;
+}
+
+.client-form button{
+width:100%;
+padding:10px;
+background:#28a745;
+color:white;
+border:none;
+border-radius:5px;
+cursor:pointer;
+}
+
+.client-form button:hover{
+background:#218838;
+}
+/* Edit Client Form */
+
+.form-box{
+    width:400px;
+    margin:40px auto;
+    padding:25px;
+    background:#ffffff;
+    border-radius:8px;
+    box-shadow:0px 3px 10px rgba(0,0,0,0.1);
+}
+
+.form-box h2{
+    text-align:center;
+    margin-bottom:20px;
+    color:#2c7be5;
+}
+
+.form-box input{
+    width:100%;
+    padding:8px;
+    margin-top:5px;
+    margin-bottom:15px;
+    border:1px solid #ccc;
+    border-radius:4px;
+}
+
+.update-btn{
+    background:#007bff;
+    color:white;
+    border:none;
+    padding:10px;
+    width:100%;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.update-btn:hover{
+    background:#0056b3;
+}
+
+.delete-btn{
+    background:#dc3545;
+    color:white;
+    padding:5px 10px;
+    text-decoration:none;
+    border-radius:4px;
+}
+
+.delete-btn:hover{
+    background:#a71d2a;
+}
+
+/* ============================= */
+/* ACCOUNTS MODULE CSS */
+/* ============================= */
+
+.acc-title {
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.acc-create-btn {
+    display: inline-block;
+    padding: 10px 18px;
+    background: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.acc-create-btn:hover {
+    background: #45a049;
+}
+
+.acc-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.acc-table th {
+    background: #2c3e50;
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+
+.acc-table td {
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+}
+
+.acc-table tr:hover {
+    background: #f1f1f1;
+}
+
+.acc-no-data {
+    text-align: center;
+    padding: 20px;
+    color: #888;
+}
+
+.acc-badge {
+    padding: 5px 10px;
+    border-radius: 12px;
+    font-size: 12px;
+    color: #fff;
+}
+
+.acc-badge.red {
+    background: #e74c3c;
+}
+
+.acc-badge.green {
+    background: #2ecc71;
+}
+
+/* ============================= */
+/* FACTORY MODULE CSS */
+/* ============================= */
+
+.fac-title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Button */
+.fac-add-btn {
+    display: inline-block;
+    margin-bottom: 15px;
+    background: #007bff;
+    color: #fff;
+    padding: 10px 16px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.fac-add-btn:hover {
+    background: #0056b3;
+}
+
+/* Container */
+.fac-table-container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* Table */
+.fac-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.fac-table th {
+    background: #343a40;
+    color: #fff;
+    padding: 12px;
+    text-align: left;
+    font-size: 14px;
+}
+
+.fac-table td {
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+    font-size: 14px;
+}
+
+.fac-table tr:hover {
+    background: #f1f1f1;
+}
+
+/* Status */
+.fac-status-done {
+    color: #28a745;
+    font-weight: bold;
+}
+
+.fac-status-pending {
+    color: #dc3545;
+    font-weight: bold;
+}
+/* calculator start*/
+.calc-module {
+    background: #f4f4f4;
+    min-height: 100vh;
+    padding: 40px;
+}
+
+.calc-card-box {
+    background: #fff;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+/* Row layout */
+.calc-row {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.calc-col {
+    flex: 1;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    color: #555;
+}
+
+/* Inputs like screenshot */
+.calc-input-light {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+/* Green button */
+.calc-btn-green {
+    background: #5cd32b;
+    color: #fff;
+    border: none;
+    padding: 12px 40px;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.calc-btn-green:hover {
+    background: #4cbf22;
+}
+ /*calculator result table after uploading txt file  */
+ /* Container */
+.card-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+/* Card */
+.card {
+    background:#fafafa;
+    border-radius: 10px;
+    padding: 15px;
+    width: 260px;
+    border: 1px solid #e0e0e0;
+}
+
+/* Heading */
+.card h3 {
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+/* Text */
+.card p {
+    margin: 3px 0;
+    font-size: 14px;
+    color: #555;
+}
+
+/* Table */
+.card table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+/* Table header */
+.card th {
+    text-align: left;
+    font-size: 13px;
+    color: #666;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+
+/* Table data */
+.card td {
+    font-size: 13px;
+    padding: 5px 0;
+    border-bottom: 1px solid #eee;
+}
+
+/* No data row */
+.card td[colspan="3"] {
+    text-align: center;
+    color: #999;
+}
+.input-error {
+    border: 2px solid red !important;
+}
+
+.error-text {
+    color: red;
+    font-size: 12px;
+}
+ /*calculator result table after uploading txt file end   */
+/* calculator end*/
+/* Messages */
+.success {
+    color: green;
+    margin-top: 10px;
+}
+
+.error {
+    color: red;
+    margin-top: 10px;
+}
+/* CAD FORM CSS */
+
+/* Wrapper */
+.cad-wrap {
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Title */
+.cad-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: #2a7bd3;
+}
+
+/* Box */
+.cad-box {
+    background: #fff;
+    padding: 25px;
+    border-radius: 8px;
+}
+
+/* Form Layout */
+.cad-group {
+    margin-bottom: 18px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Labels */
+.cad-group label {
+    font-size: 14px;
+    margin-bottom: 6px;
+    color: #333;
+}
+
+/* Inputs */
+.cad-group input,
+.cad-group textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    transition: 0.2s;
+}
+
+/* Focus Effect */
+.cad-group input:focus,
+.cad-group textarea:focus {
+    border-color: #2a7bd3;
+    outline: none;
+    box-shadow: 0 0 3px rgba(42, 123, 211, 0.3);
+}
+
+/* Textarea */
+.cad-group textarea {
+    height: 90px;
+}
+
+/* Checkbox Section */
+.cad-check {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+/* Checkbox Styling */
+.cad-check input {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+/* Buttons Container */
+.cad-btn {
+    margin-top: 20px;
+    padding: 10px;
+    width: 48%;
+    background: #2a7bd3;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* Back Button */
+.cad-back {
+    display: inline-block;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    width: 48%;
+    background: #6c757d;
+    color: #fff;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+/* Button Row */
+.cad-btn,
+.cad-back {
+    display: inline-block;
+}
+
+/* Responsive Button Fix */
+.cad-box form {
+    display: flex;
+    flex-direction: column;
+}
+
+.cad-box form .cad-btn,
+.cad-box form .cad-back {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.cad-error {
+    background: #fdecea;
+    color: #d93025;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.cad-err {
+    color: red;
+    font-size: 12px;
+    margin-top: 3px;
+}
+/* ============================= */
+/* CAD LIST CSS */
+/* ============================= */
+
+.cad-table-container {
+    width: 95%;
+    margin: 30px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+/* Title */
+.cad-title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+/* Create Button */
+.cad-btn-create {
+    display: inline-block;
+    margin-bottom: 15px;
+    background: #28a745;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.cad-btn-create:hover {
+    background: #218838;
+}
+
+/* Table */
+.cad-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.cad-table th {
+    background: #28a745;
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+
+.cad-table td {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.cad-table tr:hover {
+    background: #f9f9f9;
+}
+
+/* Download Button */
+.cad-btn-download {
+    background: #007bff;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.cad-btn-download:hover {
+    background: #0056b3;
+}
+
+/* Status Badge */
+.cad-badge-yes {
+    background: #28a745;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+.cad-badge-no {
+    background: #dc3545;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+}
+/* PAGE */
+.sal-page {
+    padding: 20px;
+}
+
+/* HEADER */
+.sal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* SEARCH */
+.sal-search-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.sal-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.sal-btn-search,
+.sal-btn-reset {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.sal-btn-search {
+    background: #333;
+    color: white;
+}
+
+.sal-btn-reset {
+    background: #777;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+/* TABLE */
+.sal-table-container {
+    overflow-x: auto;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.sal-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.sal-table th {
+    background: #007bff;
+    color: white;
+    padding: 12px;
+}
+
+.sal-table td {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.sal-table tr:hover {
+    background: #f5f5f5;
+}
+
+/* BADGES */
+.sal-badge {
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    color: white;
+}
+
+.sal-badge.warning {
+    background: #f0ad4e;
+    color: black;
+}
+
+.sal-badge.success {
+    background: #28a745;
+}
+
+.sal-badge.primary {
+    background: #007bff;
+}
+
+/* ===== ACCOUNT MODULE CSS (SAFE PREFIX: acc-) ===== */
+
+.acc-title {
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.acc-container {
+    background: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    max-width: 700px;
+}
+
+.acc-form {
+    width: 100%;
+}
+
+.acc-row {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 15px;
+}
+
+.acc-group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.acc-group label {
+    font-weight: 500;
+    margin-bottom: 6px;
+    color: #555;
+}
+
+.acc-group input,
+.acc-group select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.acc-group input:focus,
+.acc-group select:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 4px rgba(0,123,255,0.3);
+}
+
+/* Message */
+.acc-msg {
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+/* Checkbox */
+.acc-checkbox {
+    margin-top: 15px;
+}
+
+.acc-label {
+    font-weight: 600;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.acc-check-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.acc-check-list label {
+    font-weight: 400;
+}
+
+/* Buttons */
+.acc-btn-group {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.acc-btn {
+    padding: 10px 18px;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Reminder Button */
+.acc-reminder {
+    background: #ffc107;
+    color: #000;
+}
+
+.acc-reminder:hover {
+    background: #e0a800;
+}
+
+/* Save Button */
+.acc-save {
+    background: #28a745;
+    color: #fff;
+}
+
+.acc-save:hover {
+    background: #218838;
+}
+.accf-checkbox-group {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.accf-checkbox-group label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 6px;
+    font-size: 14px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .acc-row {
+        flex-direction: column;
+    }
+
+    .acc-container {
+        padding: 15px;
+    }
+}
+/* ===== FORM ===== */
+/* Title */
+.qt-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+/* Container */
+.qt-container {
+    max-width: 700px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 6px;
+}
+
+/* Row */
+.qt-row {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 15px;
+}
+
+/* Fields */
+.qt-field {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.qt-field.full {
+    width: 100%;
+}
+
+/* Inputs */
+.qt-field label {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.qt-field input,
+.qt-field select {
+    padding: 9px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Checkbox */
+.qt-check {
+    margin: 15px 0;
+}
+
+.qt-check-label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+/* Hide default */
+.qt-check-label input {
+    display: none;
+}
+
+/* Custom checkbox */
+.qt-check-box {
+    width: 18px;
+    height: 18px;
+    border: 2px solid #1e88e5;
+    border-radius: 4px;
+    position: relative;
+}
+
+/* Tick */
+.qt-check-label input:checked + .qt-check-box::after {
+    content: "✔";
+    position: absolute;
+    top: -2px;
+    left: 2px;
+    font-size: 13px;
+    color: #1e88e5;
+}
+
+/* Buttons */
+.qt-actions {
+    margin-bottom: 15px;
+}
+
+.qt-calc {
+    padding: 8px 15px;
+    background: #1e88e5;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.qt-submit {
+    margin-top: 20px;
+    padding: 10px;
+    width: 100%;
+    background: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Breakdown */
+.qt-break {
+    background: #f5f7fa;
+    padding: 10px;
+    border-radius: 5px;
+    min-height: 40px;
+}
+
+/* ===== LIST PAGE ===== */
+.quotation-list {
+    width: 80%;
+    margin: 40px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Create Button */
+.create-btn {
+    display: inline-block;
+    padding: 10px 15px;
+    background: #2ecc71;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.create-btn:hover {
+    background: #27ae60;
+}
+
+/* Table */
+.q-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.q-table th,
+.q-table td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.q-table th {
+    background-color: #3498db;
+    color: white;
+}
+
+/* Row hover */
+.q-table tr:hover {
+    background-color: #f1f2f6;
+}
+
+/* Action button */
+.download-btn {
+    padding: 6px 10px;
+    background: #9b59b6;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.download-btn:hover {
+    background: #8e44ad;
+}
+/* Status Dropdown Styling */
+.status-dropdown {
+    width: 100%;
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    background-color: #f8f9fa;
+    font-size: 14px;
+    font-weight: 500;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+     appearance: none;
+    background-image: url("data:image/svg+xml;utf8,<svg fill='%23333' height='20' viewBox='0 0 20 20' width='20'><path d='M5 7l5 5 5-5z'/></svg>");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 16px;
+}
+
+/* Hover Effect */
+.status-dropdown:hover {
+    border-color: #007bff;
+    background-color: #eef6ff;
+}
+
+/* Focus (Blue Glow like your screenshot) */
+.status-dropdown:focus {
+    border-color: #4c6fff;
+    box-shadow: 0 0 0 3px rgba(76, 111, 255, 0.2);
+    background-color: #fff;
+}
+
+/* Status Colors (Dynamic Feel) */
+.status-dropdown option[value="Proposed by Client"] {
+    color: #6c757d;
+}
+
+.status-dropdown option[value="Approved by Client"] {
+    color: #28a745;
+}
+
+.status-dropdown option[value="Create Final Quote"] {
+    color: #007bff;
+}
+/* Action Menu */
+.action-menu {
+    position: relative;
+    display: inline-block;
+}
+
+.action-btn {
+    background: #6c63ff;
+    color: #fff;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+/* Dropdown */
+.action-dropdown {
+    display: none;
+    position: absolute;
+    right: 0;
+    background: #fff;
+    min-width: 160px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    border-radius: 8px;
+    overflow: hidden;
+    z-index: 100;
+}
+
+/* Links */
+.action-dropdown a {
+    display: block;
+    padding: 10px 12px;
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+    transition: 0.2s;
+}
+
+.action-dropdown a:hover {
+    background: #f1f1f1;
+}
+
+/* Show Dropdown */
+.action-menu:hover .action-dropdown {
+    display: block;
+}
+
+/* ===== SHIPPING MODULE CSS START ===== */
+/* MAIN WRAPPER (FULL WIDTH FIX) */
+.shipping-wrapper {
+    width: 100%;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+/* SHIPPING FILTER CARD */
+
+.ship-filter-card{
+
+    background: #ffffff;
+    border-radius: 14px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    margin-bottom: 25px;
+
+}
+
+/* LABELS */
+
+.ship-label{
+
+    font-size: 14px;
+    font-weight: 600;
+    color: #374151;
+    margin-bottom: 6px;
+    display: block;
+
+}
+
+/* INPUTS */
+
+.ship-input{
+
+    height: 42px;
+    border-radius: 8px;
+    border: 1px solid #dbe2ea;
+    font-size: 14px;
+    box-shadow: none;
+
+}
+
+.ship-input:focus{
+
+    border-color: #1f6feb;
+    box-shadow: none;
+
+}
+
+/* BUTTONS */
+
+.ship-btn{
+
+    height: 42px;
+    border-radius: 8px;
+    padding: 0 18px;
+    font-size: 14px;
+    font-weight: 500;
+
+}
+
+/* BUTTON GROUP */
+
+.ship-btn-group{
+
+    display: flex;
+    gap: 10px;
+
+}
+
+/* TITLE */
+.shipping-heading {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+/* ADD BUTTON */
+.btn-add {
+    display: inline-block;
+    background: #16a34a;
+    color: #fff;
+    padding: 8px 15px;
+    margin-bottom: 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn-add:hover {
+    background: #15803d;
+}
+
+/* TABLE FULL WIDTH */
+.shipping-table-new {
+    width: 100% !important;
+    border-collapse: collapse;
+    background: #fff;
+}
+.shipping-table-new td:nth-child(4),
+.shipping-table-new th:nth-child(4) {
+    text-align: center;
+}
+/* GFJ No (2), Product (3), Tracking (5) */
+.shipping-table-new td:nth-child(2),
+.shipping-table-new th:nth-child(2),
+.shipping-table-new td:nth-child(3),
+.shipping-table-new th:nth-child(3),
+.shipping-table-new td:nth-child(5),
+.shipping-table-new th:nth-child(5),
+.shipping-table-new td:nth-child(6),
+.shipping-table-new th:nth-child(6) {
+    text-align: center;
+}
+
+/* HEADER */
+.shipping-table-new th {
+    background: #1976d2;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+}
+
+/* CELLS */
+.shipping-table-new td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+/* ROW STYLE */
+.shipping-table-new tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+/* DELETE BUTTON */
+.btn-delete {
+    background: #dc2626;
+    color: #fff;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn-delete:hover {
+    background: #b91c1c;
+}
+/* MAIN FORM CONTAINER */
+.shipping-form {
+    width: 100%;        /* ✅ full width */
+    margin: 0;          /* ✅ remove center */
+    padding: 20px;      /* ✅ spacing */
+}
+
+/* ROW (HORIZONTAL) */
+/* FORM BOX */
+.usr-edit-form {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    margin-bottom: 25px;
+}
+
+/* TITLE */
+.usr-edit-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+/* FIELD BLOCK */
+.usr-field {
+    margin-bottom: 18px;
+}
+
+/* LABEL */
+.usr-field label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+}
+
+/* INPUT + SELECT */
+.usr-field input,
+.usr-field select {
+    width: 100%;
+    padding: 11px 12px;
+    border-radius: 8px;
+    border: 1px solid #dcdcdc;
+    font-size: 14px;
+    background: #f7f9fc;
+    transition: all 0.2s ease;
+}
+
+/* FOCUS */
+.usr-field input:focus,
+.usr-field select:focus {
+    border-color: #1976d2;
+    background: #fff;
+    outline: none;
+}
+
+/* BUTTON */
+.usr-btn {
+    margin-top: 10px;
+    background: #1976d2;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* HOVER */
+.usr-btn:hover {
+    background: #125aa0;
+}
+
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background: #f9fafb;
+    padding: 10px 14px;
+    border-radius: 8px;
+    border: 1px solid #e5e7eb;
+    width: fit-content;
+}
+
+.checkbox-group input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+.checkbox-group label {
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+}
+
+.checkbox-group .hint {
+    font-size: 12px;
+    color: #6b7280;
+    font-weight: normal;
+}
+
+/* TEXTAREA FULL WIDTH */
+.full-width {
+    width: 100%;
+}
+
+/* MODULE ACCESS */
+.module-group {
+    margin-top: 10px;
+}
+
+.module-options {
+    display: flex;
+    gap: 40px;
+    margin-top: 5px;
+}
+
+.module-options label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* BUTTON */
+.btn-save {
+    margin-top: 20px;
+    padding: 8px 15px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-save:hover {
+    background: #0056b3;
+}
+
+
+.module-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.module-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 18px;
+    border-radius: 12px;
+    border: 2px solid #e0e0e0;
+    cursor: pointer;
+    background: #fff;
+    font-weight: 500;
+    transition: 0.3s;
+    position: relative;
+}
+
+/* Hide checkbox */
+.module-item input {
+    display: none;
+}
+
+/* Hover */
+.module-item:hover {
+    border-color: #007bff;
+    transform: translateY(-3px);
+}
+
+/* Selected FULL BOX */
+.module-item.active {
+    background: #007bff;
+    color: #fff;
+    border-color: #007bff;
+    box-shadow: 0 4px 12px rgba(0,123,255,0.3);
+}
+.module-item.active span::before {
+    content: "✔ ";
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+/* Tick mark */
+.module-item.active span::before {
+    content: "✔ ";
+    font-weight: bold;
+}
+
+.user-title {
+    margin-bottom: 20px;
+}
+
+.block-title {
+    color: #1e88e5;
+    margin: 25px 0 15px;
+}
+
+.grid-row {
+    display: flex;
+    gap: 18px;
+    margin-bottom: 15px;
+}
+
+.field-box {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.field-box.full {
+    width: 100%;
+}
+
+.field-box label {
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.field-box input,
+.field-box select,
+.field-box textarea {
+    padding: 9px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.field-box textarea {
+    height: 85px;
+}
+
+
+.access-item {
+    font-size: 14px;
+}
+
+.mail-option {
+    display: block;
+    margin-top: 15px;
+}
+
+.btn-save {
+    margin-top: 20px;
+    padding: 10px 18px;
+    background: #1e88e5;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.email-box {
+    margin-top: 20px;
+    padding: 12px 15px;
+    background: #f5f7fa;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    width: fit-content;
+}
+
+.email-label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 14px;
+    gap: 10px;
+}
+
+/* Hide default checkbox */
+.email-label input {
+    display: none;
+}
+
+/* Custom checkbox */
+.custom-check {
+    width: 18px;
+    height: 18px;
+    border: 2px solid #1e88e5;
+    border-radius: 4px;
+    position: relative;
+}
+
+/* Tick */
+.email-label input:checked + .custom-check::after {
+    content: "✔";
+    position: absolute;
+    top: -2px;
+    left: 2px;
+    font-size: 14px;
+    color: #1e88e5;
+}
+
+.mail-icon {
+    font-size: 16px;
+}
+
+.access-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    margin-top: 10px;
+}
+
+.access-card {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    cursor: pointer;
+    background: #f9fafc;
+    transition: 0.2s;
+}
+
+/* Hover effect */
+.access-card:hover {
+    border-color: #1e88e5;
+    background: #eef5ff;
+}
+
+/* Hide default checkbox */
+.access-card input {
+    display: none;
+}
+
+/* Custom checkbox */
+.check-ui {
+    width: 18px;
+    height: 18px;
+    border: 2px solid #1e88e5;
+    border-radius: 4px;
+    position: relative;
+}
+
+/* Checked state */
+.access-card input:checked + .check-ui::after {
+    content: "✔";
+    position: absolute;
+    top: -2px;
+    left: 2px;
+    font-size: 13px;
+    color: #1e88e5;
+}
+
+/* Highlight selected card */
+.access-card input:checked ~ span {
+    font-weight: 600;
+}
+
+.access-card input:checked + .check-ui {
+    background: #e3f0ff;
+}
+
+
+/* USER LIST CODE START  */
+
+/* Title */
+.ul-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+/* Top Buttons */
+.ul-actions {
+    margin-bottom: 15px;
+}
+
+.ul-btn {
+    padding: 8px 14px;
+    border-radius: 5px;
+    font-size: 14px;
+    text-decoration: none;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+/* Button Colors */
+.ul-add {
+    background: #28a745;
+    color: #fff;
+}
+
+.ul-back {
+    background: #007bff;
+    color: #fff;
+}
+
+.ul-edit {
+    background: #ffc107;
+    color: #000;
+    padding: 5px 10px;
+}
+
+.ul-delete {
+    background: #dc3545;
+    color: #fff;
+    padding: 5px 10px;
+}
+
+/* Table */
+.ul-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+/* Header */
+.ul-table th {
+    background: #1e88e5;
+    color: #fff;
+    padding: 12px;
+    font-size: 14px;
+    text-align: left;
+}
+
+/* Body */
+.ul-table td {
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+    font-size: 14px;
+}
+
+/* Hover */
+.ul-table tr:hover {
+    background: #f4f8ff;
+}
+
+/* Role Badge */
+.ul-role {
+    background: #eef5ff;
+    color: #1e88e5;
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 12px;
+}
+
+/* Status Badge */
+.ul-status {
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+/* Active = Green */
+.ul-status.active {
+    background-color: #d4edda;
+    color: #28a745;
+}
+
+/* Inactive = Red */
+.ul-status.inactive {
+    background-color: #f8d7da;
+    color: #dc3545;
+}
+.ul-status::before {
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-right: 6px;
+}
+
+/* Green dot */
+.ul-status.active::before {
+    background-color: #28a745;
+}
+
+/* Red dot */
+.ul-status.inactive::before {
+    background-color: #dc3545;
+}
+.ul-status:hover {
+    transform: scale(1.05);
+    transition: 0.2s;
+}
+
+/* Delete Selected */
+.ul-delete-all {
+    margin-top: 15px;
+    padding: 8px 15px;
+    background: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Checkbox */
+.ul-table input[type="checkbox"] {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+/*USER LIST CODE END  */
+
+
+/* Container */
+.sl-container {
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 6px;
+}
+
+/* Title */
+.sl-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+/* Row */
+.sl-row {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 15px;
+}
+
+/* Field */
+.sl-field {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.sl-field.full {
+    width: 100%;
+}
+
+/* Labels */
+.sl-field label {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+/* Inputs */
+.sl-field input,
+.sl-field select,
+.sl-field textarea {
+    padding: 9px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Textarea */
+.sl-field textarea {
+    height: 80px;
+}
+
+/* File Preview */
+.sl-preview-box {
+    margin-top: 10px;
+}
+
+.sl-preview-box img {
+    border-radius: 6px;
+    border: 1px solid #ddd;
+}
+
+/* Button */
+.sl-submit {
+    margin-top: 20px;
+    padding: 10px;
+    width: 100%;
+    background: #1e88e5;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Page Background */
+
+/* Title */
+.or-title {
+    text-align: center;
+    margin-bottom: 4px;
+    font-weight: 600;
+    color: #2a7bd3;
+}
+
+.or-subtitle {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 13px;
+    color: #777;
+}
+
+/* Container */
+.or-container {
+    max-width: 820px;
+    margin: auto;
+}
+
+/* CARD */
+.or-card {
+    background: #fff;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #eee;
+    transition: 0.2s;
+}
+
+/* Hover effect */
+.or-card:hover {
+    box-shadow: 0 6px 18px rgba(0,0,0,0.05);
+}
+
+/* Highlight card */
+.highlight-card {
+    border-left: 4px solid #2a7bd3;
+}
+
+/* Header */
+.or-card-header {
+    padding: 14px 18px;
+    font-weight: 600;
+    border-bottom: 1px solid #f0f0f0;
+    color: #333;
+}
+
+/* Body */
+.or-card-body {
+    padding: 18px;
+}
+
+/* Row */
+.or-row {
+    display: flex;
+       min-width: 0;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+/* Field */
+.or-field {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Full width */
+.full-width {
+    flex: 100%;
+}
+
+/* Labels */
+.or-field label {
+    font-size: 12px;
+    margin-bottom: 6px;
+    color: #666;
+}
+
+/* Inputs */
+.or-field input {
+    padding: 11px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    background: #fff;
+    transition: 0.2s;
+     width: 100%;
+    max-width: 100%;
+}
+
+/* Focus */
+.or-field input:focus {
+    border-color: #2a7bd3;
+    box-shadow: 0 0 0 2px rgba(42,123,211,0.1);
+    outline: none;
+}
+
+/* Readonly */
+.or-field input[readonly] {
+    background: #f3f4f6;
+    color: #888;
+}
+
+/* Final Weight Highlight */
+.highlight-field {
+    background: #eef6ff;
+    font-weight: 600;
+}
+
+/* Footer */
+.or-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+/* Checkbox */
+.or-check {
+    margin-top: 15px;
+}
+
+.or-check label {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    color: #333;
+    cursor: pointer;
+}
+
+/* checkbox styling */
+.or-check input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    margin: 0;
+}
+
+/* Button */
+.or-btn-primary {
+    padding: 10px 24px;
+    background: #2a7bd3;
+    color: #fff;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+/* Hover */
+.or-btn-primary:hover {
+    background: #1e5fa8;
+    transform: translateY(-1px);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .or-row {
+        flex-direction: column;
+    }
+
+    .or-footer {
+        flex-direction: column;
+        gap: 12px;
+        align-items: stretch;
+    }
+
+    .or-btn-primary {
+        width: 100%;
+    }
+}
+
+/* setting   */
+/* Wrapper */
+.crm-settings-wrapper {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f4f7fb;
+    padding: 20px;
+}
+
+/* Title */
+.crm-settings-title {
+    font-size: 24px;
+    color: #1e293b;
+    margin-bottom: 20px;
+}
+
+/* Cards */
+.settings-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.06);
+    transition: 0.3s;
+}
+
+.settings-card:hover {
+    transform: translateY(-3px);
+}
+
+/* Headings */
+.settings-card h3 {
+    border-left: 4px solid #3b82f6;
+    padding-left: 10px;
+    color: #334155;
+}
+
+/* Inputs */
+.settings-card input[type="password"],
+.settings-card input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+/* Buttons */
+.settings-card button {
+    margin-top: 10px;
+    background: linear-gradient(135deg, #3b82f6, #60a5fa);
+    border: none;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.password-wrapper {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.password-wrapper input {
+    width: 100%;
+     padding: 10px 40px 10px 10px;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+
+.toggle-password {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #555;
+}
+
+.toggle-password i {
+    font-size: 16px;
+}
+
+.settings-card button:hover {
+    background: linear-gradient(135deg, #2563eb, #3b82f6);
+}
+
+/* Image */
+#profilePreview {
+    border-radius: 50%;
+    border: 3px solid #3b82f6;
+    padding: 3px;
+}
+
+/* Checkbox */
+.settings-card label {
+    margin-right: 15px;
+    color: #475569;
+}
+/* Profile wrapper layout */
+.profile-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+/* Upload section */
+.upload-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Image */
+#profilePreview {
+    border-radius: 50%;
+    border: 3px solid #3b82f6;
+    padding: 3px;
+    width: 100px;
+    height: 100px;
+}
+
+/* File input */
+.upload-section input[type="file"] {
+    border: 1px dashed #ccc;
+    padding: 10px;
+    border-radius: 8px;
+    background: #f9fafb;
+}
+
+/* Button */
+.upload-section button {
+    width: fit-content;
+}
+
+/* Notification section fix */
+.settings-card form {
+    display: block; /* ✅ reset flex if applied */
+    text-align: left; /* ✅ left align everything */
+}
+
+/* Label fix */
+.settings-card form label {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin: 6px 0;
+}
+
+/* Checkbox alignment */
+.settings-card input[type="checkbox"] {
+    margin: 0;
+    vertical-align: middle;
+}
+.settings-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.crm-dashboard-btn {
+    text-decoration: none;
+    background: linear-gradient(135deg, #10b981, #34d399);
+    color: white;
+    padding: 8px 14px;
+    border-radius: 8px;
+    font-size: 14px;
+    transition: 0.3s;
+     margin-top: -5px;
+}
+
+.crm-dashboard-btn:hover {
+    background: linear-gradient(135deg, #059669, #10b981);
+    transform: translateY(-1px);
+}
+.settings-card:first-of-type {
+    margin-top: 20px; /* 🔥 push card down */
+}
+
+
+/* profile css start  */
+.usr-profile-form {
+    background: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    width: 350px;
+}
+
+.usr-profile-title {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.usr-field {
+    margin-bottom: 15px;
+}
+
+.usr-field label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.usr-field input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+.usr-btn {
+    background: #1976d2;
+    color: #fff;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+/* profile css end   */
+
+/* ===== SHIPMENT FORM UI ===== */
+
+.shipment-box {
+    width: 720px;
+    margin: 30px auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 12px 35px rgba(0,0,0,0.08);
+}
+
+/* Row Layout */
+.shipment-line {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 18px;
+}
+
+/* Field Wrapper */
+.shipment-field {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Full Width */
+.shipment-wide {
+    width: 100%;
+}
+
+/* Labels */
+.shipment-field label {
+    font-size: 13.5px;
+    font-weight: 600;
+    color: #444;
+    margin-bottom: 6px;
+}
+
+/* Inputs, Select, Textarea */
+.shipment-field input,
+.shipment-field select,
+.shipment-field textarea {
+    padding: 12px;
+    border-radius: 12px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    background: #f9fbfd;
+    transition: 0.25s ease;
+}
+
+/* Focus Effect */
+.shipment-field input:focus,
+.shipment-field select:focus,
+.shipment-field textarea:focus {
+    border-color: #4a90e2;
+    background: #ffffff;
+    outline: none;
+    box-shadow: 0 0 6px rgba(74,144,226,0.25);
+}
+
+/* Readonly Fields */
+.shipment-field input[readonly] {
+    background: #eef1f5;
+    color: #666;
+}
+
+/* Textarea */
+.shipment-field textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+/* Checkbox */
+.shipment-toggle {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.shipment-toggle input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    margin: 0;
+}
+
+.shipment-toggle label {
+    font-size: 14px;
+    color: #333;
+    cursor: pointer;
+}
+
+.shipment-toggle .hint {
+    font-size: 12px;
+    color: #888;
+    margin-left: 6px;
+}
+
+/* Button */
+.shipment-submit {
+    width: 100%;
+    margin-top: 25px;
+    padding: 14px;
+    border-radius: 12px;
+    border: none;
+    background: linear-gradient(135deg, #6c5ce7, #8e7dff);
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.shipment-submit:hover {
+    transform: translateY(-1px);
+    background: linear-gradient(135deg, #5a4bd6, #7a6df0);
+}
+
+.shipment-submit:active {
+    transform: scale(0.98);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .shipment-box {
+        width: 90%;
+    }
+
+    .shipment-line {
+        flex-direction: column;
+    }
+}
+/* ===== SHIPMENT FORM U end  ===== */
+/*------ Payment coding start -----*/
+.payment-container {
+    max-width: 500px;
+    margin: 40px auto;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.01);
+}
+
+.payment-container h2 {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.payment-container label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 500;
+}
+
+.payment-container input,
+.payment-container select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+     margin-top: 5px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    box-sizing: border-box; 
+}
+
+.payment-container input:focus,
+.payment-container select:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+.payment-container button {
+    width: 100%;
+    padding: 12px;
+    background: #3399cc;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.payment-container button:hover {
+    background:#287aa3;
+}
+/*------ Payment coding end  -----*/
+
+
+/* Action buttons container */
+.pay-history-actions {
+    margin-bottom: 15px;
+}
+
+/* Back button */
+.pay-back-btn {
+    background: #6c757d;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+/* PDF button */
+.pay-pdf-btn {
+    background: #dc3545;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* Table */
+.pay-history-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+}
+
+/* Borders */
+.pay-history-table th,
+.pay-history-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Header */
+.pay-history-table th {
+    background-color: #515050;
+    font-weight: bold;
+}
+
+/* Zebra rows */
+.pay-history-table tr:nth-child(even) {
+    background-color: #fafafa;
+}
+
+/* Hover */
+.pay-history-table tr:hover {
+    background-color: #f1f1f1;
+}
+/* Action cell */
+.acc-action-cell {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+/* Common button style */
+.acc-btn {
+    padding: 6px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+/* Pay button */
+.pay-btn {
+    background-color: #28a745;
+}
+
+.pay-btn:hover {
+    background-color: #218838;
+}
+
+/* History button */
+.history-btn {
+    background-color: #007bff;
+}
+
+.history-btn:hover {
+    background-color: #0069d9;
+}
+
+/* ============================= */
+/* ROSTER MODULE list CSS (SCOPED) */
+/* ============================= */
+
+/* ============================= */
+/* MAIN CARD */
+/* ============================= */
+.roster-ui-card {
+    background: #f5f6fa;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+/* ============================= */
+/* HEADER */
+/* ============================= */
+.roster-ui-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.roster-ui-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+}
+
+/* BUTTON */
+.roster-ui-btn {
+    background: #6c63ff;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 14px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+/* ============================= */
+/* TABLE */
+/* ============================= */
+.roster-ui-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.error{
+    color:red;
+    font-size:12px;
+    margin-top:5px;
+    display:block;
+}
+
+.error-border{
+    border:1px solid red;
+}
+
+
+/* HEADER */
+.roster-ui-table th {
+    text-align: left;
+    padding: 14px;
+    font-size: 13px;
+    color: #777;
+    background: #f8f8f8;
+    border-bottom: 1px solid #eee;
+}
+
+/* BODY */
+.roster-ui-table td {
+    padding: 16px 14px;
+    font-size: 14px;
+    color: #333;
+    border-bottom: 1px solid #eee;
+    vertical-align: middle;
+}
+
+/* SALES MULTI LINE */
+.roster-ui-sales {
+    line-height: 1.5;
+    color: #555;
+}
+
+/* ============================= */
+/* ACTION */
+/* ============================= */
+.act-cell {
+    position: relative;
+    text-align: center;
+}
+.badge {
+    background: #eef3ff;
+    color: #2c3e50;
+    padding: 4px 8px;
+    border-radius: 6px;
+    margin: 2px;
+    display: inline-block;
+    font-size: 12px;
+}
+
+/* 3 DOT */
+.act-btn {
+    cursor: pointer;
+    font-size: 18px;
+    padding: 6px;
+    border-radius: 6px;
+}
+
+.act-btn:hover {
+    background: #eeeeee;
+}
+
+/* ============================= */
+/* DROPDOWN */
+/* ============================= */
+.act-menu {
+    position: absolute;
+    top: 38px;
+    right: 0;
+    width: 150px;
+    background: #f3f3f3;
+    border-radius: 10px;
+    box-shadow: 0 6px 14px rgba(0,0,0,0.15);
+    padding: 8px 0;
+    display: none;
+    z-index: 9999;
+}
+
+/* ITEMS */
+.act-menu a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 16px;
+    margin: 2px 6px;
+    border-radius: 6px;
+    font-size: 14px;
+    color: #333;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+/* ICONS */
+.act-menu a:first-child::before {
+    content: "✏️";
+}
+
+.act-menu a:last-child::before {
+    content: "🗑️";
+}
+
+/* HOVER */
+.act-menu a:hover {
+    background: #e7e7e7;
+}
+
+/* ============================= */
+/* TABLE FIX */
+/* ============================= */
+.roster-ui-table,
+.roster-ui-table tr,
+.roster-ui-table td {
+    overflow: visible;
+}
+/* ============================= */
+/* RESPONSIVE */
+/* ============================= */
+
+@media (max-width: 768px) {
+    .roster-module .rmf-row {
+        grid-template-columns: 1fr;
+    }
+
+    .roster-module .rmf-drag-wrapper {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+.lead-form-wrapper {
+    width: 400px;
+    margin: 40px auto;
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    font-family: Arial, sans-serif;
+}
+
+.lead-form-title {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.lead-form-label {
+    font-weight: 600;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.lead-form-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    transition: 0.3s;
+}
+
+.lead-form-input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.lead-form-btn {
+    width: 100%;
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.lead-form-btn:hover {
+    background: #0056b3;
+}
+
+.lead-form-back {
+    display: inline-block;
+    margin-top: 15px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.lead-form-back:hover {
+    text-decoration: underline;
+}
+
+.lead-success {
+    background: #d4edda;
+    color: #155724;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.lead-error {
+    background: #f8d7da;
+    color: #721c24;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.lead-table-wrapper {
+    margin: 30px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+    overflow-x: auto; /* ✅ FIX horizontal scroll */
+}
+
+/* Table */
+.lead-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Segoe UI', sans-serif;
+    min-width: 900px; /* ensures scroll appears properly */
+}
+
+/* Header */
+.lead-table thead {
+    background: linear-gradient(45deg, #007bff, #0056b3);
+    color: #fff;
+}
+
+.lead-table th {
+    padding: 14px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+
+/* Body */
+.lead-table td {
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+    font-size: 14px;
+}
+
+/* Row hover */
+.lead-table tbody tr {
+    transition: all 0.2s ease;
+}
+
+.lead-table tbody tr:hover {
+    background: #f1f7ff;
+    transform: scale(1.01); /* subtle modern effect */
+}
+
+/* Zebra striping (CRM feel) */
+.lead-table tbody tr:nth-child(even) {
+    background: #fafafa;
+}
+
+/* Status badge */
+.lead-badge {
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.lead-new {
+    background: #e3f2fd;
+    color: #007bff;
+}
+
+.lead-contacted {
+    background: #fff3cd;
+    color: #856404;
+}
+
+.lead-converted {
+    background: #e6f4ea;
+    color: #28a745;
+}
+
+.lead-lost {
+    background: #fdecea;
+    color: #dc3545;
+}
+
+/* Delete Button */
+.lead-btn-delete {
+    padding: 6px 12px;
+    background: #dc3545;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 12px;
+    transition: 0.3s;
+    display: inline-block;
+}
+
+.lead-btn-delete:hover {
+    background: #b02a37;
+    transform: translateY(-1px);
+}
+
+/* Optional: Add smooth UI feel */
+.lead-table-wrapper,
+.lead-btn-delete,
+.lead-badge {
+    transition: all 0.2s ease;
+}
+
+.whatsapp-btn{
+    background:#25D366;
+    color:white;
+    padding:8px 12px;
+    border-radius:6px;
+    text-decoration:none;
+    font-size:14px;
+}

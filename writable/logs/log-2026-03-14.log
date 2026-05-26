@@ -1,0 +1,715 @@
+DEBUG - 2026-03-14 01:37:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-14 07:07:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-14 01:37:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-14 01:37:46 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-14 01:37:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-14 01:37:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-14 01:37:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-14 01:38:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-14 01:38:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-14 01:38:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-14 01:38:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-14 01:38:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-14 01:38:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-14 01:54:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-14 01:54:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-03-14 01:55:12 --> Duplicate entry '' for key 'email'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (\'\', \'\', \'\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'$2y$10$Z5Ohyn.snTsBWQ6Jz1TNAufp4MgFx6PpJDYjTzetNM4UrYP08arLi\', \'Admin\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (\'\', \'\', \'\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'$2y$10$Z5Ohyn.snTsBWQ6Jz1TNAufp4MgFx6PpJDYjTzetNM4UrYP08arLi\', \'Admin\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (\'\', \'\', \'\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'$2y$10$Z5Ohyn.snTsBWQ6Jz1TNAufp4MgFx6PpJDYjTzetNM4UrYP08arLi\', \'Admin\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (:first_name:, :last_name:, :email:, :phone:, :status:, :address:, :city:, :state:, :zip:, :password:, :role:, :module_access:)', [...], false)
+ 5 SYSTEMPATH\Model.php(356): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(898): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(665): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\User.php(49): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\User->save()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-14 01:55:12 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '' for key 'email'
+[Method: POST, Route: user/save]
+in SYSTEMPATH\Database\BaseConnection.php on line 724.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (:first_name:, :last_name:, :email:, :phone:, :status:, :address:, :city:, :state:, :zip:, :password:, :role:, :module_access:)', [...], false)
+ 2 SYSTEMPATH\Model.php(356): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(898): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(665): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\User.php(49): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\User->save()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-14 01:55:12 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '' for key 'email'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (\'\', \'\', \'\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'$2y$10$Z5Ohyn.snTsBWQ6Jz1TNAufp4MgFx6PpJDYjTzetNM4UrYP08arLi\', \'Admin\', NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (\'\', \'\', \'\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'$2y$10$Z5Ohyn.snTsBWQ6Jz1TNAufp4MgFx6PpJDYjTzetNM4UrYP08arLi\', \'Admin\', NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (:first_name:, :last_name:, :email:, :phone:, :status:, :address:, :city:, :state:, :zip:, :password:, :role:, :module_access:)', [...], false)
+ 4 SYSTEMPATH\Model.php(356): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(898): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(665): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\User.php(49): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\User->save()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-14 01:55:12 --> [Caused by] mysqli_sql_exception: Duplicate entry '' for key 'email'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (\'\', \'\', \'\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'$2y$10$Z5Ohyn.snTsBWQ6Jz1TNAufp4MgFx6PpJDYjTzetNM4UrYP08arLi\', \'Admin\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (\'\', \'\', \'\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'$2y$10$Z5Ohyn.snTsBWQ6Jz1TNAufp4MgFx6PpJDYjTzetNM4UrYP08arLi\', \'Admin\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (\'\', \'\', \'\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'$2y$10$Z5Ohyn.snTsBWQ6Jz1TNAufp4MgFx6PpJDYjTzetNM4UrYP08arLi\', \'Admin\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (:first_name:, :last_name:, :email:, :phone:, :status:, :address:, :city:, :state:, :zip:, :password:, :role:, :module_access:)', [...], false)
+ 5 SYSTEMPATH\Model.php(356): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(898): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(665): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\User.php(49): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\User->save()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-14 01:55:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-14 01:55:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-14 01:55:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-14 01:55:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-14 13:50:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-14 19:20:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-14 13:50:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-14 13:50:22 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-14 13:50:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-14 13:50:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-14 13:50:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-14 13:51:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-14 19:21:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-14 13:51:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-14 13:51:07 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-14 13:51:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-03-14 13:51:46 --> Lock wait timeout exceeded; try restarting transaction
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('UPDATE `users` SET `first_name` = \'test\', `last_name` = \'user\', `email` = \'test@test.com\', `phone` = \'9999999999\', `role` = \'CAD Manager\'
+WHERE `users`.`id` IN (\'7\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `users` SET `first_name` = \'test\', `last_name` = \'user\', `email` = \'test@test.com\', `phone` = \'9999999999\', `role` = \'CAD Manager\'
+WHERE `users`.`id` IN (\'7\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `users` SET `first_name` = \'test\', `last_name` = \'user\', `email` = \'test@test.com\', `phone` = \'9999999999\', `role` = \'CAD Manager\'
+WHERE `users`.`id` IN (\'7\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `users` SET `first_name` = :first_name:, `last_name` = :last_name:, `email` = :email:, `phone` = :phone:, `role` = :role:
+WHERE `users`.`id` IN :users.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(407): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(1073): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(706): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Controllers\User.php(79): CodeIgniter\Model->update('7', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\User->update('7')
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-14 13:51:46 --> CodeIgniter\Database\Exceptions\DatabaseException: Lock wait timeout exceeded; try restarting transaction
+[Method: POST, Route: user/update/7]
+in SYSTEMPATH\Database\BaseConnection.php on line 724.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `users` SET `first_name` = :first_name:, `last_name` = :last_name:, `email` = :email:, `phone` = :phone:, `role` = :role:
+WHERE `users`.`id` IN :users.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(407): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(1073): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(706): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Controllers\User.php(79): CodeIgniter\Model->update('7', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\User->update('7')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-14 13:51:46 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Lock wait timeout exceeded; try restarting transaction
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `users` SET `first_name` = \'test\', `last_name` = \'user\', `email` = \'test@test.com\', `phone` = \'9999999999\', `role` = \'CAD Manager\'
+WHERE `users`.`id` IN (\'7\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `users` SET `first_name` = \'test\', `last_name` = \'user\', `email` = \'test@test.com\', `phone` = \'9999999999\', `role` = \'CAD Manager\'
+WHERE `users`.`id` IN (\'7\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `users` SET `first_name` = :first_name:, `last_name` = :last_name:, `email` = :email:, `phone` = :phone:, `role` = :role:
+WHERE `users`.`id` IN :users.id:', [...], false)
+ 4 SYSTEMPATH\Model.php(407): CodeIgniter\Database\BaseBuilder->update()
+ 5 SYSTEMPATH\BaseModel.php(1073): CodeIgniter\Model->doUpdate([...], [...])
+ 6 SYSTEMPATH\Model.php(706): CodeIgniter\BaseModel->update([...], [...])
+ 7 APPPATH\Controllers\User.php(79): CodeIgniter\Model->update('7', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\User->update('7')
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-14 13:51:46 --> [Caused by] mysqli_sql_exception: Lock wait timeout exceeded; try restarting transaction
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('UPDATE `users` SET `first_name` = \'test\', `last_name` = \'user\', `email` = \'test@test.com\', `phone` = \'9999999999\', `role` = \'CAD Manager\'
+WHERE `users`.`id` IN (\'7\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `users` SET `first_name` = \'test\', `last_name` = \'user\', `email` = \'test@test.com\', `phone` = \'9999999999\', `role` = \'CAD Manager\'
+WHERE `users`.`id` IN (\'7\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `users` SET `first_name` = \'test\', `last_name` = \'user\', `email` = \'test@test.com\', `phone` = \'9999999999\', `role` = \'CAD Manager\'
+WHERE `users`.`id` IN (\'7\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `users` SET `first_name` = :first_name:, `last_name` = :last_name:, `email` = :email:, `phone` = :phone:, `role` = :role:
+WHERE `users`.`id` IN :users.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(407): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(1073): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(706): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Controllers\User.php(79): CodeIgniter\Model->update('7', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\User->update('7')
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-03-14 13:51:50 --> Lock wait timeout exceeded; try restarting transaction
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('UPDATE `users` SET `first_name` = \'test\', `last_name` = \'user\', `email` = \'test@test.com\', `phone` = \'9999999999\', `role` = \'Admin\'
+WHERE `users`.`id` IN (\'7\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `users` SET `first_name` = \'test\', `last_name` = \'user\', `email` = \'test@test.com\', `phone` = \'9999999999\', `role` = \'Admin\'
+WHERE `users`.`id` IN (\'7\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `users` SET `first_name` = \'test\', `last_name` = \'user\', `email` = \'test@test.com\', `phone` = \'9999999999\', `role` = \'Admin\'
+WHERE `users`.`id` IN (\'7\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `users` SET `first_name` = :first_name:, `last_name` = :last_name:, `email` = :email:, `phone` = :phone:, `role` = :role:
+WHERE `users`.`id` IN :users.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(407): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(1073): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(706): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Controllers\User.php(79): CodeIgniter\Model->update('7', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\User->update('7')
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-14 13:51:50 --> CodeIgniter\Database\Exceptions\DatabaseException: Lock wait timeout exceeded; try restarting transaction
+[Method: POST, Route: user/update/7]
+in SYSTEMPATH\Database\BaseConnection.php on line 724.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `users` SET `first_name` = :first_name:, `last_name` = :last_name:, `email` = :email:, `phone` = :phone:, `role` = :role:
+WHERE `users`.`id` IN :users.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(407): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(1073): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(706): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Controllers\User.php(79): CodeIgniter\Model->update('7', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\User->update('7')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-14 13:51:50 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Lock wait timeout exceeded; try restarting transaction
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `users` SET `first_name` = \'test\', `last_name` = \'user\', `email` = \'test@test.com\', `phone` = \'9999999999\', `role` = \'Admin\'
+WHERE `users`.`id` IN (\'7\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `users` SET `first_name` = \'test\', `last_name` = \'user\', `email` = \'test@test.com\', `phone` = \'9999999999\', `role` = \'Admin\'
+WHERE `users`.`id` IN (\'7\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `users` SET `first_name` = :first_name:, `last_name` = :last_name:, `email` = :email:, `phone` = :phone:, `role` = :role:
+WHERE `users`.`id` IN :users.id:', [...], false)
+ 4 SYSTEMPATH\Model.php(407): CodeIgniter\Database\BaseBuilder->update()
+ 5 SYSTEMPATH\BaseModel.php(1073): CodeIgniter\Model->doUpdate([...], [...])
+ 6 SYSTEMPATH\Model.php(706): CodeIgniter\BaseModel->update([...], [...])
+ 7 APPPATH\Controllers\User.php(79): CodeIgniter\Model->update('7', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\User->update('7')
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-14 13:51:50 --> [Caused by] mysqli_sql_exception: Lock wait timeout exceeded; try restarting transaction
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('UPDATE `users` SET `first_name` = \'test\', `last_name` = \'user\', `email` = \'test@test.com\', `phone` = \'9999999999\', `role` = \'Admin\'
+WHERE `users`.`id` IN (\'7\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `users` SET `first_name` = \'test\', `last_name` = \'user\', `email` = \'test@test.com\', `phone` = \'9999999999\', `role` = \'Admin\'
+WHERE `users`.`id` IN (\'7\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `users` SET `first_name` = \'test\', `last_name` = \'user\', `email` = \'test@test.com\', `phone` = \'9999999999\', `role` = \'Admin\'
+WHERE `users`.`id` IN (\'7\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `users` SET `first_name` = :first_name:, `last_name` = :last_name:, `email` = :email:, `phone` = :phone:, `role` = :role:
+WHERE `users`.`id` IN :users.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(407): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(1073): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(706): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Controllers\User.php(79): CodeIgniter\Model->update('7', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\User->update('7')
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-03-14 13:52:04 --> Lock wait timeout exceeded; try restarting transaction
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('UPDATE `users` SET `first_name` = \'test\', `last_name` = \'user\', `email` = \'test@test.com\', `phone` = \'9999999999\', `role` = \'Admin\'
+WHERE `users`.`id` IN (\'7\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `users` SET `first_name` = \'test\', `last_name` = \'user\', `email` = \'test@test.com\', `phone` = \'9999999999\', `role` = \'Admin\'
+WHERE `users`.`id` IN (\'7\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `users` SET `first_name` = \'test\', `last_name` = \'user\', `email` = \'test@test.com\', `phone` = \'9999999999\', `role` = \'Admin\'
+WHERE `users`.`id` IN (\'7\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `users` SET `first_name` = :first_name:, `last_name` = :last_name:, `email` = :email:, `phone` = :phone:, `role` = :role:
+WHERE `users`.`id` IN :users.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(407): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(1073): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(706): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Controllers\User.php(79): CodeIgniter\Model->update('7', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\User->update('7')
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-14 13:52:05 --> CodeIgniter\Database\Exceptions\DatabaseException: Lock wait timeout exceeded; try restarting transaction
+[Method: POST, Route: user/update/7]
+in SYSTEMPATH\Database\BaseConnection.php on line 724.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `users` SET `first_name` = :first_name:, `last_name` = :last_name:, `email` = :email:, `phone` = :phone:, `role` = :role:
+WHERE `users`.`id` IN :users.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(407): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(1073): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(706): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Controllers\User.php(79): CodeIgniter\Model->update('7', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\User->update('7')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-14 13:52:05 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Lock wait timeout exceeded; try restarting transaction
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `users` SET `first_name` = \'test\', `last_name` = \'user\', `email` = \'test@test.com\', `phone` = \'9999999999\', `role` = \'Admin\'
+WHERE `users`.`id` IN (\'7\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `users` SET `first_name` = \'test\', `last_name` = \'user\', `email` = \'test@test.com\', `phone` = \'9999999999\', `role` = \'Admin\'
+WHERE `users`.`id` IN (\'7\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `users` SET `first_name` = :first_name:, `last_name` = :last_name:, `email` = :email:, `phone` = :phone:, `role` = :role:
+WHERE `users`.`id` IN :users.id:', [...], false)
+ 4 SYSTEMPATH\Model.php(407): CodeIgniter\Database\BaseBuilder->update()
+ 5 SYSTEMPATH\BaseModel.php(1073): CodeIgniter\Model->doUpdate([...], [...])
+ 6 SYSTEMPATH\Model.php(706): CodeIgniter\BaseModel->update([...], [...])
+ 7 APPPATH\Controllers\User.php(79): CodeIgniter\Model->update('7', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\User->update('7')
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-14 13:52:05 --> [Caused by] mysqli_sql_exception: Lock wait timeout exceeded; try restarting transaction
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('UPDATE `users` SET `first_name` = \'test\', `last_name` = \'user\', `email` = \'test@test.com\', `phone` = \'9999999999\', `role` = \'Admin\'
+WHERE `users`.`id` IN (\'7\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `users` SET `first_name` = \'test\', `last_name` = \'user\', `email` = \'test@test.com\', `phone` = \'9999999999\', `role` = \'Admin\'
+WHERE `users`.`id` IN (\'7\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `users` SET `first_name` = \'test\', `last_name` = \'user\', `email` = \'test@test.com\', `phone` = \'9999999999\', `role` = \'Admin\'
+WHERE `users`.`id` IN (\'7\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `users` SET `first_name` = :first_name:, `last_name` = :last_name:, `email` = :email:, `phone` = :phone:, `role` = :role:
+WHERE `users`.`id` IN :users.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(407): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(1073): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(706): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Controllers\User.php(79): CodeIgniter\Model->update('7', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\User->update('7')
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-14 13:53:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-14 13:55:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-14 14:03:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-03-14 14:03:45 --> Lock wait timeout exceeded; try restarting transaction
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('UPDATE `users` SET `email` = \'test@test.com\', `phone` = \'9999999999\', `role` = \'Shipping\'
+WHERE `users`.`id` IN (\'7\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `users` SET `email` = \'test@test.com\', `phone` = \'9999999999\', `role` = \'Shipping\'
+WHERE `users`.`id` IN (\'7\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `users` SET `email` = \'test@test.com\', `phone` = \'9999999999\', `role` = \'Shipping\'
+WHERE `users`.`id` IN (\'7\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `users` SET `email` = :email:, `phone` = :phone:, `role` = :role:
+WHERE `users`.`id` IN :users.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(407): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(1073): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(706): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Controllers\User.php(78): CodeIgniter\Model->update('7', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\User->update('7')
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-14 14:03:45 --> CodeIgniter\Database\Exceptions\DatabaseException: Lock wait timeout exceeded; try restarting transaction
+[Method: POST, Route: user/update/7]
+in SYSTEMPATH\Database\BaseConnection.php on line 724.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `users` SET `email` = :email:, `phone` = :phone:, `role` = :role:
+WHERE `users`.`id` IN :users.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(407): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(1073): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(706): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Controllers\User.php(78): CodeIgniter\Model->update('7', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\User->update('7')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-14 14:03:45 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Lock wait timeout exceeded; try restarting transaction
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `users` SET `email` = \'test@test.com\', `phone` = \'9999999999\', `role` = \'Shipping\'
+WHERE `users`.`id` IN (\'7\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `users` SET `email` = \'test@test.com\', `phone` = \'9999999999\', `role` = \'Shipping\'
+WHERE `users`.`id` IN (\'7\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `users` SET `email` = :email:, `phone` = :phone:, `role` = :role:
+WHERE `users`.`id` IN :users.id:', [...], false)
+ 4 SYSTEMPATH\Model.php(407): CodeIgniter\Database\BaseBuilder->update()
+ 5 SYSTEMPATH\BaseModel.php(1073): CodeIgniter\Model->doUpdate([...], [...])
+ 6 SYSTEMPATH\Model.php(706): CodeIgniter\BaseModel->update([...], [...])
+ 7 APPPATH\Controllers\User.php(78): CodeIgniter\Model->update('7', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\User->update('7')
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-14 14:03:45 --> [Caused by] mysqli_sql_exception: Lock wait timeout exceeded; try restarting transaction
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('UPDATE `users` SET `email` = \'test@test.com\', `phone` = \'9999999999\', `role` = \'Shipping\'
+WHERE `users`.`id` IN (\'7\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `users` SET `email` = \'test@test.com\', `phone` = \'9999999999\', `role` = \'Shipping\'
+WHERE `users`.`id` IN (\'7\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `users` SET `email` = \'test@test.com\', `phone` = \'9999999999\', `role` = \'Shipping\'
+WHERE `users`.`id` IN (\'7\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `users` SET `email` = :email:, `phone` = :phone:, `role` = :role:
+WHERE `users`.`id` IN :users.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(407): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(1073): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(706): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Controllers\User.php(78): CodeIgniter\Model->update('7', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\User->update('7')
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-14 14:06:34 --> ErrorException: Maximum execution time of 120 seconds exceeded
+[Method: POST, Route: user/update/17]
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 301.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-03-14 14:06:34 --> ErrorException: Maximum execution time of 120 seconds exceeded
+[Method: POST, Route: user/update/18]
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 301.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-03-14 14:06:34 --> ErrorException: Maximum execution time of 120 seconds exceeded
+[Method: POST, Route: user/update/7]
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 301.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2026-03-14 14:07:12 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\codei\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\xampp\htdocs\codei\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'um_database', 3307, '', 0)
+#1 C:\xampp\htdocs\codei\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\codei\system\Database\BaseConnection.php(654): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\codei\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\codei\system\Model.php(193): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\codei\system\BaseModel.php(614): CodeIgniter\Model->doFind(true, '17')
+#6 C:\xampp\htdocs\codei\app\Controllers\User.php(63): CodeIgniter\BaseModel->find('17')
+#7 C:\xampp\htdocs\codei\system\CodeIgniter.php(951): App\Controllers\User->edit('17')
+#8 C:\xampp\htdocs\codei\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#9 C:\xampp\htdocs\codei\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\codei\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\codei\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\codei\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\codei\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp\htdocs\codei\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\codei\system\Database\BaseConnection.php(654): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\codei\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\codei\system\Model.php(193): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\codei\system\BaseModel.php(614): CodeIgniter\Model->doFind(true, '17')
+#5 C:\xampp\htdocs\codei\app\Controllers\User.php(63): CodeIgniter\BaseModel->find('17')
+#6 C:\xampp\htdocs\codei\system\CodeIgniter.php(951): App\Controllers\User->edit('17')
+#7 C:\xampp\htdocs\codei\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 C:\xampp\htdocs\codei\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\codei\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\codei\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\codei\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2026-03-14 14:07:12 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: user/edit/17]
+in SYSTEMPATH\Database\BaseConnection.php on line 465.
+ 1 SYSTEMPATH\Database\BaseConnection.php(654): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `users`.`id` = :users.id:', [...], false)
+ 3 SYSTEMPATH\Model.php(193): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(614): CodeIgniter\Model->doFind(true, '17')
+ 5 APPPATH\Controllers\User.php(63): CodeIgniter\BaseModel->find('17')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\User->edit('17')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-14 14:07:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-14 14:07:13 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-03-14 14:07:13 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\codei\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\xampp\htdocs\codei\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'um_database', 3307, '', 0)
+#1 C:\xampp\htdocs\codei\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\codei\system\Database\BaseConnection.php(654): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\codei\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\codei\system\Model.php(254): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\codei\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\codei\app\Controllers\User.php(56): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\codei\system\CodeIgniter.php(951): App\Controllers\User->list()
+#8 C:\xampp\htdocs\codei\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#9 C:\xampp\htdocs\codei\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\codei\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\codei\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\codei\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\codei\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp\htdocs\codei\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\codei\system\Database\BaseConnection.php(654): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\codei\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\codei\system\Model.php(254): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\codei\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\codei\app\Controllers\User.php(56): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\codei\system\CodeIgniter.php(951): App\Controllers\User->list()
+#7 C:\xampp\htdocs\codei\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 C:\xampp\htdocs\codei\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\codei\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\codei\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\codei\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2026-03-14 14:07:13 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: users]
+in SYSTEMPATH\Database\BaseConnection.php on line 465.
+ 1 SYSTEMPATH\Database\BaseConnection.php(654): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`', [], false)
+ 3 SYSTEMPATH\Model.php(254): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\User.php(56): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\User->list()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-14 14:07:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-14 14:07:15 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-03-14 14:07:21 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\codei\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\xampp\htdocs\codei\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'um_database', 3307, '', 0)
+#1 C:\xampp\htdocs\codei\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\codei\system\Database\BaseConnection.php(654): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\codei\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\codei\system\Model.php(254): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\codei\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\codei\app\Controllers\User.php(56): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\codei\system\CodeIgniter.php(951): App\Controllers\User->list()
+#8 C:\xampp\htdocs\codei\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#9 C:\xampp\htdocs\codei\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\codei\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\codei\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\codei\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\codei\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp\htdocs\codei\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\codei\system\Database\BaseConnection.php(654): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\codei\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\codei\system\Model.php(254): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\codei\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\codei\app\Controllers\User.php(56): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\codei\system\CodeIgniter.php(951): App\Controllers\User->list()
+#7 C:\xampp\htdocs\codei\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 C:\xampp\htdocs\codei\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\codei\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\codei\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\codei\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2026-03-14 14:07:21 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: users]
+in SYSTEMPATH\Database\BaseConnection.php on line 465.
+ 1 SYSTEMPATH\Database\BaseConnection.php(654): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`', [], false)
+ 3 SYSTEMPATH\Model.php(254): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\User.php(56): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\User->list()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-14 14:07:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-14 14:07:59 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-14 14:08:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-14 14:08:00 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-03-14 14:08:06 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\codei\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\xampp\htdocs\codei\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'um_database', 3307, '', 0)
+#1 C:\xampp\htdocs\codei\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\codei\system\Database\BaseConnection.php(654): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\codei\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\codei\system\Model.php(254): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\codei\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\codei\app\Controllers\User.php(56): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\codei\system\CodeIgniter.php(951): App\Controllers\User->list()
+#8 C:\xampp\htdocs\codei\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#9 C:\xampp\htdocs\codei\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\codei\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\codei\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\codei\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\codei\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp\htdocs\codei\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\codei\system\Database\BaseConnection.php(654): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\codei\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\codei\system\Model.php(254): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\codei\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\codei\app\Controllers\User.php(56): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\codei\system\CodeIgniter.php(951): App\Controllers\User->list()
+#7 C:\xampp\htdocs\codei\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 C:\xampp\htdocs\codei\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\codei\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\codei\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\codei\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2026-03-14 14:08:06 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: users]
+in SYSTEMPATH\Database\BaseConnection.php on line 465.
+ 1 SYSTEMPATH\Database\BaseConnection.php(654): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`', [], false)
+ 3 SYSTEMPATH\Model.php(254): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\User.php(56): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\User->list()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-14 14:09:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-14 14:09:43 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-14 14:09:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-14 14:09:44 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 21.
+ 1 APPPATH\Views\dashboard.php(21): substr(null, 0, 1)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(16): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(872): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-14 14:09:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-14 14:10:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-14 14:14:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-14 14:14:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-14 14:14:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-14 14:14:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-14 14:15:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-14 14:16:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-14 14:16:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-14 14:16:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-14 14:16:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-14 14:16:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

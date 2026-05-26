@@ -1,0 +1,104 @@
+body {
+    background: #f4f6f9;
+    font-family: Arial, sans-serif;
+}
+
+/* wrapper scope */
+.zxcrmClient .client-wrapper {
+    padding: 40px 20px;
+}
+
+/* heading */
+.zxcrmClient .client-heading {
+    text-align: center;
+    color: #3b82f6;
+    margin-bottom: 15px;
+}
+
+/* card */
+.zxcrmClient .client-box {
+    background: #fff;
+    padding: 40px;
+    border-radius: 12px;
+    max-width: 1050px;
+    margin: 0 auto;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+}
+
+/* grid */
+.zxcrmClient .grid-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px 30px;
+}
+
+/* field */
+.zxcrmClient .field {
+    display: flex;
+    flex-direction: column;
+}
+
+.zxcrmClient .field label {
+    font-size: 14px;
+    margin-bottom: 6px;
+    color: #444;
+}
+
+/* inputs */
+.zxcrmClient .field input,
+.zxcrmClient .field select {
+    width: 100%;
+    height: 45px;
+    padding: 10px 12px;
+    border-radius: 8px;
+    border: 1px solid #d1d5db;
+    background: #f9fafb;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+/* focus */
+.zxcrmClient .field input:focus,
+.zxcrmClient .field select:focus {
+    border-color: #6366f1;
+    background: #fff;
+    outline: none;
+}
+
+/* buttons */
+.zxcrmClient .btn-area {
+    margin-top: 30px;
+    display: flex;
+    gap: 15px;
+}
+
+.zxcrmClient .btn-primary {
+    background: #6366f1;
+    color: #fff;
+    border: none;
+    padding: 10px 22px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.zxcrmClient .btn-secondary {
+    background: #6b7280;
+    color: #fff;
+    border: none;
+    padding: 10px 22px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* responsive */
+@media (max-width: 900px) {
+    .zxcrmClient .grid-3 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .zxcrmClient .grid-3 {
+        grid-template-columns: 1fr;
+    }
+}

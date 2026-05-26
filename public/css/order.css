@@ -1,0 +1,143 @@
+/* Global */
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background: #f4f6f9;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Heading */
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Button / Link */
+a.create-btn {
+    display: inline-block;
+    padding: 10px 18px;
+    background: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+a.create-btn:hover {
+    background: #45a049;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+table th {
+    background: #2c3e50;
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+
+table td {
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+}
+
+table tr:hover {
+    background: #f1f1f1;
+}
+
+/* No data */
+.no-data {
+    text-align: center;
+    padding: 20px;
+    color: #888;
+}
+
+/* Form container */
+.form-container {
+    width: 400px;
+    margin: 40px auto; /* CENTERED */
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Form labels */
+form label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #444;
+}
+
+/* Inputs */
+form input,
+form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    transition: 0.3s;
+    font-size: 14px;
+}
+
+/* Focus effect */
+form input:focus,
+form select:focus {
+    border-color: #4CAF50;
+    outline: none;
+    box-shadow: 0 0 5px rgba(76,175,80,0.3);
+}
+
+/* Button */
+form button {
+    width: 100%;
+    padding: 12px;
+    background: #3498db;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Button hover */
+form button:hover {
+    background: #2980b9;
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+    .form-container {
+        width: 90%;
+        padding: 20px;
+    }
+}
+
+.badge {
+    padding: 5px 10px;
+    border-radius: 12px;
+    font-size: 12px;
+    color: #fff;
+}
+
+.badge.red {
+    background: #e74c3c;
+}
+
+.badge.green {
+    background: #2ecc71;
+}

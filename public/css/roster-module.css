@@ -1,0 +1,102 @@
+/* Card */
+.rmf-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+/* Header */
+.rmf-header h2 {
+    margin: 0 0 20px;
+    color: #1f2937;
+}
+
+/* Row */
+.rmf-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+/* Input Group */
+.rmf-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #374151;
+}
+
+.rmf-group input,
+.rmf-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+}
+
+/* Drag Section */
+.rmf-drag-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+/* Box */
+.rmf-box {
+    background: #f9fafb;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Headers */
+.rmf-box-header {
+    background: #e5e7eb;
+    padding: 10px;
+    font-weight: 600;
+}
+
+.rmf-selected-header {
+    background: linear-gradient(135deg, #6366f1, #4f46e5);
+    color: #fff;
+}
+
+/* List */
+.rmf-list {
+    min-height: 250px;
+    padding: 10px;
+}
+
+/* Items */
+.rmf-item {
+    padding: 10px;
+    margin-bottom: 8px;
+    background: #fff;
+    border-radius: 6px;
+    border: 1px solid #e5e7eb;
+    cursor: grab;
+}
+
+/* Buttons */
+.rmf-actions {
+    margin-top: 20px;
+}
+
+.rmf-btn {
+    padding: 10px 16px;
+    border-radius: 6px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
+.rmf-save {
+    background: linear-gradient(135deg, #6366f1, #4f46e5);
+    color: #fff;
+}
+
+.rmf-cancel {
+    background: #6b7280;
+    color: #fff;
+    margin-left: 10px;
+}

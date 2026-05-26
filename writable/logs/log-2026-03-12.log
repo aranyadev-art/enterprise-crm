@@ -1,0 +1,270 @@
+DEBUG - 2026-03-12 05:20:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-12 05:20:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-12 05:20:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-12 05:23:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-12 05:23:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-12 05:48:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-03-12 05:48:26 --> ParseError: syntax error, unexpected token "public"
+[Method: GET, Route: users]
+in APPPATH\Controllers\User.php on line 48.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\codei\\app\\Controllers\\User.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\User')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\User')
+ 4 SYSTEMPATH\Router\Router.php(792): class_exists('\\App\\Controllers\\User')
+ 5 SYSTEMPATH\Router\Router.php(230): CodeIgniter\Router\Router->processRouteAttributes()
+ 6 SYSTEMPATH\CodeIgniter.php(829): CodeIgniter\Router\Router->handle('users')
+ 7 SYSTEMPATH\CodeIgniter.php(441): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-12 05:53:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-12 06:01:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-12 06:03:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-12 06:03:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-12 06:09:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-03-12 06:09:48 --> Duplicate entry '' for key 'email'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (\'\', \'\', \'\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'$2y$10$Pj556j/efPt.q9KVNxr05OeayUDg47Z3liSfxRVfz4koOYIUICoXi\', \'Sales\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (\'\', \'\', \'\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'$2y$10$Pj556j/efPt.q9KVNxr05OeayUDg47Z3liSfxRVfz4koOYIUICoXi\', \'Sales\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (\'\', \'\', \'\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'$2y$10$Pj556j/efPt.q9KVNxr05OeayUDg47Z3liSfxRVfz4koOYIUICoXi\', \'Sales\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (:first_name:, :last_name:, :email:, :phone:, :status:, :address:, :city:, :state:, :zip:, :password:, :role:, :module_access:)', [...], false)
+ 5 SYSTEMPATH\Model.php(356): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(898): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(665): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\User.php(49): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\User->save()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-12 06:09:48 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '' for key 'email'
+[Method: POST, Route: user/save]
+in SYSTEMPATH\Database\BaseConnection.php on line 724.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (:first_name:, :last_name:, :email:, :phone:, :status:, :address:, :city:, :state:, :zip:, :password:, :role:, :module_access:)', [...], false)
+ 2 SYSTEMPATH\Model.php(356): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(898): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(665): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\User.php(49): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\User->save()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-12 06:09:48 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '' for key 'email'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (\'\', \'\', \'\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'$2y$10$Pj556j/efPt.q9KVNxr05OeayUDg47Z3liSfxRVfz4koOYIUICoXi\', \'Sales\', NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (\'\', \'\', \'\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'$2y$10$Pj556j/efPt.q9KVNxr05OeayUDg47Z3liSfxRVfz4koOYIUICoXi\', \'Sales\', NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (:first_name:, :last_name:, :email:, :phone:, :status:, :address:, :city:, :state:, :zip:, :password:, :role:, :module_access:)', [...], false)
+ 4 SYSTEMPATH\Model.php(356): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(898): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(665): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\User.php(49): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\User->save()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-12 06:09:48 --> [Caused by] mysqli_sql_exception: Duplicate entry '' for key 'email'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (\'\', \'\', \'\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'$2y$10$Pj556j/efPt.q9KVNxr05OeayUDg47Z3liSfxRVfz4koOYIUICoXi\', \'Sales\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (\'\', \'\', \'\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'$2y$10$Pj556j/efPt.q9KVNxr05OeayUDg47Z3liSfxRVfz4koOYIUICoXi\', \'Sales\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (\'\', \'\', \'\', \'\', \'Active\', \'\', \'\', \'\', \'\', \'$2y$10$Pj556j/efPt.q9KVNxr05OeayUDg47Z3liSfxRVfz4koOYIUICoXi\', \'Sales\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone`, `status`, `address`, `city`, `state`, `zip`, `password`, `role`, `module_access`) VALUES (:first_name:, :last_name:, :email:, :phone:, :status:, :address:, :city:, :state:, :zip:, :password:, :role:, :module_access:)', [...], false)
+ 5 SYSTEMPATH\Model.php(356): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(898): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(665): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\User.php(49): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\User->save()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-12 06:11:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-12 06:11:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-12 06:12:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-12 06:12:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-12 06:12:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-12 06:59:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-12 06:59:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-12 07:00:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-12 07:00:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-12 07:00:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-12 07:16:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-12 09:00:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-12 09:00:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-12 09:06:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-12 09:30:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-12 09:30:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-12 09:30:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-12 10:38:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-03-12 10:44:24 --> ErrorException: include(../db.php): Failed to open stream: No such file or directory
+[Method: GET, Route: sales]
+in APPPATH\Views\sales\sales_list.php on line 2.
+ 1 APPPATH\Views\sales\sales_list.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(../db.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\codei\\app\\Views\\sales\\sales_list.php', 2)
+ 2 APPPATH\Views\sales\sales_list.php(2): include()
+ 3 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\sales\\sales_list.php')
+ 4 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('sales/sales_list', [], true)
+ 6 APPPATH\Controllers\Sales.php(9): view('sales/sales_list')
+ 7 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Sales->sales_list()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sales))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-12 10:56:29 --> ErrorException: Undefined variable $conn
+[Method: GET, Route: sales]
+in APPPATH\Views\sales\sales_list.php on line 19.
+ 1 APPPATH\Views\sales\sales_list.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $conn', 'C:\\xampp\\htdocs\\codei\\app\\Views\\sales\\sales_list.php', 19)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\sales\\sales_list.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('sales/sales_list', [], true)
+ 5 APPPATH\Controllers\Sales.php(9): view('sales/sales_list')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Sales->sales_list()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sales))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-03-12 11:20:37 --> [DEPRECATED] Passing lowercase HTTP method "get" is deprecated. Use uppercase HTTP method like "GET". in SYSTEMPATH\Router\RouteCollection.php on line 1026.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1026): trigger_error('Passing lowercase HTTP method "get" is deprecated. Use uppercase HTTP method like "GET".', 16384)
+ 2 APPPATH\Config\Routes.php(33): CodeIgniter\Router\RouteCollection->match([...], 'sales/add', 'Sales::add')
+ 3 SYSTEMPATH\Router\RouteCollection.php(339): require('C:\\xampp\\htdocs\\codei\\app\\Config\\Routes.php')
+ 4 SYSTEMPATH\CodeIgniter.php(818): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH\CodeIgniter.php(441): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-03-12 11:20:37 --> [DEPRECATED] Passing lowercase HTTP method "post" is deprecated. Use uppercase HTTP method like "POST". in SYSTEMPATH\Router\RouteCollection.php on line 1026.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1026): trigger_error('Passing lowercase HTTP method "post" is deprecated. Use uppercase HTTP method like "POST".', 16384)
+ 2 APPPATH\Config\Routes.php(33): CodeIgniter\Router\RouteCollection->match([...], 'sales/add', 'Sales::add')
+ 3 SYSTEMPATH\Router\RouteCollection.php(339): require('C:\\xampp\\htdocs\\codei\\app\\Config\\Routes.php')
+ 4 SYSTEMPATH\CodeIgniter.php(818): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH\CodeIgniter.php(441): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-03-12 11:21:28 --> [DEPRECATED] Passing lowercase HTTP method "get" is deprecated. Use uppercase HTTP method like "GET". in SYSTEMPATH\Router\RouteCollection.php on line 1026.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1026): trigger_error('Passing lowercase HTTP method "get" is deprecated. Use uppercase HTTP method like "GET".', 16384)
+ 2 APPPATH\Config\Routes.php(33): CodeIgniter\Router\RouteCollection->match([...], 'sales/add', 'Sales::add')
+ 3 SYSTEMPATH\Router\RouteCollection.php(339): require('C:\\xampp\\htdocs\\codei\\app\\Config\\Routes.php')
+ 4 SYSTEMPATH\CodeIgniter.php(818): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH\CodeIgniter.php(441): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-03-12 11:21:28 --> [DEPRECATED] Passing lowercase HTTP method "post" is deprecated. Use uppercase HTTP method like "POST". in SYSTEMPATH\Router\RouteCollection.php on line 1026.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1026): trigger_error('Passing lowercase HTTP method "post" is deprecated. Use uppercase HTTP method like "POST".', 16384)
+ 2 APPPATH\Config\Routes.php(33): CodeIgniter\Router\RouteCollection->match([...], 'sales/add', 'Sales::add')
+ 3 SYSTEMPATH\Router\RouteCollection.php(339): require('C:\\xampp\\htdocs\\codei\\app\\Config\\Routes.php')
+ 4 SYSTEMPATH\CodeIgniter.php(818): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH\CodeIgniter.php(441): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-12 11:21:28 --> ErrorException: Undefined variable $conn
+[Method: GET, Route: sales]
+in APPPATH\Views\sales\sales_list.php on line 19.
+ 1 APPPATH\Views\sales\sales_list.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $conn', 'C:\\xampp\\htdocs\\codei\\app\\Views\\sales\\sales_list.php', 19)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\sales\\sales_list.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('sales/sales_list', [], true)
+ 5 APPPATH\Controllers\Sales.php(11): view('sales/sales_list')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Sales->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sales))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-03-12 11:21:35 --> [DEPRECATED] Passing lowercase HTTP method "get" is deprecated. Use uppercase HTTP method like "GET". in SYSTEMPATH\Router\RouteCollection.php on line 1026.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1026): trigger_error('Passing lowercase HTTP method "get" is deprecated. Use uppercase HTTP method like "GET".', 16384)
+ 2 APPPATH\Config\Routes.php(33): CodeIgniter\Router\RouteCollection->match([...], 'sales/add', 'Sales::add')
+ 3 SYSTEMPATH\Router\RouteCollection.php(339): require('C:\\xampp\\htdocs\\codei\\app\\Config\\Routes.php')
+ 4 SYSTEMPATH\CodeIgniter.php(818): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH\CodeIgniter.php(441): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-03-12 11:21:35 --> [DEPRECATED] Passing lowercase HTTP method "post" is deprecated. Use uppercase HTTP method like "POST". in SYSTEMPATH\Router\RouteCollection.php on line 1026.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1026): trigger_error('Passing lowercase HTTP method "post" is deprecated. Use uppercase HTTP method like "POST".', 16384)
+ 2 APPPATH\Config\Routes.php(33): CodeIgniter\Router\RouteCollection->match([...], 'sales/add', 'Sales::add')
+ 3 SYSTEMPATH\Router\RouteCollection.php(339): require('C:\\xampp\\htdocs\\codei\\app\\Config\\Routes.php')
+ 4 SYSTEMPATH\CodeIgniter.php(818): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH\CodeIgniter.php(441): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-12 11:21:35 --> ErrorException: Undefined variable $conn
+[Method: GET, Route: sales]
+in APPPATH\Views\sales\sales_list.php on line 19.
+ 1 APPPATH\Views\sales\sales_list.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $conn', 'C:\\xampp\\htdocs\\codei\\app\\Views\\sales\\sales_list.php', 19)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\sales\\sales_list.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('sales/sales_list', [], true)
+ 5 APPPATH\Controllers\Sales.php(11): view('sales/sales_list')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Sales->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sales))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-03-12 11:22:26 --> [DEPRECATED] Passing lowercase HTTP method "get" is deprecated. Use uppercase HTTP method like "GET". in SYSTEMPATH\Router\RouteCollection.php on line 1026.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1026): trigger_error('Passing lowercase HTTP method "get" is deprecated. Use uppercase HTTP method like "GET".', 16384)
+ 2 APPPATH\Config\Routes.php(33): CodeIgniter\Router\RouteCollection->match([...], 'sales/add', 'Sales::add')
+ 3 SYSTEMPATH\Router\RouteCollection.php(339): require('C:\\xampp\\htdocs\\codei\\app\\Config\\Routes.php')
+ 4 SYSTEMPATH\CodeIgniter.php(818): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH\CodeIgniter.php(441): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-03-12 11:22:26 --> [DEPRECATED] Passing lowercase HTTP method "post" is deprecated. Use uppercase HTTP method like "POST". in SYSTEMPATH\Router\RouteCollection.php on line 1026.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1026): trigger_error('Passing lowercase HTTP method "post" is deprecated. Use uppercase HTTP method like "POST".', 16384)
+ 2 APPPATH\Config\Routes.php(33): CodeIgniter\Router\RouteCollection->match([...], 'sales/add', 'Sales::add')
+ 3 SYSTEMPATH\Router\RouteCollection.php(339): require('C:\\xampp\\htdocs\\codei\\app\\Config\\Routes.php')
+ 4 SYSTEMPATH\CodeIgniter.php(818): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH\CodeIgniter.php(441): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-12 11:35:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-12 12:03:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-12 12:32:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-12 12:32:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-12 12:32:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-12 12:32:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-12 12:32:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-12 12:32:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-12 12:33:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-12 12:35:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-12 12:35:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-12 12:37:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-12 12:37:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-03-12 12:40:57 --> ErrorException: Undefined variable $clients
+[Method: GET, Route: sales/add]
+in APPPATH\Views\sales\add_sales.php on line 10.
+ 1 APPPATH\Views\sales\add_sales.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $clients', 'C:\\xampp\\htdocs\\codei\\app\\Views\\sales\\add_sales.php', 10)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\sales\\add_sales.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('sales/add_sales', [], true)
+ 5 APPPATH\Controllers\Sales.php(17): view('sales/add_sales')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Sales->add()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sales))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-12 12:54:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-12 12:54:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,605 @@
+DEBUG - 2026-04-01 09:49:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 04:19:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 04:19:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 04:19:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 04:24:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 04:24:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 04:24:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-01 04:24:35 --> CodeIgniter\HTTP\Exceptions\HTTPException: Failed to parse JSON string. Error: Syntax error
+[Method: POST, Route: factory/deleteMultiple]
+in SYSTEMPATH\HTTP\IncomingRequest.php on line 406.
+ 1 SYSTEMPATH\HTTP\IncomingRequest.php(406): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidJSON('Syntax error')
+ 2 APPPATH\Controllers\Factory.php(155): CodeIgniter\HTTP\IncomingRequest->getJSON(true)
+ 3 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Factory->deleteMultiple()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Factory))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-04-01 04:35:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 04:36:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 04:36:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 04:36:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 04:37:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 04:37:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 04:37:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 04:38:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 04:38:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 04:40:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 04:40:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 04:46:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 04:46:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 04:46:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 04:47:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 04:50:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 04:53:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 04:56:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 04:58:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 04:59:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 04:59:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 04:59:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 05:06:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 05:06:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 05:07:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 05:07:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 05:07:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 05:07:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 05:10:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 05:12:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 05:13:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 05:15:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 05:17:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 05:18:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 05:19:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 05:19:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 05:19:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 05:19:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 05:19:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 05:19:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 05:19:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 05:19:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 05:19:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 05:19:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 05:19:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 05:27:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 05:40:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 05:47:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 05:49:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 05:49:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 05:50:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 05:50:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 05:50:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 05:50:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 06:02:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 06:06:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 06:08:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 06:08:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 06:08:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 06:39:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 06:39:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 06:46:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 06:59:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 06:59:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 06:59:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 07:06:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 07:06:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 07:07:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 07:07:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 07:07:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 07:11:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 07:11:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 07:26:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 07:27:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 07:27:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 07:29:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 08:09:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 08:09:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 08:10:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 08:10:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 08:15:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-04-01 08:15:42 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A00010B:SSL routines::wrong version number in C:\xampp\htdocs\codei\system\Email\Email.php:1930
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'stream_socket_e...', 'C:\\xampp\\htdocs...', 1930)
+#1 C:\xampp\htdocs\codei\system\Email\Email.php(1930): stream_socket_enable_crypto(Resource id #340, true, 121)
+#2 C:\xampp\htdocs\codei\system\Email\Email.php(1823): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\codei\system\Email\Email.php(1708): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\codei\system\Email\Email.php(1602): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\codei\app\Controllers\Client.php(126): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\codei\system\CodeIgniter.php(951): App\Controllers\Client->save()
+#7 C:\xampp\htdocs\codei\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+#8 C:\xampp\htdocs\codei\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\codei\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\codei\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\codei\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+ERROR - 2026-04-01 08:15:42 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2026-04-01 08:15:42 --> 220 smtp.gmail.com ESMTP 41be03b00d2f7-c76917d843esm12663222a12.29 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [43.228.96.149]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 
+The following SMTP error was encountered: 
+ERROR - 2026-04-01 08:15:42 --> Invalid message format: $message: "The following SMTP error was encountered: {0}", $args: ".0.0 Ready to start TLS
+ z  v2—MŒ€`Ì)ñI;‚ïø¸Â»¾¶ÜÕ)•ó?Ñ2(q ¨[FºÄÁŠ’]ÛÚ“Ñ¾«sEÊpMFÜx+€#A  . 3 $   Ö wH|6tªã3{ ºå	)oXªA‹#Ä»ëX +  ¡Å üŸ3Bz|è[,Ï`;‡ƒåX	AF‚gVŒ^IÙ¤ð„àKb—}Ëß&ÆŽ@µÍ#-|¾eñ9Â¥»[»?!©Msî-Röà|š9ô)Ó01(Ð¼Û.€žþ¾V´^t76´¥–]e)8ÊLÆ
+™"JÏæõ.½zÍ!mÒÚ6âZÉ‹ªr›ººªl$}Drëß¬=Êü‘|—[
+ˆÚw¦¸E¢qrví_°ðÛkkv>ËÓë«ÖÍ9Fù¸%_F=–º‹JÒ%Ká`ÿ¡šóÝ¼§ŽìÆ è0üÂðGG«;GR@c©Ü`¢Ô’	3ÝõG`A5zY+%Â•À6(…a1k¼ÍJ¬´šôæ±Z»Raò±˜1`ÊŠ–óþ©°˜6¡z©	þLüÐS@6·#KñÐî7Œm·œåè/
+G—õ™Så6–ÜË5}Ù”íÚE‘ó™XK}6Á¨$˜…¦ÉÉW(éÞ¯Ýð räïÜ=&‰SÊ4°ÊŽÑåB(Œc“'ózûj–ýº5ã~?=¢ÆPçilg)âµO9ÊE÷ìî1Auh3ü19´BM*1¹·úµ
+pÉªúÃïô'1iË«§ÒµG<~;™·WEÑ½ÊÖÑ,îNŒu†òSœIý$›¨éviHs­»e°.0ÍZ¦¶‘œ4t/ô2¸ã¥UØ^›õ%’†Š Šçž«m)76G½pæª}Övü?ˆ[lQçÂðÕ ¬‰Ú ä4Ÿôõ„û'òtuæ®/æÄ/  ÓÁ´Ó;±©Óƒd±Â¹UÖV£°û2#âÀ]cšÚãðÍ.ó¢¤à¦Ÿ3	cŸ%	Ø€æÕ¤Z™[rÍiVïhaÉñ¤Vô%Î\ª'¥³¦½-ºÀÒ#JSÉ˜”ï7 Ð ÏŸNÝýçs=\Ïãž:-´‚`]6"Ð6p§¬Wª3JÄCX±‹zÚTp
+H’8ÚýS°)“*Ýà#*Ø,×?+WK@·»ÉÅ¶$+×¤Ë•ýÒ˜5Hçb*}¥M™ð¾™™f«±ÊÆª‡2C¼JãÛû«E§þ¨»[{þÆßÚ®®¾2Šìlú-çýëM¤[3ÿ*Ï¦òÐ3ÓP›¹\!¡ŠF€3!›ã†©áhÁ5¥ 3Úð/Á<ƒ([gyöûkkŠ‹]×0f¶O.’ñ** ŽÏ.‡7Påd /hÚë#ý>éÛe™JÁp/QÉ*®Pœmñ–îgl8Òp7C«aMNNt£Ï=F>D‘zŸgU2fÌœg>Š8I92#Áþ&Þñ:/˜;Aâ÷¡tì»Y%pŽGX
+e6YdbVÙ›ƒ ê§Ö‚SÞPXøí˜ŒO†6T^ÆÉÛ²•mæw&k–üèog‘ClK‰¾ÏžuÓ,ÛîÁb\WðºðÒ.]›¼œÿÜ*=>§IoÅ²è©
+ÿ˜Ù|AÄÔÎï‰ÛD2eÍóMèH½ÇÆ«ü|DûxA4A[oòŠ{¨ 3Ô‹¼fþÛÑ³ªÜ%ÞhÓÆdæüX}íÁ³ï«Z“£:±ò•¶)…äw«Kaq.f[Êî¡°¥qó’1Âv¯±æ‹…‘KðOTðá£\ôz›i^» ExËey{<Ó2%
+ÚZºG'V(]}íDŒ¨â/ÂG
+k_Â0‹©ÿY“ãgÂßñR_/R@ïú‘}5•8Úp†gJlÚiÌˆˆ´“LåŒ<®¿NîÆÄ4®R6úkû¾·‚ ´A»tzS½«Î“N1­óÄ€ž
+eôK,fÿ1»j.¼»V^5Ç*BÏÙ`ãÖGˆ?*z]Y ¤5i.rÁ¤áI¥Ç/@˜¤ðó”2ùq#SdÌö8öâ`Âšc°¾¯
+4_‰’<±†âÊN°pI¶Ë¦¼×ŸjBëMV¾C âÝ|È[UW>jSk”¸E‹K„Ó¨õŽÎðýÆ‹"^N‡„žèœãI«B$h¢Ê¨DÒvDC“æ»£¾º¥™WÖ˜ŠÜSÂ«<SHn_æO ò-$ÚØíöãZXç¬8Ž‰!?Já­×÷œO¿kE:~h.-ÐxímjñšõUÝƒBŒÅâÎVÌä‰ˆeÀk.±´ª)p‡HÜ?q†Ô¼­æ7h›ú½f<SŸ­ØßŠNæò„îx­æ¹Î°9Ïó£hQ@H¶F±és$›ŒÙv0û^R¯µŸµwÏ0­‚W65K^ÛÊ¿.lè2³YŸšÆFo1FÓ#º’A®%µ©Wnúâeðøé$ãÈ_Xí’SCâ{f–7„ãå+¹Ò©xÿ—åÔ/È(ö?+‘žçýHë‹‹«ÔfÃ$kÚÚ	ãˆ’§½W0µeþ¥%àÕ†»gáN24½ù´ëµ_K4¥Ï6¡êë„‹cl..eþÌGªµjcê7:ðùŽµ ¸`EsÇtGÏ¶êV¯ŒÞ]Ëû>ök1\®ÊÅîd¦ýfC wäBó–nãTo“äXseûwîÉXVÐ¹Ðû‡ÌS1_E>2ñˆGnŠ×Aì§‡=	0ó½N‹Ð•1F¹z ¸bRšT-ô@òbäâ(ÄîiwA‹{ÑŠ¶.mì^åÏ«A³½p&/¦]ÅFSR‚8†¾€vd›æŒž"â.IhÔA°rµûÊ¿þ;„óU¤ì’™ž\ûfdìz…(ö¯%>Ø0¢â·—ÍzçánœõÞ~Å·–¯b‰Ú¢wp|¯+|Ô¹<Œõw¯ÜvóÂ×U…­‚®®ŸÒ…ÑŠÓIå9‹× SW¦cÆ‡Ç’b÷³ÁãØÜ¼yãúã7ßòW{ª/:
+R‰uÊ6p”zÒ¬•C»ë„ZU›è¶]•‹µ«eŒ„H2èO ­°íîÞT}ŸNñìô­yÆå!Ô·æˆÏ"˜Ê†L­¦áŠÅ»/R`cIa ¾F4¥ñ´o¾¬@<ÕD¸ŸôYXÁ­7êb^¾Ú”KéM6}ª"ùÁøíAŠxS¼D¸©ËÊbªÉ¡D¯êV}ºÝK|‹ëg.OÒ ewô¼¶ÐdÏÂÁ¸©¬F3¨|JI%:Y¬0eéÖE°' šŽ-45ŒŽ¶5Ñ§·››ƒ¾4Ä<ä”ŽòwšÅQÉháXˆiÍg^Sh”aâ¨ˆ…Ü	¬$uU´/Éì2Æ_¸l¬0Ô’ÿ/³?ë;fÖ²	Oâª¹:$*iÅênýfÿÍ÷­›]AÝ0‰]™¡ËÝRÝXÿÔ™þ‰à:	Y¼ìPÊåYÁk‰`^¤1c›õ¬F&Ð°rìŒ!IâÖÇdžˆd’2¯6›DÚìÛ¢ÔZV‘®néÅNHýfþ‹…™Žx¨8[ÒŠò&éææö*øY¬1
+„3ŠçùUMi¤®ùôš¯1ßR¦Ëã†&Ú'®žULnâ½–“Ëtzd4s¿p'Éb½§èÖ Û÷N8cÈKÍI©ÒætP×a=eÚŒ%üi€ÉdGßd““ð…±,ØªZ‹jlÍ©JÌrÐ!µ«Àºô›5Ÿ5¤$ÄS5ÕMb_d»€šp®”ðö,fÈd™>Y	¹¼à°¸ŒÔ¯ ð²ÑHBxÎÀb›,ßF~DçkÒÏ,,¸”†P8d¿–ÕH¢Ý¬iÙÂü
+æ}¥:U¬ÒMšæóÚy¢a¥{Ó#@¼Ú¶"ó¾Šc§	KOh<È7íä¬r€l£iqÇ9~c:Íg|¨Iož–ÈZ=‡œ
+‡˜-f.±ZŒÆÑ¿p ºˆßùcã®¢%fÄÓ¦c…Ùç]oÂÞ³ |­KpÕ!nÄ[¬€ÒÞâˆ :hð-ØgÀÅ1­`	|l[KïÀãGB¼h¯w(ItX”ÊàìvnOÚ³îæÄgÈ‚¬VÆ&®pŽ éž
+ÅA ‡˜°{ÅÞÖÍX?YlRµE±|ªÔ“V›œVÇþR÷©ÿtÇÓ’ $7ßËx
+y	¨23 W²20mO4k†ËËf).éL«ZI„„¯35b†åXÉ³è>µ'Ùø„¹ð$²»=èÓÃoÄ‚1NqÔ+‹`Š»Oj>÷_ïŒ ë÷Oëdà¦gx„¦°v„•«r¢éÆùó}³P¬) ›ˆ)>ò|»"£l€ôAÄG,z“–Àì;"6R¡S<f!1¶W3]Ã&zTÚ¹Ö£ÙY‡Åþøõ;2¢åGÑ_e''› Å7û1i¤Ž3×îâ(Ì–ÒBÌÞÛÇ“{¦^›Ü&“1qæ#™Ñ«ç_—_Ó'9%d©Fxcà(14øÇæ"[Ö^Ù›‡Ñû¤×,B”ÒRéq­J|¢ð¥ i%Ûi4^Z3ºhnF×R$eù6ˆ£ã+cJtßbV{zÞ"+ÁQØTÂø@»j/I3äë²Ä¾î LXD’z¡ÖëmJyYÄ_`¶3Sûg|ÄØ"°ÉBçlÊ9(*ì1`©:\ëà—@ò"BÓås’8·èžEraÄ´xÿºñ3C¿äSõí„{kñY’5HMaÌ[ï¤¼ßÃ;‹fU Ù>¹‹æé|¼5[)§Ëˆ7N>8ÚÞÄIXÀíéPˆ²‚×ÚÇ1Ùžas™åTyGµä%ß
+›ƒÐ¿jp)6Y^¬ÞŸ0ï[š˜ƒ9.+m¢SO,®7m	WU\o”²†Gl°6IþÀõ·"ž\?€.é2ÎfAÐZ±
+Ñ¢1Yç•Z!b=¤¸{
+¬<î¢ÁäÈR)Ã,£©SÀ¿"Lw™.
+IÉüd’X°xŒ²ñ&>m¹¢®µ«H°9È05:xC é B0~U¤sç²÷lÖ† !´±¾Ì¨O“ZÎeÊºÏv¾Œäti0Lð6èieáæ±Š†Ñ€ ñPxK¨· ¢¡7aÞL+­Ô]‹Å›ªvzÝz3sÉå{%_tu„/“PW2Ê,Mt]ñ	}òè¸HÆ­ní\šç£Iæ[ÐCJÎ16ŠE‡‹U&¾yÚ'c´×¯…8¢lÚfhH¦da tÞ%úF¯Ä'úcÜ/i´ø'Ùûý§pBé`µt‹J0 )OíxŒqÖíØ¸¨lµ.¿9Ü;hù‡ùr?Ó¹ýà£Ó·„ 
+gÀ¦Àþ„ÿYTcÑM[Ç¨Ia‹g+´" (urlencoded: ".0.0%20Ready%20to%20start%20TLS%0D%0A%16%03%03%00z%02%00%00v%03%032%97M%8C%80%60%CC%16%29%03%F1I%3B%82%EF%F8%B8%C2%BB%BE%B6%DC%D5%29%95%F3%11%3F%D12%28q%20%A8%5BF%BA%04%C4%C1%8A%92%5D%DB%DA%93%D1%BE%13%ABsE%0B%CAp%1CMF%DC%12x%2B%80%23A%13%02%00%00.%003%00%24%00%1D%00%20%D6%07%20%0Bw%16H%7C6t%AA%E33%7B%20%BA%E5%09%29o%90X%AAA%01%8B%23%C4%BB%EB%05X%00%2B%00%02%03%04%14%03%03%00%01%01%17%03%03%0F%A1%C5%20%FC%9F3Bz%7C%E8%5B%2C%CF%60%3B%87%83%E5X%09AF%82%90gV%8C%12%5EI%D9%A4%F0%84%E0Kb%14%04%97%7D%CB%DF%26%C6%8E%7F%40%B5%CD%23-%7C%BEe%05%F1%129%C2%A5%BB%5B%BB%3F%21%A9Ms%EE-R%F6%E0%7C%9A9%1B%F4%29%81%D3%1601%28%D0%BC%1B%02%DB.%80%9E%FE%BEV%B4%90%03%5Et76%B4%A5%96%5De%06%298%CAL%C6%0A%99%0B%08%22J%17%CF%E6%F5.%BDz%CD%02%21m%D2%DA%0E6%E2Z%C9%8B%AAr%9B%BA%BA%0F%AAl%24%7DDr%EB%DF%AC%3D%CA%05%FC%91%7C%97%5B%0A%1F%88%DAw%A6%B8E%A2qrv%ED_%B0%F0%DBk%01kv%3E%CB%D3%EB%AB%D6%CD9F%F9%B8%25_F%8D%3D%96%BA%8BJ%D2%07%25K%E1%60%FF%A1%9A%81%F3%DD%BC%17%A7%8E%EC%C6%00%E80%FC%C2%F0GG%AB%3BG%16R%40%0Fc%0F%A9%DC%60%A2%D4%92%093%DD%F5G%60A5zY%2B%25%C2%13%95%C06%28%85a%901k%BC%CDJ%AC%B4%9A%F4%E6%B1Z%BBR%8Fa%04%F2%04%B1%981%60%CA%8A%96%F3%FE%A9%B0%986%90%19%A1z%A9%09%FEL%15%12%1D%FC%D0S%406%7F%B7%23K%F1%D0%EE7%8C%0Dm%B7%9C%E5%E8%0B%1E%2F%0AG%97%19%F5%99S%E56%96%1F%DC%04%CB5%7D%D9%94%ED%DAE%91%F3%99X%18%90K%7D6%C1%A8%0E%24%1E%98%85%A6%C9%C9%0EW%0B%28%E9%DE%AF%DD%17%F0%00r%E4%EF%DC%90%3D%26%17%89S%CA4%B0%CA%8E%D1%E5B%17%28%11%8Cc%93%27%F3z%FB%7Fj%04%96%FD%BA5%E3~%1D%3F%3D%A2%C6P%E7ilg%29%E2%B5O9%CAE%F7%EC%EE1Auh3%FC19%B4%8FBM%2A1%B9%B7%FA%B5%0Ap%C9%15%AA%11%FA%06%C3%EF%F4%271i%CB%AB%A7%D2%B5G%3C~%3B%19%99%B7WE%D1%BD%8F%CA%D6%D1%2C%EE%0FN%8Cu%86%F2S%9C%10I%FD%81%24%0C%9B%A8%E9viH%17s%AD%BBe%B0.0%CDZ%A6%B6%91%9C4t%2F%F42%B8%E3%1B%A5%08U%06%D8%5E%9B%1B%F5%25%92%86%8A%11%00%8A%1C%E7%9E%ABm%2976G%1D%BDp%E6%AA%7D%D6v%FC%3F%88%5Bl%9DQ%E7%C2%18%F0%D5%20%AC%89%DA%05%00%E4%144%9F%F4%F5%84%FB%27%1C%F2tu%E6%AE%2F%E6%C4%2F%00%20%D3%C1%B4%D3%3B%B1%0D%A9%D3%83d%B1%C2%B9%05U%D6V%A3%10%B0%FB2%23%E2%C0%5Dc%9A%DA%17%E3%F0%1D%CD.%F3%A2%A4%E0%A6%9F%163%09%08c%9F%25%09%D8%80%E6%1E%D5%A4Z%99%5Br%CDiV%EFha%19%C9%F1%A4V%F4%25%CE%5C%AA%27%A5%B3%A6%BD-%04%BA%C0%D2%23JS%C9%98%94%EF7%00%D0%05%20%CF%9FN%1E%DD%81%FD%E7s%3D%5C%CF%E3%9E%3A-%B4%82%60%8F%5D6%22%D06p%A7%16%ACW%AA3J%C4CX%B1%8B%04z%DATp%0AH%928%DA%FDS%0B%B0%29%93%1E%2A%DD%E0%23%0E%2A%D8%2C%D7%3F%2BWK%04%40%B7%BB%C9%0E%C5%B6%24%2B%D7%A4%CB%95%FD%D2%985H%E7%08%07b%2A%7D%A5M%99%F0%BE%99%99f%AB%1C%B1%CA%C6%10%AA%872%1BC%BC%0BJ%E3%DB%8F%FB%ABE%A7%FE%A8%BB%5B%12%7B%FE%C6%DF%DA%AE%AE%9D%BE2%8A%EC%04l%FA%07-%E7%FD%EBM%A4%5B3%FF%2A%CF%A6%F2%D0%043%D3P%9B%8D%04%B9%5C%21%A1%8AF%803%21%9B%E3%86%A9%02%E1h%C15%A5%203%DA%F0%2F%C1%10%3C%83%28%5Bg%7Fy%F6%FBkk%9D%05%8A%8B%5D%D70f%0D%B6O.%92%F1%2A%2A%20%8E%CF.%08%877P%E5d%A0%2Fh%DA%03%EB%23%FD%3E%E9%DBe%99J%C1%90p%2FQ%C9%2A%AE%15P%9C%15m%F1%96%EEgl8%D2p7C%AB%9DaMNNt%08%A3%CF%3D%1CF%3ED%16%91z%9FgU%112f%CC%9Cg%3E%8A8I92%81%10%1B%23%C1%FE%26%DE%F1%3A%2F%98%3BA%E2%F7%15%A1%06t%06%EC%BB%81%0EY%25p%8EG%8FX%0A%03e6%9D%1FYdbV%D9%9B%83%20%EA%A7%D6%82S%DEPX%F8%ED%98%8CO%86%8D6T%5E%C6%C9%DB%1A%13%B2%1D%95m%E6w%26k%96%FC%E8og%14%91ClK%89%BE%CF%07%9E%1Au%D3%2C%DB%EE%C1%15b%5CW%F0%BA%F0%12%D2.%5D%9B%BC%9C%0C%0F%FF%DC%2A%3D%10%3E%A7Io%C5%B2%E8%A9%0A%FF%98%D9%7CA%C4%D4%CE%EF%89%DBD2e%CD%F3M%E8H%8F%1D%BD%C7%02%8F%13%C6%AB%FC%7CD%FBxA4A%5Bo%F2%8A%7B%0F%A8%90%20%033%0F%1D%7F%D4%8B%BCf%FE%DB%D1%B3%AA%DC%25%DEh%D3%C6%81d%E6%FCX%7D%ED%C1%B3%EF%ABZ%93%A3%3A%14%B1%F2%95%B6%29%0C%85%E4w%ABKaq.f%5B%CA%EE%A1%01%B0%A5%18q%F3%92%101%C2v%AF%B1%16%E6%8B%85%91K%90%F0O%8FT%F0%E1%A3%02%0E%5C%F4z%9Bi%5E%BB%00Ex%CBey%7B%3C%D32%25%02%0A%10%DA%15Z%BAG%1D%27V%28%5D%7D%EDD%8F%8C%A8%E2%2F%C2%1AG%1C%0A%01k_%C2%0F0%8B%A9%FFY%93%E3g%C2%DF%F1R%08_%2FR%40%EF%FA%91%7D5%95%908%05%DAp%86gJl%DA%81i%CC%88%81%88%B4%93L%E5%1C%8C%3C%AE%BFN%EE%C6%C44%AER6%07%FAk%FB%1A%BE%B7%82%00%B4A%BBtzS%BD%AB%1B%CE%93%1AN1%AD%90%F3%C4%80%9E%0A%9De%F4K%2Cf%FF1%BB%0Dj%06.%BC%BBV%5E5%C7%2AB%CF%D9%60%E3%D6G%88%3F%2Az%5DY%A0%A45i.r%C1%A4%E1I%A5%C7%2F%40%98%A4%F0%F3%1D%1A%942%F9q%1D%23Sd%CC%F68%F6%E2%60%C2%9Ac%B0%BE%AF%05%0A4_%89%92%3C%B1%86%E2%CAN%B0%90pI%90%B6%CB%A6%BC%90%D7%9FjB%EBMV%BE%07C%20%E2%DD%7C%C8%5BUW%3EjSk%94%0E%B8E%8BK%84%D3%A8%1F%F5%8E%19%CE%F0%FD%14%C6%90%8B%14%22%15%5E%07%01N%87%84%9E%1B%E8%9C%E3I%ABB%24h%A2%CA%A8%0CD%D2vDC%93%E6%BB%A3%BE%BA%A5%99W%D6%98%8A%DCS%C2%AB%16%3CS%1EH%8Dn_%E6O%20%F2-%24%DA%D8%ED%F6%E3%14%8FZX%E7%AC%908%8E%89%21%3FJ%E1%AD%D7%F7%9CO%BFkE%0F%3A~h%04%03.-%D0x%EDmj%F1%9A%F5U%DD%18%81%83B%8C%C5%E2%CE%0EV%CC%E4%89%88e%C0k.%B1%B4%0D%15%AA%29p%9D%87H%8D%01%DC%3Fq%86%D4%BC%AD%11%E67h%9B%FA%14%BDf%0F%3CS%9F%AD%D8%DF%8AN%E6%F2%84%81%EEx%AD%E6%B9%CE%B09%CF%F3%A3h%1EQ%40H%19%B6F%B1%E9s%24%9B%8C%D9v0%FB%5ER%AF%B5%9F%B5w%CF0%AD%18%82W65K%5E%DB%CA%BF.l%E82%B3Y%9F%9A%C6Fo1F%D3%23%BA%92A%AE%25%B5%A9Wn%FA%E2e%F0%F8%0D%E9%24%E3%C8_X%ED%92SC%E2%05%0C%7B%90f%967%84%E3%E5%2B%9D%B9%D2%90%A9x%FF%97%E5%D4%2F%C8%28%F6%3F%2B%91%9E%E7%0E%FD%1BH%EB%8B%0E%8B%1A%AB%D4f%C3%24k%0D%1B%7F%DA%DA%09%E3%88%92%A7%BDW0%B5%14e%FE%03%A5%25%E0%D5%86%BBg%E1%81N24%BD%F9%B4%EB%B5_K4%A5%CF6%1B%A1%EA%EB%84%8Bcl.%08.e%FE%CCG%AA%0D%B5jc%EA7%3A%F0%F9%8E%8D%B5%0D%00%B8%60Es%C7tG%CF%B6%EAV%AF%8C%11%DE%5D%CB%FB%3E%F6%03k1%5C%AE%CA%C5%EEd%A6%FDfC%A0w%E4%03B%F3%96n%E3To%9D%93%E4Xs%1D%05e%FBw%EE%C9XV%D0%B9%D0%17%FB%87%CC%7FS1_E%3E2%F1%88G%11n%8A%D7A%EC%A7%87%3D%01%090%F3%BDN%8B%0F%D0%951F%B9%12z%20%B8%0Eb%8DR%9AT-%F4%40%15%17%F2b%E4%E2%28%C4%EEiwA%8B%7B%0D%D1%8A%B6%04.m%05%EC%5E%E5%CF%ABA%B3%BDp%26%2F%A6%5D%C5FSR%08%828%86%BE%10%80v%11%08d%9B%E6%8C%9E%22%E2.Ih%D4A%B0r%04%1F%B5%FB%CA%BF%FE%3B%84%F3U%A4%EC%92%99%9E%5C%FBfd%ECz%85%02%28%F6%AF%25%3E%D80%A2%01%E2%B7%97%CDz%E7%E1n%9C%F5%DE~%C5%B7%90%13%96%90%AFb%89%DA%A2wp%7C%AF%1B%2B%7C%D4%B9%3C%8C%F5w%AF%9D%DCv%F3%C2%D7%1C%13U%1F%85%8D%AD%82%AE%AE%9F%D2%85%0F%D1%8A%D3I%E59%8B%D7%19%00%15SW%A6%7Fc%C6%87%C7%92b%F7%01%B3%C1%E3%D8%DC%16%BCy%0F%13%E3%FA%E37%DF%F2W%7B%AA%2F%3A%0AR%89u%CA6%14p%04%0D%94z%17%D2%AC%95C%BB%1D%81%EB%84ZU%9B%E8%B6%5D%95%8B%B5%81%90%ABe%8C%84H2%E8O%20%AD%B0%ED%EE%DET%07%7D%9FN%F1%EC%1D%F4%ADy%C6%16%E5%21%D4%B7%E6%88%CF%22%98%CA%86L%AD%A6%E1%8A%C5%90%BB%2FR%60cIa%A0%BEF4%9D%A5%F1%B4o%BE%AC%40%3C%D5D%B8%9F%F4YX%C1%AD7%04%EAb%5E%BE%DA%94K%E9M6%7D%AA%22%F9%1D%C1%F8%EDA%8Ax%15S%11%BC%02%17D%19%B8%A9%CB%CAb%AA%C9%A1D%AF%EAV%7D%BA%DDK%7C%8B%EBg.O%90%D2%A0e%0Dw%F4%BC%1C%B6%D0d%CF%C2%14%C1%15%B8%A9%04%AC%1AF3%A8%7CJI%25%3A%04Y%AC0e%E9%D6%0EE%B0%27%20%9A%8E-45%8C%8E%18%B6%7F5%D1%A7%14%08%17%B7%9B%9B%83%BE4%C4%3C%0E%90%E4%94%8E%F2%12w%81%1A%90%9A%C5Q%C9h%E1%9DX%88%12i%CDg%5E%1DS%0Dh%94a%E2%1A%A8%88%85%DC%09%AC%24%02%16uU%B4%2F%C9%EC2%1C%C6_%B8l%AC0%D4%92%FF%2F%B3%3F%EB%3Bf%D6%B2%09O%E2%8F%AA%B9%3A%24%2Ai%17%C5%81%EAn%FDf%FF%13%CD%F7%AD%9B%5DA%DD0%89%5D%99%A1%1D%CB%DDR%DDX%FF%D4%99%FE%89%E0%3A%09Y%BC%ECP%CA%E5Y%C1k%89%1A%60%5E%A41c%9B%F5%16%ACF%26%D0%B0r%EC%8C%21I%E2%17%03%D6%C7d%9E%88d%922%81%AF6%9BD%DA%07%EC%DB%A2%D4ZV%91%AEn%E9%C5NH%FDf%FE%8B%85%99%8Ex%A88%5B%1F%D2%8A%8F%F2%26%E9%E6%E6%F6%2A%F8Y%AC1%0A%843%1E%02%8A%E7%F9UM%1Di%A4%AE%F9%F4%9A%AF1%DFR%A6%CB%E3%86%26%DA%27%AE%9EULn%E2%BD%96%93%CBtzd4s%BFp%27%02%C9b%BD%9D%A7%E8%D6%10%A0%DB%F7N8c%C8%0CK%CDI%A9%0D%10%D2%81%E6t%17%0FP%D7a%3De%DA%8C%25%FCi%80%C9dG%DFd%93%93%F0%85%B1%2C%D8%1E%AA%90Z%8Bjl%CD%A9J%CC%12r%D0%21%B5%AB%C0%BA%F4%9B5%9F%045%18%A4%24%C4S5%D5Mb%0F%01_d%BB%80%9Ap%AE%94%F0%F6%2Cf%C8d%14%99%3EY%09%B9%BC%E0%B0%B8%8C%D4%AF%A0%F0%B2%D1HBx%CE%02%13%C0b%9B%2C%DFF~D%E7k%D2%CF%2C%2C%B8%94%86P%05%8F%128d%BF%96%D5H%A2%DD%ACi%D9%C2%FC%0A%E6%7D%A5%3AU%AC%D2M%9A%E6%F3%DA%7Fy%A2a%A5%7B%D3%9D%23%1C%40%BC%DA%07%B6%07%14%22%F3%BE%8Ac%A7%09KOh%1E%3C%1C%C87%ED%E4%13%AC%10r%80%0El%A3iq%0C%C79~c%01%3A%15%CDg%7C%A8%18Io%9E%96%C8%13Z%3D%87%9C%14%0A%87%98-f.%B1Z%8C%8F%C6%D1%BFp%A0%BA%11%88%DF%F9c%1E%18%E3%AE%1E%A2%25f%C4%D3%A6c%85%D9%E7%5Do%C2%DE%04%B3%A0%7C%0E%ADKp%D5%01%21n%C4%1D%5B%07%AC%80%D2%DE%E2%88%07%A0%3Ah%F0-%D8g%C0%0D%C51%AD%60%09%7C%9D%03l%16%5BK%EF%C0%E3GB%BCh%AF%90w%28ItX%94%CA%E0%ECvnO%7F%DA%B3%EE%E6%C4g%C8%8F%82%ACV%C6%26%AEp%8E%A0%E9%9E%0A%C5A%20%87%98%B0%7B%C5%DE%D6%CD%1FX%14%3FYl%15R%B5E%B1%7C%AA%7F%D4%93V%9B%02%9CV%C7%FER%F7%A9%FFt%C7%D3%92%20%247%DF%CBx%0Ay%09%A8%0D23%A0W%B2%0420mO4k%86%CB%CBf%29.%E9L%ABZI%84%84%AF35b%86%E5X%C9%B3%E8%3E%B5%27%D9%F8%84%B9%F0%24%B2%1D%BB%3D%E8%05%1F%D3%C3o%C4%821Nq%D4%15%2B%8B%60%8A%BBOj%3E%F7_%12%EF%04%8C%20%1E%EB%F7O%EBd%E0%A6gx%84%A6%04%B0v%84%95%ABr%A2%E9%C6%F9%F3%7D%B3%08P%AC%29%A0%9B%88%29%3E%F2%7C%BB%1D%22%A3l%80%F4A%C4G%2Cz%93%96%C0%EC%3B%22%1E6%12R%A1S%3Cf%211%B6W3%5D%C3%26zT%DA%B9%D6%81%A3%D9Y%87%C5%FE%F8%F5%3B2%A2%E5%05G%18%D1_e%27%27%9B%A0%C57%07%FB1i%A4%8E3%D7%EE%13%E2%28%CC%96%D2B%CC%DE%DB%C7%93%7B%A6%5E%9B%DC%26%931q%E6%23%99%D1%11%08%AB%E7_%97%1A_%D3%279%25d%A9Fxc%E0%2814%F8%C7%E6%1C%22%16%5B%D6%5E%06%D9%1E%9B%87%14%D1%FB%17%A4%D7%0E%2CB%94%D2R%E9q%AD%19J%7C%A2%F0%A5%00i%25%DBi4%5EZ3%BAhnF%D7R%24e%F96%88%A3%E3%2BcJ%16t%DFbV%7Bz%DE%8F%22%2B%C1%01Q%D8T%C2%F8%40%BBj%2F%8DI3%E4%EB%B2%8F%C4%BE%EE%20LXD%92%1A%7Fz%A1%D6%EBmJyY%C4_%60%15%B63%0B%0E%04S%FBg%08%7C%C4%D8%22%B0%17%C9B%E7l%CA9%28%0C%2A%8F%EC1%60%A9%3A%5C%EB%E0%97%1E%40%F2%22B%D3%E5s%11%14%928%B7%E8%9EEra%C4%B4%16%07x%FF%1C%BA%F13C%BF%E4%11S%F5%ED%84%7Bk%F1Y%13%925HMa%CC%5B%EF%A4%BC%DF%C3%0C%3B%8BfU%20%D9%3E%B9%8B%E6%E9%7C%BC5%5B%29%A7%CB%887%15N%3E%108%DA%DE%C4IX%C0%ED%E9P%88%B2%82%D7%DA%C71%D9%9E%16%18a%13s%99%E5TyG%B5%18%E4%25%04%DF%0A%9B%83%10%0E%D0%BFjp%296%01Y%5E%AC%DE%9F0%EF%5B%9A%98%18%839.%2Bm%A2SO%2C%AE7%04m%09WU%5Co%94%B2%86Gl%B06I%FE%15%17%C0%13%F5%B7%1F%22%9E%15%5C%9D%3F%80.%E92%0B%CEfA%D0Z%B1%1B%0A%D1%A21Y%E7%95%1FZ%21b%3D%A4%B8%02%7B%0A%AC%3C%EE%A2%C1%15%10%08%E4%C8R%10%29%C3%2C%A3%A9S%C0%BF%22Lw%99.%1E%0AI%C9%FCd%92X%B0x%8D%8C%B2%F1%26%3Em%B9%A2%AE%B5%ABH%B09%C805%3AxC%A0%E9%A0B0~U%A4s%E7%B2%F7l%D6%86%20%21%B4%11%01%B1%BE%0E%CC%A8O%93Z%CE%0Ee%CA%BA%CF%19v%BE%8C%E4ti0%1FL%F0%0C6%E8ie%E1%E6%B1%11%08%8A%86%D1%80%A0%F1%16PxK%A8%B7%17%00%A2%A17a%DEL%2B%0E%AD%D4%5D%8B%C5%9B%AAvz%DDz3s%C9%E5%7B%25_t%0Bu%84%2F%93PW2%CA%2C%0BMt%5D%F1%09%7D%F2%06%E8%B8H%8F%C6%ADn%ED%5C%9A%0C%E7%A3%0DI%E6%5B%D0C%7FJ%CE16%14%8AE%87%8B%11%0EU%26%BEy%DA%27c%B4%1C%D7%0E%AF%858%A2l%DA%04fhH%A6d%14a%20t%DE%25%FA%1FF%AF%C4%1D%27%FAc%DC%2Fi%B4%F8%27%D9%FB%FD%A7p%1DB%E9%60%B5t%8BJ0%00%29O%EDx%8Cq%D6%ED%D8%B8%A8l%B5.%BF%1C%199%DC%3Bh%F9%87%F9r%0B%3F%D3%B9%FD%18%E0%A3%D3%B7%84%A0%0Ag%C0%A6%C0%FE%84%FFYTc%D1M%5B%C7%7F%A8Ia%8B%18%0Bg%2B%B4"), MessageFormatter Error: "Invalid UTF-8 data in string argument: '.0.0 Ready to start TLS
+': U_INVALID_CHAR_FOUND" (10)
+ERROR - 2026-04-01 08:16:42 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2026-04-01 08:16:42 --> 220 smtp.gmail.com ESMTP d9443c01a7336-2b24264287csm133949645ad.3 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [43.228.96.149]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [43.228.96.149]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK d9443c01a7336-2b24264287csm133949645ad.3 - gsmtp
+
+to: 250 2.1.5 OK d9443c01a7336-2b24264287csm133949645ad.3 - gsmtp
+
+data: 354 Go ahead d9443c01a7336-2b24264287csm133949645ad.3 - gsmtp
+
+
+quit: 250 2.0.0 OK  1775031396 d9443c01a7336-2b24264287csm133949645ad.3 - gsmtp
+
+The following SMTP error was encountered: 250 2.0.0 OK  1775031396 d9443c01a7336-2b24264287csm133949645ad.3 - gsmtp
+
+The following SMTP error was encountered: 
+DEBUG - 2026-04-01 08:20:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 08:20:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 08:27:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 08:28:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 08:29:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 08:29:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 08:30:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 09:24:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 09:24:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 14:54:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 09:24:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 09:24:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 14:57:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 09:27:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 09:27:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 09:27:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 09:27:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 09:28:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 09:28:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-04-01 09:29:12 --> [DEPRECATED] password_verify(): Passing null to parameter #2 ($hash) of type string is deprecated in APPPATH\Controllers\Auth.php on line 69.
+ 1 APPPATH\Controllers\Auth.php(69): password_verify(Object(SensitiveParameterValue), null)
+ 2 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Auth->checkLogin()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-04-01 09:29:39 --> [DEPRECATED] password_verify(): Passing null to parameter #2 ($hash) of type string is deprecated in APPPATH\Controllers\Auth.php on line 69.
+ 1 APPPATH\Controllers\Auth.php(69): password_verify(Object(SensitiveParameterValue), null)
+ 2 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Auth->checkLogin()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-04-01 09:29:47 --> [DEPRECATED] password_verify(): Passing null to parameter #2 ($hash) of type string is deprecated in APPPATH\Controllers\Auth.php on line 69.
+ 1 APPPATH\Controllers\Auth.php(69): password_verify(Object(SensitiveParameterValue), null)
+ 2 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Auth->checkLogin()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-04-01 09:31:54 --> [DEPRECATED] password_verify(): Passing null to parameter #2 ($hash) of type string is deprecated in APPPATH\Controllers\Auth.php on line 69.
+ 1 APPPATH\Controllers\Auth.php(69): password_verify(Object(SensitiveParameterValue), null)
+ 2 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Auth->checkLogin()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-04-01 09:34:43 --> [DEPRECATED] password_verify(): Passing null to parameter #2 ($hash) of type string is deprecated in APPPATH\Controllers\Auth.php on line 69.
+ 1 APPPATH\Controllers\Auth.php(69): password_verify(Object(SensitiveParameterValue), null)
+ 2 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Auth->checkLogin()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-04-01 15:05:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 09:35:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 09:35:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 09:38:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-04-01 09:39:25 --> [DEPRECATED] password_verify(): Passing null to parameter #2 ($hash) of type string is deprecated in APPPATH\Controllers\Auth.php on line 69.
+ 1 APPPATH\Controllers\Auth.php(69): password_verify(Object(SensitiveParameterValue), null)
+ 2 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Auth->checkLogin()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-04-01 15:17:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 09:47:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 09:47:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 09:47:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 09:47:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 09:48:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 09:48:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 09:49:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 15:26:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 09:56:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 10:20:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 10:20:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 10:26:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 10:26:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 10:35:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 10:35:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 10:35:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 10:35:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 16:05:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 10:35:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 10:35:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 10:42:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 10:42:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 16:12:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 10:42:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 10:42:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 16:17:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 10:47:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 10:47:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 10:47:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 10:48:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 10:48:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 10:48:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 10:49:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 10:49:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 10:49:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 10:51:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 10:51:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 16:22:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 10:52:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 10:52:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 10:53:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 10:53:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 16:24:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 10:54:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 10:54:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 10:55:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 10:55:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 10:56:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 10:57:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 10:57:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 10:57:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 10:57:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 10:59:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 10:59:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 10:59:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 11:01:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 11:01:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 11:05:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 11:05:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 11:05:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 11:12:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 11:13:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 16:43:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 11:13:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 11:13:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 11:13:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 11:14:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 11:14:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 11:16:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 11:17:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 11:18:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 11:18:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 11:18:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 16:48:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 11:18:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 11:22:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 11:22:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 11:26:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 11:41:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 11:41:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 11:41:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 11:41:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 11:42:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 11:43:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 11:43:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 11:47:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 11:47:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 11:47:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 11:47:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 11:47:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 11:48:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 17:22:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 11:53:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-01 11:53:28 --> ErrorException: Undefined array key "name"
+[Method: POST, Route: checkLogin]
+in APPPATH\Controllers\Auth.php on line 100.
+ 1 APPPATH\Controllers\Auth.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\codei\\app\\Controllers\\Auth.php', 100)
+ 2 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Auth->checkLogin()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-04-01 11:53:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-01 11:53:32 --> ErrorException: Undefined array key "name"
+[Method: POST, Route: checkLogin]
+in APPPATH\Controllers\Auth.php on line 100.
+ 1 APPPATH\Controllers\Auth.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\codei\\app\\Controllers\\Auth.php', 100)
+ 2 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Auth->checkLogin()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-04-01 11:54:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-01 11:54:04 --> ErrorException: Undefined array key "name"
+[Method: POST, Route: checkLogin]
+in APPPATH\Controllers\Auth.php on line 100.
+ 1 APPPATH\Controllers\Auth.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\codei\\app\\Controllers\\Auth.php', 100)
+ 2 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Auth->checkLogin()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-04-01 11:54:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-01 11:54:11 --> ErrorException: Undefined array key "name"
+[Method: POST, Route: checkLogin]
+in APPPATH\Controllers\Auth.php on line 100.
+ 1 APPPATH\Controllers\Auth.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\codei\\app\\Controllers\\Auth.php', 100)
+ 2 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Auth->checkLogin()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-04-01 11:54:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-01 11:54:21 --> ErrorException: Undefined array key "name"
+[Method: POST, Route: checkLogin]
+in APPPATH\Controllers\Auth.php on line 100.
+ 1 APPPATH\Controllers\Auth.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\codei\\app\\Controllers\\Auth.php', 100)
+ 2 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Auth->checkLogin()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-04-01 11:54:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-01 11:54:21 --> ErrorException: Undefined array key "name"
+[Method: POST, Route: checkLogin]
+in APPPATH\Controllers\Auth.php on line 100.
+ 1 APPPATH\Controllers\Auth.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\codei\\app\\Controllers\\Auth.php', 100)
+ 2 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Auth->checkLogin()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-04-01 11:54:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-01 11:54:55 --> ErrorException: Undefined array key "name"
+[Method: POST, Route: checkLogin]
+in APPPATH\Controllers\Auth.php on line 98.
+ 1 APPPATH\Controllers\Auth.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\codei\\app\\Controllers\\Auth.php', 98)
+ 2 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Auth->checkLogin()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-04-01 11:55:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-01 11:55:00 --> ErrorException: Undefined array key "name"
+[Method: POST, Route: checkLogin]
+in APPPATH\Controllers\Auth.php on line 98.
+ 1 APPPATH\Controllers\Auth.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\codei\\app\\Controllers\\Auth.php', 98)
+ 2 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Auth->checkLogin()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-04-01 17:25:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 11:55:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 11:55:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 11:55:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 12:03:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 12:03:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 12:03:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 12:03:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 12:03:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-04-01 12:03:32 --> [DEPRECATED] trim(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Controllers\Dashboard.php on line 84.
+ 1 APPPATH\Controllers\Dashboard.php(84): trim(null)
+ 2 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-04-01 12:03:32 --> [DEPRECATED] strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 17.
+ 1 APPPATH\Views\dashboard.php(17): strtolower(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(97): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-04-01 12:03:32 --> [DEPRECATED] trim(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 40.
+ 1 APPPATH\Views\dashboard.php(40): trim(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(97): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-04-01 12:03:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-04-01 12:03:48 --> [DEPRECATED] trim(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Controllers\Dashboard.php on line 84.
+ 1 APPPATH\Controllers\Dashboard.php(84): trim(null)
+ 2 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-04-01 12:03:48 --> [DEPRECATED] strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 17.
+ 1 APPPATH\Views\dashboard.php(17): strtolower(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(97): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-04-01 12:03:48 --> [DEPRECATED] trim(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\dashboard.php on line 40.
+ 1 APPPATH\Views\dashboard.php(40): trim(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\codei\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(97): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-04-01 17:34:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 12:04:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 12:04:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 12:08:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 12:08:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 12:08:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 12:21:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 12:22:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 12:22:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 12:22:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 12:22:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 12:22:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 12:22:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 12:22:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 12:22:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 12:22:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 12:22:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 12:22:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 12:22:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 12:22:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 12:22:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 12:22:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 12:22:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 12:22:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 12:22:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 12:22:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 12:22:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 17:58:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 12:28:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 12:28:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 12:29:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 12:29:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 12:30:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 12:30:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 12:33:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 12:33:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 12:33:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 12:33:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 12:36:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 12:36:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 12:37:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 12:38:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 12:38:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 12:38:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 12:38:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 12:46:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 12:47:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 12:47:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 12:47:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 12:47:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 12:47:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 12:47:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 12:47:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 12:47:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 12:47:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 12:47:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 12:47:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 12:49:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 12:50:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 12:50:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 12:50:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 12:50:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 12:50:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 12:51:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 12:51:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 12:51:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 12:57:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 12:59:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 13:00:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 13:01:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 13:01:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 13:01:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 13:01:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 13:01:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 13:01:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 13:01:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 13:01:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 13:01:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 13:01:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 13:01:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 13:01:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 13:01:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 13:04:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 13:04:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 13:06:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 13:07:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 13:08:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 13:08:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 13:08:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-01 13:08:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
