@@ -16,7 +16,7 @@ class App extends BaseConfig
      *
      * E.g., http://example.com/
      */
-     public $baseURL = 'http://192.168.1.67:8080/codei/public/';
+    public $baseURL = 'https://enterprise-crm-production.up.railway.app/';
 
     /**
      * Allowed Hostnames in the Site URL other than the hostname in the baseURL.
