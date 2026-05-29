@@ -6,12 +6,6 @@ This project is specially designed for jewelry manufacturing and gemstone produc
 
 ---
 
-# Live Demo
-
-https://enterprisecrm.infinityfreeapp.com
-
----
-
 # Project Overview
 
 The system manages the complete operational lifecycle of customer orders from lead generation to final product delivery. It improves workflow coordination between departments such as Sales, CAD Design, Factory Production, Shipping, and Accounts while reducing manual work, communication gaps, and operational delays.
