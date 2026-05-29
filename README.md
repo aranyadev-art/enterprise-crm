@@ -1,61 +1,312 @@
-# CodeIgniter 4 Framework
+# Enterprise CRM & Manufacturing Workflow Management System
 
-## What is CodeIgniter?
+A complete Enterprise CRM and Manufacturing Workflow Management System developed using CodeIgniter 4, PHP, MySQL, JavaScript, and Bootstrap. The platform is designed to automate customer management, quotation generation, production workflow, factory operations, shipping coordination, and operational analytics within a centralized environment.
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](https://codeigniter.com).
+This project is specially designed for jewelry manufacturing and gemstone production workflow management, integrating CRM, ERP, and production tracking functionalities into a single business platform.
 
-This repository holds the distributable version of the framework.
-It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
+---
 
-More information about the plans for version 4 can be found in [CodeIgniter 4](https://forum.codeigniter.com/forumdisplay.php?fid=28) on the forums.
+# Live Demo
 
-You can read the [user guide](https://codeigniter.com/user_guide/)
-corresponding to the latest version of the framework.
+https://enterprisecrm.infinityfreeapp.com
 
-## Important Change with index.php
+---
 
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
+# Project Overview
 
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
+The system manages the complete operational lifecycle of customer orders from lead generation to final product delivery. It improves workflow coordination between departments such as Sales, CAD Design, Factory Production, Shipping, and Accounts while reducing manual work, communication gaps, and operational delays.
 
-**Please** read the user guide for a better explanation of how CI4 works!
+The CRM centralizes business operations and provides real-time workflow tracking, automated calculations, quotation generation, production monitoring, reporting, and role-based access management.
 
-## Repository Management
+---
 
-We use GitHub issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
+# Core Workflow
 
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
+```text
+Lead
+   ↓
+Client Management
+   ↓
+Quotation Generation
+   ↓
+CAD Design Assignment
+   ↓
+Order Processing
+   ↓
+Factory Production
+   ↓
+Shipping & Delivery
+   ↓
+Accounts & Reporting
+```
 
-## Contributing
+---
 
-We welcome contributions from the community.
+# Main Features
 
-Please read the [*Contributing to CodeIgniter*](https://github.com/codeigniter4/CodeIgniter4/blob/develop/CONTRIBUTING.md) section in the development repository.
+## Authentication & Security
 
-## Server Requirements
+* Secure Login System
+* Password Hashing
+* Session Management
+* Role-Based Access Control
+* User Permission Management
 
-PHP version 8.2 or higher is required, with the following extensions installed:
+---
 
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
+# Dashboard Module
 
-> [!WARNING]
-> - The end of life date for PHP 7.4 was November 28, 2022.
-> - The end of life date for PHP 8.0 was November 26, 2023.
-> - The end of life date for PHP 8.1 was December 31, 2025.
-> - If you are still using below PHP 8.2, you should upgrade immediately.
-> - The end of life date for PHP 8.2 will be December 31, 2026.
+* Business Analytics Dashboard
+* Real-Time Workflow Monitoring
+* Follow-Up Notifications
+* Operational Statistics
+* Search Functionality
 
-Additionally, make sure that the following extensions are enabled in your PHP:
+---
 
-- json (enabled by default - don't turn it off)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
+# User Management Module
+
+* Add/Edit/Delete Users
+* Employee Role Assignment
+* Module Access Permissions
+* Profile Management
+* User Activity Management
+
+---
+
+# Client Management Module
+
+* Customer Information Management
+* Contact & Address Records
+* Client Order History
+* Customer Workflow Tracking
+
+---
+
+# Lead Management Module
+
+* Lead Generation & Tracking
+* Lead Assignment Management
+* Lead Follow-Ups
+* Lead Status Monitoring
+* Sales Conversion Workflow
+* Lead-to-Client Conversion
+* Qualified & Rejected Lead Tracking
+* Automated Client Creation on Lead Conversion
+
+
+
+---
+
+# Sales Management Module
+
+* Sales Workflow Monitoring
+* Sales Employee Management
+* Sales Performance Monitoring
+
+---
+
+# Calculator Module (Gemstone Processing Engine)
+
+One of the most advanced modules within the system.
+
+### Features
+
+* TXT File Upload Processing
+* Automated Gemstone Calculations
+* Carat Total Weight (CTW) Calculation
+* Stone Size Categorization
+* Weight Distribution Analysis
+* Automated Analytical Reports
+
+### Benefits
+
+* Reduces Manual Calculations
+* Improves Pricing Accuracy
+* Speeds Up Production Planning
+* Minimizes Human Errors
+
+---
+
+# Quotation Management Module
+
+* Automated Quotation Generation
+* Pricing Automation
+* Quotation Modification
+* Professional Quotation Handling
+* Quotation-to-Order Conversion
+* Historical Quotation Records
+
+### Workflow
+
+```text
+Quotation Approved
+        ↓
+Convert to Order
+```
+
+---
+
+# CAD Design Module
+
+* CAD Design Assignment
+* Design File Management
+* Design Status Tracking
+* Production Drawing Management
+* Designer Comments & Workflow
+
+This module acts as a bridge between Sales and Factory Production workflows.
+
+---
+
+# Order Management & Workflow Tracking Module
+
+The Order Module manages the complete order lifecycle.
+
+### Features
+
+* Order Creation
+* Workflow Status Tracking
+* Production Monitoring
+* Real-Time Order Updates
+* Department Coordination
+* Historical Order Records
+* Workflow Analytics
+
+### Order Workflow
+
+```text
+Pending
+   ↓
+Send to Factory
+   ↓
+In Progress
+   ↓
+Completed
+```
+
+# Factory Management Module
+
+The Factory Module manages manufacturing operations and production workflows.
+
+### Features
+
+* Production Tracking
+* Manufacturing Workflow Monitoring
+* Employee Assignment
+* Resource Allocation
+* Real-Time Status Updates
+* Production Scheduling
+* Workflow Coordination
+
+
+# Shipping Module
+
+* Shipment Tracking
+* Delivery Status Monitoring
+* Dispatch Workflow Management
+* Shipping Coordination
+
+---
+
+# Accounts Module
+
+* Payment Management
+* Due Amount Tracking
+* Financial Record Management
+* Transaction Monitoring
+
+---
+
+# Alert & Notification Module
+
+* Workflow Alerts
+* Production Notifications
+* Follow-Up Reminders
+* Deadline Notifications
+* Operational Status Updates
+
+---
+
+# Technology Stack
+
+## Backend
+
+* PHP
+* CodeIgniter 4
+
+## Frontend
+
+* HTML5
+* CSS3
+* JavaScript
+* jQuery
+* Bootstrap
+
+## Database
+
+* MySQL
+
+## Development Tools
+
+* VS Code
+* XAMPP
+
+## Hosting
+
+* InfinityFree
+
+---
+
+
+# System Architecture
+
+The project combines CRM, ERP, and Manufacturing Workflow Management functionalities within a centralized enterprise platform.
+
+The architecture supports:
+
+* Workflow Automation
+* Production Coordination
+* Real-Time Monitoring
+* Manufacturing Operations
+* Business Analytics
+* Operational Reporting
+
+---
+
+# Business Impact
+
+The system improves:
+
+* Workflow Efficiency
+* Production Coordination
+* Communication Between Departments
+* Operational Transparency
+* Customer Satisfaction
+* Manufacturing Monitoring
+* Reporting Accuracy
+
+---
+
+# Future Improvements
+
+* Mobile Responsive UI
+* PDF Invoice Generation
+* Advanced Analytics Dashboard
+* Email Notifications
+* Inventory Management
+* API Integration
+* Multi-Branch Support
+* Cloud Deployment
+
+---
+
+# Author
+Aranya dev
+
+---
+
+# License
+
+This project is developed for educational, research, and enterprise workflow management purposes.
+/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
